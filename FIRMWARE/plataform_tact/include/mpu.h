@@ -14,3 +14,6 @@ typedef struct mpu_data_e
     int16_t GyZ; 
 }mpu_data_t;
 
+mpu_data_t* mpu_get(void);
+
+

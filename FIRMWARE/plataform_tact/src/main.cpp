@@ -15,12 +15,6 @@ void setup()
 
 void loop() 
 {
-  //Serial.println("Hello");
-  //delay(1000);
-
-  //mpu_read();
-
   app_loop();
-
 }
 

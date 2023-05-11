@@ -31,5 +31,11 @@ void mpu_read(void)
     mpu_dat.GyY=Wire.read()<<8|Wire.read(); // 0x45 (GYRO_YOUT_H) & 0x46 (GYRO_YOUT_L)
     mpu_dat.GyZ=Wire.read()<<8|Wire.read(); // 0x47 (GYRO_ZOUT_H) & 0x48 (GYRO_ZOUT_L)
 
-    mpu_dat.Tmp = (mpu_dat.Tmp/340.00)+36.53; //Equação da temperatura em Cº de acordo com o datasheet
+    mpu_dat.Tmp = ((mpu_dat.Tmp/340.00)+36.53) * 100; //Equação da temperatura em Cº de acordo com o datasheet
+}
+
+mpu_data_t* mpu_get(void)
+{
+    mpu_read();
+    return &mpu_dat;
 }

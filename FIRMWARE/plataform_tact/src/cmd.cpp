@@ -6,6 +6,7 @@
 #include <stdalign.h>
 #include "cmd.h"
 #include "app.h"
+#include "mpu.h"
 
 #define CMD_MAX_ARGS 10
 
@@ -19,7 +20,7 @@
 	.run = (r) }
 
 #define CMD_TWIN_MAX_TIME_MS (60*60*1000) // 1h
-#define CMD_PRINTF_INT_SIZE  32
+#define CMD_PRINTF_INT_SIZE  64
 #define CMD_ADD_MSG(m) app_uc2usb_rx_cbk((uint8_t *)(m), strlen((char *)(m)));
 
 typedef bool (*cmd_handler_t)(uint32_t argc, uint8_t *argv[]);
@@ -39,14 +40,23 @@ static bool cmd_run_help_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_default_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_mode_handler(uint32_t argc, uint8_t *argv[]);
-static bool cmd_set_addr_handler(uint32_t argc, uint8_t *argv[]);
-static bool cmd_get_addr_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_set_speed_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_speed_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_pos_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[]);
+
 
 const cmd_entry_t cmd_list[] =
 {
 	CMD_INIT("help","show available commands","help; help command",cmd_default_handler,cmd_default_handler,cmd_run_help_handler),
 	CMD_INIT("mode","get/set operation mode (idle,run1)","set mode run1",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler),
-	CMD_INIT("addr","get/set zigbee short address (0-65535)","set addr 123",cmd_set_addr_handler,cmd_get_addr_handler,cmd_default_handler),
+	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
+	CMD_INIT("position","get/set motor (1-2) position (0-50000) mm","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
+	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
+	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),	
 };
 
 uint32_t cmd_parse_args(uint8_t * const cmdline, uint32_t size, uint32_t *argc, uint8_t *argv[], uint32_t max_args)
@@ -174,44 +184,6 @@ static bool cmd_run_help_handler(uint32_t argc, uint8_t *argv[])
 	return status;
 }
 
-static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[])
-{
-	bool status = false;
-
-	if(argc == 1)
-	{
-		if(strncmp((char *)argv[0],"idle",4) == 0)
-		{
-			app_set_mode(APP_MODE_IDLE);
-			status = true;
-		}
-		else if(strncmp((char *)argv[0],"run1",4) == 0)
-		{
-			app_set_mode(APP_MODE_RUN1);
-			status = true;
-		}
-	}
-
-	return status;
-}
-
-static bool cmd_get_mode_handler(uint32_t argc, uint8_t *argv[])
-{
-	bool status = false;
-
-	if(argc == 0)
-	{
-		char *modes[] = { "idle", "run1"};
-
-		app_mode_t mode = app_get_mode();
-		CMD_ADD_MSG(modes[mode]);
-		CMD_ADD_MSG("\n");
-		status = true;
-	}
-
-	return status;
-}
-
 static bool cmd_convert_uint(uint8_t *data, uint32_t *val, uint32_t min_val, uint32_t max_val)
 {
 	bool status = false;
@@ -225,16 +197,78 @@ static bool cmd_convert_uint(uint8_t *data, uint32_t *val, uint32_t min_val, uin
 	return status;
 }
 
-static bool cmd_set_addr_handler(uint32_t argc, uint8_t *argv[])
+static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[])
 {
 	bool status = false;
+	char buffer[CMD_PRINTF_INT_SIZE];
 
 	if(argc == 1)
 	{
-		uint32_t val = 0;
-
-		if(cmd_convert_uint(argv[0],&val,0,0xffff))
+		if(strncmp((char *)argv[0],"idle",4) == 0)
 		{
+			app_set_mode(APP_MODE_IDLE);
+			status = true;
+		}
+	}
+	else if(argc == 3)
+	{
+		uint32_t flag_motors = 0;
+		uint32_t flag_mpu = 0;
+
+		if(strncmp((char *)argv[0],"read",4) == 0)
+		{
+			if(cmd_convert_uint(argv[1],&flag_motors,0,1) && cmd_convert_uint(argv[2],&flag_mpu,0,1))
+			{
+				app_set_mode(APP_MODE_READ);
+				app_set_read(flag_motors,flag_mpu);
+				status = true;				
+			}
+		}
+	}
+
+	if(status)
+	{
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+		CMD_ADD_MSG(buffer);
+	}
+
+	return status;
+}
+
+static bool cmd_get_mode_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 0)
+	{
+		char *modes[] = { "idle", "read"};
+
+		app_mode_t mode = app_get_mode();
+		CMD_ADD_MSG(modes[mode]);
+		CMD_ADD_MSG("\n");
+		status = true;
+	}
+
+	return status;
+}
+
+static bool cmd_set_speed_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 2)
+	{
+		char buffer[CMD_PRINTF_INT_SIZE];
+		uint32_t val1 = 0;
+		uint32_t val2 = 0;
+
+		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_uint(argv[1],&val2,1,200))
+		{
+			app_set_motor_speed(val1,val2);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+			CMD_ADD_MSG(buffer);
+
 			status = true;
 		}
 	}
@@ -242,15 +276,139 @@ static bool cmd_set_addr_handler(uint32_t argc, uint8_t *argv[])
 	return status;
 }
 
-static bool cmd_get_addr_handler(uint32_t argc, uint8_t *argv[])
+static bool cmd_get_speed_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 1)
+	{
+		uint32_t  val = 0;
+		int speed = 0;
+
+		if(cmd_convert_uint(argv[0],&val,1,2))
+		{
+			char buffer[CMD_PRINTF_INT_SIZE];
+
+			speed = app_get_motor_speed(val);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"speed %d\n",speed);
+			CMD_ADD_MSG(buffer);
+
+			status = true;
+		}
+
+	}
+
+	return status;
+}
+
+static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 2)
+	{
+		char buffer[CMD_PRINTF_INT_SIZE];
+		uint32_t val1 = 0;
+		uint32_t val2 = 0;
+
+		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_uint(argv[1],&val2,1,50000))
+		{
+			app_set_motor_pos(val1,val2);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+			CMD_ADD_MSG(buffer);
+
+			status = true;
+		}
+	}
+
+	return status;
+}
+
+static bool cmd_get_pos_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 1)
+	{
+		uint32_t  val = 0;
+		int position = 0;
+
+		if(cmd_convert_uint(argv[0],&val,1,2))
+		{
+			char buffer[CMD_PRINTF_INT_SIZE];
+
+			position = app_get_motor_pos(val);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"position %d\n",position);
+			CMD_ADD_MSG(buffer);
+
+			status = true;
+		}
+
+	}
+
+	return status;
+}
+
+static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[])
 {
 	bool status = false;
 
 	if(argc == 0)
 	{
+		mpu_data_t* mpu_data;
+
 		char buffer[CMD_PRINTF_INT_SIZE];
 
-    	snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"addr %u\n",10);
+		mpu_data = app_get_mpu();
+
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"mpu  %d %d %d %d %d %d %d\n",mpu_data->AcX, mpu_data->AcY, mpu_data->AcZ, mpu_data->Tmp,
+														  mpu_data->GyX, mpu_data->GyY, mpu_data->GyZ);
+		CMD_ADD_MSG(buffer);
+
+		status = true;
+	}
+
+	return status;
+}
+
+static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 1)
+	{
+		char buffer[CMD_PRINTF_INT_SIZE];
+		uint32_t val = 0;
+
+		if(cmd_convert_uint(argv[0],&val,1,5000))
+		{
+			app_set_read_delay_ms(val);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+			CMD_ADD_MSG(buffer);
+
+			status = true;
+		}
+	}
+
+	return status;
+}
+
+static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 0)
+	{
+		uint32_t  val = 0;
+		char buffer[CMD_PRINTF_INT_SIZE];
+
+		val = app_get_read_delay_ms();
+
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"read_delay %d\n",val);
 		CMD_ADD_MSG(buffer);
 
 		status = true;
