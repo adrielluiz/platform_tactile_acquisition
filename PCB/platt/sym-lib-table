@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Connector_STM32")(type "KiCad")(uri "${KIPRJMOD}/platt-backups/Connector_STM32.kicad_sym")(options "")(descr ""))
+)

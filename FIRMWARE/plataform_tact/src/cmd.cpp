@@ -47,6 +47,7 @@ static bool cmd_get_pos_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[]);
 
 
 const cmd_entry_t cmd_list[] =
@@ -56,7 +57,8 @@ const cmd_entry_t cmd_list[] =
 	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
 	CMD_INIT("position","get/set motor (1-2) position (0-50000) mm","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
 	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
-	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),	
+	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),
+	CMD_INIT("fsr","get fsr","get fst",cmd_default_handler,cmd_get_fsr_handler,cmd_default_handler),	
 };
 
 uint32_t cmd_parse_args(uint8_t * const cmdline, uint32_t size, uint32_t *argc, uint8_t *argv[], uint32_t max_args)
@@ -197,6 +199,19 @@ static bool cmd_convert_uint(uint8_t *data, uint32_t *val, uint32_t min_val, uin
 	return status;
 }
 
+static bool cmd_convert_int(uint8_t *data, int32_t *val, int32_t min_val, int32_t max_val)
+{
+	bool status = false;
+
+	if(sscanf((char *)data,"%d",(int *)val) == 1)
+	{
+		if(*val >= min_val && *val <= max_val)
+			status = true;
+	}
+
+	return status;
+}
+
 static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[])
 {
 	bool status = false;
@@ -310,9 +325,9 @@ static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[])
 	{
 		char buffer[CMD_PRINTF_INT_SIZE];
 		uint32_t val1 = 0;
-		uint32_t val2 = 0;
+		int32_t val2 = 0;
 
-		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_uint(argv[1],&val2,1,50000))
+		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_int(argv[1],&val2,-50000,50000))
 		{
 			app_set_motor_pos(val1,val2);
 
@@ -320,6 +335,16 @@ static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[])
 			CMD_ADD_MSG(buffer);
 
 			status = true;
+		}
+		else if(cmd_convert_uint(argv[0],&val1,1,2) && (strncmp((char *)argv[1],"home",4) == 0))
+		{
+			app_set_motor_pos_home(val1);
+
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+			CMD_ADD_MSG(buffer);
+
+			status = true;
+
 		}
 	}
 
@@ -409,6 +434,27 @@ static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[])
 		val = app_get_read_delay_ms();
 
 		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"read_delay %d\n",val);
+		CMD_ADD_MSG(buffer);
+
+		status = true;
+	}
+
+	return status;
+}
+
+
+static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 0)
+	{
+		uint32_t  val = 0;
+		char buffer[CMD_PRINTF_INT_SIZE];
+
+		val = app_get_fsr();
+
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"fsr %d\n",val);
 		CMD_ADD_MSG(buffer);
 
 		status = true;

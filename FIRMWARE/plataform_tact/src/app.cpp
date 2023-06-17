@@ -80,6 +80,12 @@ void app_set_motor_pos(int motor, int pos_mm)
 	motor_set_pos(motor,pos_mm);
 }
 
+
+void app_set_motor_pos_home(int motor)
+{
+	motor_set_pos_home(motor);
+}
+
 uint16_t app_get_motor_pos(int motor)
 {
 	return motor_get_pos(motor);
@@ -104,6 +110,11 @@ void app_set_read_delay_ms(uint32_t delay_ms)
 uint32_t app_get_read_delay_ms(void)
 {
 	return data_read.delay_ms;
+}
+
+uint32_t app_get_fsr(void)
+{
+	return hw_fsr_read();
 }
 
 static void app_proc_idle(app_mode_state_t state)
@@ -264,13 +275,14 @@ void app_init(void)
 	cbuf_init(&app_uc2usb_cb);
     cbuf_init(&app_usb2uc_cb);
 
-	hw_serial_init(115200);
+	hw_init();
+	
 	mpu_init();
 	motor_init();
 
 	data_read.motors = false;
 	data_read.mpu = false;
-	data_read.delay_ms = 100;
+	data_read.delay_ms = 100;	
 
 	app_started = true;
 }

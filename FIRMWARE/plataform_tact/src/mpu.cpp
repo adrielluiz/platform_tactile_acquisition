@@ -1,14 +1,15 @@
 #include <Arduino.h>
 #include<Wire.h>
 #include "mpu.h"
+#include "hw.h"
 
-const int MPU_addr=0x68; //Endereço do sensor
+const int MPU_addr = MPU_ADDR; //Endereço do sensor
 mpu_data_t mpu_dat;
 
 void mpu_init(void)
 {
-    Wire.setSCL(PB6);
-    Wire.setSDA(PB7);
+    Wire.setSCL(MPU_PIN_SCL);
+    Wire.setSDA(MPU_PIN_SCA);
 
     Wire.begin(); //Inicia a comunicação I2C
     Wire.beginTransmission(MPU_addr); //Começa a transmissao de dados para o sensor
