@@ -96,11 +96,13 @@ mpu_data_t* app_get_mpu(void)
 	return mpu_get();
 }
 
-void app_set_read(bool motors_flag, bool mpu_flag)
+void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_sensor)
 {
 	data_read.motors = motors_flag;
 	data_read.mpu = mpu_flag;
-}
+	data_read.fsr = fsr_flag;
+	data_read.vs = voltage_sensor;
+	}
 
 void app_set_read_delay_ms(uint32_t delay_ms)
 {
@@ -115,6 +117,11 @@ uint32_t app_get_read_delay_ms(void)
 uint32_t app_get_fsr(void)
 {
 	return hw_fsr_read();
+}
+
+uint32_t app_get_vs(void)
+{
+	return hw_vs_read();
 }
 
 static void app_proc_idle(app_mode_state_t state)
@@ -143,6 +150,8 @@ static void app_proc_read(app_mode_state_t state)
 	mpu_data_t* mpu_data;
 	int pos1 = 0;
 	int pos2 = 0;
+	uint32_t fsr_read;
+	uint32_t vs_read;
 
 	switch(state)
 	{
@@ -168,6 +177,20 @@ static void app_proc_read(app_mode_state_t state)
 
 				snprintf(buffer,64,"mpu  %d %d %d %d %d %d %d\n",mpu_data->AcX, mpu_data->AcY, mpu_data->AcZ, mpu_data->Tmp,
 																mpu_data->GyX, mpu_data->GyY, mpu_data->GyZ);
+				APP_ADD_MSG(buffer);
+			}
+			if(data_read.fsr)
+			{
+				fsr_read = app_get_fsr();
+
+				snprintf(buffer,64,"fsr %u\n", fsr_read);
+				APP_ADD_MSG(buffer);
+			}
+			if(data_read.vs)
+			{
+				vs_read = app_get_vs();
+
+				snprintf(buffer,64,"vs %u\n", vs_read);
 				APP_ADD_MSG(buffer);
 			}
 

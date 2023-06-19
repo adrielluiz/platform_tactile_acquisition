@@ -87,11 +87,11 @@ void hw_sw2_isr()
 
 }
 
-bool hw_sw_is_on(int axis)
+bool hw_sw_is_on(int axis, int dir)
 {
-	if(axis == AXIS_X && flag_pos_home_x == false)
+	if(axis == AXIS_X && ((flag_pos_home_x == false) ^ (dir < 0)))
 		return !digitalRead(SW1_PIN);
-	else if(axis == AXIS_Z  && flag_pos_home_z == false)	
+	else if(axis == AXIS_Z  && ((flag_pos_home_z == false) ^ (dir > 0)))	
 		return !digitalRead(SW2_PIN);
 		
 	return false;	
@@ -119,6 +119,11 @@ uint32_t hw_fsr_read(void)
 	return analogRead(FSR_PIN);
 }
 
+uint32_t hw_vs_read(void)
+{
+	return analogRead(VS_PIN);
+}
+
 void hw_init(void)
 {
 	pinMode(SW1_PIN, INPUT_PULLUP);
@@ -131,7 +136,6 @@ void hw_init(void)
 
 	hw_serial_init(SERIAL_BAUDRATE);
 
-	flag_pos_home_x = !digitalRead(SW1_PIN);
-	flag_pos_home_z = !digitalRead(SW2_PIN);
-	
+	flag_pos_home_x = digitalRead(SW1_PIN);
+	flag_pos_home_z = digitalRead(SW2_PIN);	
 }

@@ -4,7 +4,7 @@
 #include "hw.h"
 
 #define MOTOR_HOME_SPEED 30
-const int stepsPerRevolution = 25600;  // change this to fit the number of steps per revolution
+const int stepsPerRevolution = 40000;  // change this to fit the number of steps per revolution
 
 Stepper motor[2] = {Stepper(stepsPerRevolution, MOTOR1_PIN1, MOTOR1_PIN2, MOTOR1_PIN3, MOTOR1_PIN4), Stepper(stepsPerRevolution, MOTOR2_PIN1, MOTOR2_PIN2, MOTOR2_PIN3, MOTOR2_PIN4)};
 
@@ -35,29 +35,22 @@ uint16_t motor_get_speed(int motor_id)
     return motor_speed[motor_id-1];    
 }
 
-int motor_convert_mm_steps(int mm)
+int motor_convert_mm_steps(int motor_id, int pos_mm)
 {
-    return mm+1;
+    double mm_to_step;
+    
+    if(motor_id == 1)
+        mm_to_step = stepsPerRevolution/MOTOR1_STEP_MM * pos_mm;
+    else if(motor_id == 2)
+        mm_to_step = stepsPerRevolution/MOTOR2_STEP_MM * pos_mm;  
+    return (int) mm_to_step;
 }
 
 void motor_set_pos(int motor_id, int pos_mm)
 {
-    //int pos_steps = motor_convert_mm_steps(pos_mm);
+    int pos_steps = motor_convert_mm_steps(motor_id, pos_mm);
 
-    motor[motor_id-1].step(pos_mm);
-
-/*    if(motor == 1)
-    {
-        //motor_move(1, pos_steps - motor1_pos_step);
-        motor1.step(pos_mm);
-        //motor1_pos_step = pos_steps;
-    }
-    else if(motor == 2)
-    {
-        //motor_move(2, pos_steps - motor2_pos_step);
-        motor2.step(pos_mm);
-        //motor2_pos_step = pos_steps;
-    }       */ 
+    motor[motor_id-1].step(pos_steps);
 }
 
 uint16_t motor_get_pos(int motor_id)
@@ -71,12 +64,12 @@ void motor_set_pos_home(int motor_id)
 
     if(motor_id == 1)
     {
-        motor[0].step(PLATAFORM_MAX_DIST_X_MM);
+        motor_set_pos(1,PLATAFORM_MAX_DIST_X_MM);
         hw_set_flag_pos_home_x();
     }
     else if(motor_id == 2)
     {
-        motor[0].step(-PLATAFORM_MAX_DIST_Z_MM);
+        motor_set_pos(2, -PLATAFORM_MAX_DIST_Z_MM);
         hw_set_flag_pos_home_z();
     }
 

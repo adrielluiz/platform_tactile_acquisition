@@ -21,6 +21,8 @@ typedef struct app_data_read_e
 {
     volatile bool motors; 
 	volatile bool mpu;
+	volatile bool fsr;
+	volatile bool vs;
 	uint32_t delay_ms;
 }app_data_read_t;
 
@@ -36,7 +38,7 @@ void app_set_motor_pos(int motor, int pos_mm);
 void app_set_motor_pos_home(int motor);
 uint16_t app_get_motor_pos(int motor);
 mpu_data_t* app_get_mpu(void);
-void app_set_read(bool motors_flag, bool mpu_flag);
+void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_sensor);
 void app_set_read_delay_ms(uint32_t delay_ms);
 uint32_t app_get_read_delay_ms(void);
 uint32_t app_get_fsr(void);

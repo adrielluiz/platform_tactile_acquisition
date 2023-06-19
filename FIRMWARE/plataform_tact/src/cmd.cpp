@@ -53,7 +53,7 @@ static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[]);
 const cmd_entry_t cmd_list[] =
 {
 	CMD_INIT("help","show available commands","help; help command",cmd_default_handler,cmd_default_handler,cmd_run_help_handler),
-	CMD_INIT("mode","get/set operation mode (idle,run1)","set mode run1",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler),
+	CMD_INIT("mode","get/set operation mode (idle,read) flags (motors, mpu, fsr, vs)","set mode read",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler),
 	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
 	CMD_INIT("position","get/set motor (1-2) position (0-50000) mm","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
 	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
@@ -225,17 +225,19 @@ static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[])
 			status = true;
 		}
 	}
-	else if(argc == 3)
+	else if(argc == 5)
 	{
 		uint32_t flag_motors = 0;
 		uint32_t flag_mpu = 0;
+		uint32_t flag_fsr= 0;
+		uint32_t flag_vs = 0;
 
 		if(strncmp((char *)argv[0],"read",4) == 0)
 		{
-			if(cmd_convert_uint(argv[1],&flag_motors,0,1) && cmd_convert_uint(argv[2],&flag_mpu,0,1))
+			if(cmd_convert_uint(argv[1],&flag_motors,0,1) && cmd_convert_uint(argv[2],&flag_mpu,0,1) && cmd_convert_uint(argv[3],&flag_fsr,0,1) && cmd_convert_uint(argv[4],&flag_vs,0,1))
 			{
 				app_set_mode(APP_MODE_READ);
-				app_set_read(flag_motors,flag_mpu);
+				app_set_read(flag_motors, flag_mpu, flag_fsr, flag_vs);
 				status = true;				
 			}
 		}

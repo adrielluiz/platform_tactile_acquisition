@@ -4,8 +4,8 @@
 #define HW_DEBOUCING_TIME_MS 50
 #define AXIS_X 0
 #define AXIS_Z 1
-#define PLATAFORM_MAX_DIST_X_MM 100000
-#define PLATAFORM_MAX_DIST_Z_MM 100000
+#define PLATAFORM_MAX_DIST_X_MM 100
+#define PLATAFORM_MAX_DIST_Z_MM 50
 
 
 // MPU
@@ -36,6 +36,9 @@
 // FSR
 #define FSR_PIN PA0 //PA6
 
+// Voltage Sensor
+#define VS_PIN PA6
+
 bool hw_usb_tx_data(uint8_t *buffer, uint8_t size);
 void hw_timer_delay_ms(uint16_t delay_ms);
 void hw_serial_init(uint32_t baud);
@@ -45,5 +48,6 @@ void hw_set_flag_pos_home(bool state);
 void hw_set_flag_pos_home_x(void);
 void hw_set_flag_pos_home_z(void);
 uint32_t hw_fsr_read(void);
-bool hw_sw_is_on(int axis);
+uint32_t hw_vs_read(void);
+bool hw_sw_is_on(int axis, int dir);
 void hw_init(void);
