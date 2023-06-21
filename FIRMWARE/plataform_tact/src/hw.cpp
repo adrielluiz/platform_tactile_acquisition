@@ -7,10 +7,10 @@
 #include <stdlib.h>
 #include "hw.h"
 
-volatile bool end_stop_x = false; 
-volatile bool end_stop_z = false; 
 volatile bool flag_pos_home_x = false;
 volatile bool flag_pos_home_z = false;
+volatile bool flag_pos_home_x_start = false;
+volatile bool flag_pos_home_z_start = false;
 
 bool hw_usb_tx_data(uint8_t *buffer, uint8_t size)
 {
@@ -54,16 +54,10 @@ void hw_sw1_isr()
 
 	if((millis() - deboucing_time_ms) >= HW_DEBOUCING_TIME_MS)
 	{
-		if(digitalRead(SW1_PIN))
-			end_stop_x = false;
-		else
-			end_stop_x = true;	
-
 		deboucing_time_ms = millis();
-
-		Serial.println("end_stop_x %d" + String(end_stop_x));
-
 		flag_pos_home_x = false;
+
+		Serial.println("end_x 0");
 	}
 }
 
@@ -73,18 +67,11 @@ void hw_sw2_isr()
 
 	if((millis() - deboucing_time_ms) >= HW_DEBOUCING_TIME_MS)
 	{
-		if(digitalRead(SW2_PIN))
-			end_stop_z = false;
-		else
-			end_stop_z = true;	
-
 		deboucing_time_ms = millis();
-
-		Serial.println("end_stop_z %d" + String(end_stop_z));
-
 		flag_pos_home_z = false;
-	}
 
+		Serial.println("end_z 0");
+	}
 }
 
 bool hw_sw_is_on(int axis, int dir)
@@ -113,6 +100,15 @@ void hw_set_flag_pos_home_z(void)
 	flag_pos_home_z = true;
 }
 
+bool hw_get_flag_pos_home_x_start(void)
+{
+	return flag_pos_home_x_start;
+}
+
+bool hw_get_flag_pos_home_z_start(void)
+{
+	return flag_pos_home_z_start;
+}
 
 uint32_t hw_fsr_read(void)
 {
@@ -136,6 +132,6 @@ void hw_init(void)
 
 	hw_serial_init(SERIAL_BAUDRATE);
 
-	flag_pos_home_x = digitalRead(SW1_PIN);
-	flag_pos_home_z = digitalRead(SW2_PIN);	
+	flag_pos_home_x_start = !digitalRead(SW1_PIN);	
+	flag_pos_home_z_start = !digitalRead(SW2_PIN);	
 }

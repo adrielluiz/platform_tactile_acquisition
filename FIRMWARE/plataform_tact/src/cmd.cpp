@@ -55,7 +55,7 @@ const cmd_entry_t cmd_list[] =
 	CMD_INIT("help","show available commands","help; help command",cmd_default_handler,cmd_default_handler,cmd_run_help_handler),
 	CMD_INIT("mode","get/set operation mode (idle,read) flags (motors, mpu, fsr, vs)","set mode read",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler),
 	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
-	CMD_INIT("position","get/set motor (1-2) position (0-50000) mm","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
+	CMD_INIT("position","get/set motor (1-2) position (0-170000) um","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
 	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
 	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),
 	CMD_INIT("fsr","get fsr","get fst",cmd_default_handler,cmd_get_fsr_handler,cmd_default_handler),	
@@ -329,7 +329,7 @@ static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[])
 		uint32_t val1 = 0;
 		int32_t val2 = 0;
 
-		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_int(argv[1],&val2,-50000,50000))
+		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_int(argv[1],&val2,0,170000))
 		{
 			app_set_motor_pos(val1,val2);
 

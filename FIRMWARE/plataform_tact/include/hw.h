@@ -1,11 +1,13 @@
 #pragma once
 
-#define SERIAL_BAUDRATE 115200
+#define SERIAL_BAUDRATE 230400 //921600 //115200 
 #define HW_DEBOUCING_TIME_MS 50
 #define AXIS_X 0
 #define AXIS_Z 1
 #define PLATAFORM_MAX_DIST_X_MM 100
 #define PLATAFORM_MAX_DIST_Z_MM 50
+#define PLATAFORM_MAX_DIST_X_uM 170000
+#define PLATAFORM_MAX_DIST_Z_uM 40000
 
 
 // MPU
@@ -47,6 +49,8 @@ uint32_t hw_timer_elapsed_ms(uint32_t start);
 void hw_set_flag_pos_home(bool state);
 void hw_set_flag_pos_home_x(void);
 void hw_set_flag_pos_home_z(void);
+bool hw_get_flag_pos_home_x_start(void);
+bool hw_get_flag_pos_home_z_start(void);
 uint32_t hw_fsr_read(void);
 uint32_t hw_vs_read(void);
 bool hw_sw_is_on(int axis, int dir);
