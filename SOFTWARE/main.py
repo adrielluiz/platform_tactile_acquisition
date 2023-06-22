@@ -32,17 +32,21 @@ class MainWin:
             self.ui.comboBoxSerialPort.addItem(port.device)
 
     def conn_serial(self):
-        print(self.ui.comboBoxSerialPort.currentText())   
-        
-        try:
-            self.serial = Serial(port=self.ui.comboBoxSerialPort.currentText(),timeout=1,baudrate=230400)
-        except Exception as e:
-            log.logging.error(str(e))
-            sys.exit(1)         
+        print(self.ui.comboBoxSerialPort.currentText())
+
+        if not self.serial_task.is_connected:        
+            try:
+                self.serial = Serial(port=self.ui.comboBoxSerialPort.currentText(),timeout=1,baudrate=230400)
+            except Exception as e:
+                log.logging.error(str(e))
+                sys.exit(1)         
+            else:
+                self.serial_task.set_init_parameters(self.serial,self.rxq, self.txq, self.stop)
+                self.serial_task.start()
+                self.ui.pbConectarSerial.setStyleSheet("background-color: lime")
         else:
-            self.serial_task.set_init_parameters(self.serial,self.rxq, self.txq, self.stop)
-            self.serial_task.start()
-            self.ui.pbConectarSerial.setStyleSheet("background-color: lime")
+            log.logging.error("Serial already opened")
+
 
 
 

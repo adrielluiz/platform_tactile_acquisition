@@ -78,3 +78,79 @@
 [INFO] 2023-06-21 21:34:38 COM2
 [DEBUG] 2023-06-21 21:34:41 RadioRx started
 [DEBUG] 2023-06-21 21:34:41 Serial TX started
+[INFO] 2023-06-22 08:41:26 Portas COM disponíveis:
+[INFO] 2023-06-22 08:41:26 COM30
+[INFO] 2023-06-22 08:41:26 COM31
+[INFO] 2023-06-22 08:42:05 Portas COM disponíveis:
+[INFO] 2023-06-22 08:42:05 COM30
+[INFO] 2023-06-22 08:42:05 COM31
+[INFO] 2023-06-22 08:42:05 COM39
+[DEBUG] 2023-06-22 08:42:08 RadioRx started
+[DEBUG] 2023-06-22 08:42:08 Serial TX started
+[INFO] 2023-06-22 08:49:43 Portas COM disponíveis:
+[INFO] 2023-06-22 08:49:43 COM30
+[INFO] 2023-06-22 08:49:43 COM31
+[INFO] 2023-06-22 08:49:43 COM39
+[DEBUG] 2023-06-22 08:49:59 RadioRx started
+[DEBUG] 2023-06-22 08:49:59 Serial TX started
+[ERROR] 2023-06-22 08:50:03 could not open port 'COM31': PermissionError(13, 'Acesso negado.', None, 5)
+[INFO] 2023-06-22 08:57:01 Portas COM disponíveis:
+[INFO] 2023-06-22 08:57:01 COM30
+[INFO] 2023-06-22 08:57:01 COM31
+[INFO] 2023-06-22 08:57:01 COM39
+[DEBUG] 2023-06-22 08:57:04 Serial RX started
+[DEBUG] 2023-06-22 08:57:04 Serial TX started
+[DEBUG] 2023-06-22 08:57:07 Serial port closed
+[ERROR] 2023-06-22 08:57:08 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:08 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:09 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:09 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:10 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:10 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:11 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:11 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:12 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:12 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:13 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:57:13 PortNotOpenError('Attempting to use a port that is not open')
+[INFO] 2023-06-22 08:58:40 Portas COM disponíveis:
+[INFO] 2023-06-22 08:58:40 COM30
+[INFO] 2023-06-22 08:58:40 COM31
+[INFO] 2023-06-22 08:58:40 COM39
+[ERROR] 2023-06-22 08:58:46 could not open port 'COM30': OSError(22, 'O tempo limite do semáforo expirou.', None, 121)
+[INFO] 2023-06-22 08:58:50 Portas COM disponíveis:
+[INFO] 2023-06-22 08:58:50 COM30
+[INFO] 2023-06-22 08:58:50 COM31
+[INFO] 2023-06-22 08:58:50 COM39
+[DEBUG] 2023-06-22 08:58:53 Serial RX started
+[DEBUG] 2023-06-22 08:58:53 Serial TX started
+[INFO] 2023-06-22 08:59:23 Portas COM disponíveis:
+[INFO] 2023-06-22 08:59:23 COM30
+[INFO] 2023-06-22 08:59:23 COM31
+[INFO] 2023-06-22 08:59:23 COM39
+[DEBUG] 2023-06-22 08:59:26 Serial RX started
+[DEBUG] 2023-06-22 08:59:26 Serial TX started
+[INFO] 2023-06-22 08:59:40 Portas COM disponíveis:
+[INFO] 2023-06-22 08:59:40 COM30
+[INFO] 2023-06-22 08:59:40 COM31
+[INFO] 2023-06-22 08:59:40 COM39
+[DEBUG] 2023-06-22 08:59:43 Serial RX started
+[DEBUG] 2023-06-22 08:59:43 Serial TX started
+[DEBUG] 2023-06-22 08:59:45 Serial port closed
+[ERROR] 2023-06-22 08:59:45 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:45 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:46 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:46 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:47 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:47 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:48 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:48 PortNotOpenError('Attempting to use a port that is not open')
+[ERROR] 2023-06-22 08:59:49 PortNotOpenError('Attempting to use a port that is not open')
+[INFO] 2023-06-22 09:04:08 Portas COM disponíveis:
+[INFO] 2023-06-22 09:04:08 COM30
+[INFO] 2023-06-22 09:04:08 COM31
+[INFO] 2023-06-22 09:04:08 COM36
+[DEBUG] 2023-06-22 09:04:11 Serial RX started
+[DEBUG] 2023-06-22 09:04:11 Serial TX started
+[ERROR] 2023-06-22 09:04:14 Serial alreay opend
+[ERROR] 2023-06-22 09:04:17 Serial alreay opend

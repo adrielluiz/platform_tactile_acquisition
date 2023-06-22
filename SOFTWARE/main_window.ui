@@ -17,7 +17,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>BIOLAB - Tactile Platform</string>
   </property>
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
@@ -40,12 +40,12 @@
    </property>
    <widget class="QWidget" name="tab_coleta">
     <attribute name="title">
-     <string>Coleta</string>
+     <string>Run 1</string>
     </attribute>
    </widget>
    <widget class="QWidget" name="tab_teste">
     <attribute name="title">
-     <string>Teste</string>
+     <string>Test</string>
     </attribute>
     <widget class="QSlider" name="horizontalSliderX">
      <property name="geometry">
@@ -55,6 +55,9 @@
        <width>160</width>
        <height>22</height>
       </rect>
+     </property>
+     <property name="maximum">
+      <number>170</number>
      </property>
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -68,6 +71,9 @@
        <width>22</width>
        <height>160</height>
       </rect>
+     </property>
+     <property name="maximum">
+      <number>40</number>
      </property>
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -102,8 +108,8 @@
     <widget class="QFrame" name="frame">
      <property name="geometry">
       <rect>
-       <x>400</x>
-       <y>50</y>
+       <x>220</x>
+       <y>70</y>
        <width>127</width>
        <height>141</height>
       </rect>
@@ -119,7 +125,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="lbMode">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -166,8 +172,8 @@
     <widget class="QFrame" name="frame_2">
      <property name="geometry">
       <rect>
-       <x>400</x>
-       <y>250</y>
+       <x>430</x>
+       <y>10</y>
        <width>146</width>
        <height>179</height>
       </rect>
@@ -183,9 +189,9 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="lbEnableVar">
         <property name="text">
-         <string>Read Variables</string>
+         <string>Enable Variables</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -194,6 +200,9 @@
       </item>
       <item>
        <widget class="QCheckBox" name="checkBox_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="text">
          <string>MPU</string>
         </property>
@@ -215,6 +224,9 @@
       </item>
       <item>
        <widget class="QCheckBox" name="checkBox_4">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="text">
          <string>Voltage Sensor</string>
         </property>
@@ -232,8 +244,8 @@
     <widget class="QFrame" name="frame_3">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>320</y>
+       <x>220</x>
+       <y>290</y>
        <width>131</width>
        <height>101</height>
       </rect>
@@ -249,7 +261,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="lbReadDelay">
         <property name="text">
          <string>Read Delay (ms)</string>
         </property>
@@ -259,12 +271,15 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox">
+       <widget class="QSpinBox" name="spinBoxDelay">
         <property name="alignment">
          <set>Qt::AlignCenter</set>
         </property>
         <property name="minimum">
          <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>1000</number>
         </property>
         <property name="value">
          <number>10</number>
@@ -272,9 +287,209 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="pbSendDelay">
         <property name="text">
          <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="frame_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>290</y>
+       <width>121</width>
+       <height>155</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Speed</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxSpeed">
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="minimum">
+         <number>5</number>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="singleStep">
+         <number>5</number>
+        </property>
+        <property name="value">
+         <number>30</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_5">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QRadioButton" name="rbSpeedX">
+           <property name="text">
+            <string>X</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="rbSpeedZ">
+           <property name="text">
+            <string>Z</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbSendSpeed">
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="frame_6">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>200</y>
+       <width>183</width>
+       <height>248</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="lbDataRead">
+        <property name="text">
+         <string>Data Read</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_7">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="lbPosX">
+           <property name="text">
+            <string>Position X</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLCDNumber" name="lcdPositionX"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_8">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="lbPosZ">
+           <property name="text">
+            <string>Position Z</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLCDNumber" name="lcdPositionZ"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_9">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="lbFSR">
+           <property name="text">
+            <string>FSR</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLCDNumber" name="lcdFSR"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lbEndZ">
+        <property name="text">
+         <string>End Stop X</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lbEndX">
+        <property name="text">
+         <string>End Stop Z</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -294,7 +509,7 @@
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
    </property>
-   <widget class="QLabel" name="label_porta_serial">
+   <widget class="QLabel" name="lbSerialPort">
     <property name="font">
      <font>
       <pointsize>11</pointsize>
@@ -303,7 +518,10 @@
      </font>
     </property>
     <property name="text">
-     <string>Porta serial:</string>
+     <string>Serial Port</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QComboBox" name="comboBoxSerialPort">
@@ -324,7 +542,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Conectar</string>
+     <string>Connect</string>
     </property>
    </widget>
   </widget>

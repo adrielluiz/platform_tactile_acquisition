@@ -13,7 +13,7 @@ class SerialRx(Thread):
 
     def run(self):
 
-        log.logging.debug('RadioRx started')
+        log.logging.debug('Serial RX started')
 
         while not self.stop.is_set():
             try:
@@ -37,6 +37,7 @@ class SerialRx(Thread):
 class SerialConn(Thread):
     def __init__(self):
         Thread.__init__(self)
+        self.is_connected = False
 
     def set_init_parameters(self, serial, rxq, txq, stop):
         Thread.__init__(self)
@@ -46,6 +47,12 @@ class SerialConn(Thread):
         self.ser = serial
         self.rx_task = SerialRx(self.ser, self.rxq, self.stop)            
         self.rx_task.start()
+        self.is_connected = True
+
+    def close_serial(self):
+        self.rx_task.stop
+        self.ser.close()    
+        log.logging.debug("Serial port closed")
 
     def get_ports_available(self):
         ports = serial.tools.list_ports.comports()
