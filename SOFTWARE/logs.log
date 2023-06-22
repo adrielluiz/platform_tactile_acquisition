@@ -154,3 +154,32 @@
 [DEBUG] 2023-06-22 09:04:11 Serial TX started
 [ERROR] 2023-06-22 09:04:14 Serial alreay opend
 [ERROR] 2023-06-22 09:04:17 Serial alreay opend
+[INFO] 2023-06-22 17:39:31 Portas COM disponíveis:
+[INFO] 2023-06-22 17:39:31 COM30
+[INFO] 2023-06-22 17:39:31 COM31
+[INFO] 2023-06-22 17:58:56 Portas COM disponíveis:
+[INFO] 2023-06-22 17:58:56 COM30
+[INFO] 2023-06-22 17:58:56 COM31
+[INFO] 2023-06-22 18:06:07 Portas COM disponíveis:
+[INFO] 2023-06-22 18:06:07 COM30
+[INFO] 2023-06-22 18:06:07 COM31
+[INFO] 2023-06-22 18:06:07 COM40
+[DEBUG] 2023-06-22 18:06:10 Serial RX started
+[DEBUG] 2023-06-22 18:06:10 Serial TX started
+[INFO] 2023-06-22 18:06:45 Portas COM disponíveis:
+[INFO] 2023-06-22 18:06:45 COM30
+[INFO] 2023-06-22 18:06:45 COM31
+[INFO] 2023-06-22 18:06:45 COM40
+[DEBUG] 2023-06-22 18:06:48 Serial RX started
+[DEBUG] 2023-06-22 18:06:48 Serial TX started
+[DEBUG] 2023-06-22 18:06:50 TX: set mode idle
+
+[DEBUG] 2023-06-22 18:06:50 TypeError("unicode strings are not supported, please encode to bytes: 'set mode idle\\n'")
+[INFO] 2023-06-22 18:15:21 Portas COM disponíveis:
+[INFO] 2023-06-22 18:15:21 COM30
+[INFO] 2023-06-22 18:15:21 COM31
+[INFO] 2023-06-22 18:15:21 COM40
+[DEBUG] 2023-06-22 18:15:26 Serial RX started
+[DEBUG] 2023-06-22 18:15:26 Serial TX started
+[DEBUG] 2023-06-22 18:15:29 TX: b'set mode idle\n'
+[DEBUG] 2023-06-22 18:15:30 RX: b'ok\n'

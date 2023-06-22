@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>711</width>
-    <height>594</height>
+    <width>729</width>
+    <height>658</height>
    </rect>
   </property>
   <property name="font">
@@ -24,8 +24,8 @@
     <rect>
      <x>30</x>
      <y>90</y>
-     <width>661</width>
-     <height>481</height>
+     <width>681</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="font">
@@ -82,7 +82,7 @@
     <widget class="QPushButton" name="pbHomeX">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>30</y>
        <width>93</width>
        <height>28</height>
@@ -95,7 +95,7 @@
     <widget class="QPushButton" name="pbHomeZ">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>130</y>
        <width>93</width>
        <height>28</height>
@@ -108,9 +108,9 @@
     <widget class="QFrame" name="frame">
      <property name="geometry">
       <rect>
-       <x>220</x>
+       <x>230</x>
        <y>70</y>
-       <width>127</width>
+       <width>141</width>
        <height>141</height>
       </rect>
      </property>
@@ -148,7 +148,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="rbReadData">
+       <widget class="QRadioButton" name="rbModeReadData">
         <property name="text">
          <string>Read Data</string>
         </property>
@@ -174,8 +174,8 @@
       <rect>
        <x>430</x>
        <y>10</y>
-       <width>146</width>
-       <height>179</height>
+       <width>191</width>
+       <height>191</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -246,8 +246,8 @@
       <rect>
        <x>220</x>
        <y>290</y>
-       <width>131</width>
-       <height>101</height>
+       <width>171</width>
+       <height>111</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -298,10 +298,10 @@
     <widget class="QFrame" name="frame_4">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>30</x>
        <y>290</y>
-       <width>121</width>
-       <height>155</height>
+       <width>171</width>
+       <height>171</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -381,10 +381,10 @@
     <widget class="QFrame" name="frame_6">
      <property name="geometry">
       <rect>
-       <x>410</x>
-       <y>200</y>
-       <width>183</width>
-       <height>248</height>
+       <x>420</x>
+       <y>220</y>
+       <width>221</width>
+       <height>261</height>
       </rect>
      </property>
      <property name="autoFillBackground">
@@ -424,7 +424,21 @@
           </widget>
          </item>
          <item>
-          <widget class="QLCDNumber" name="lcdPositionX"/>
+          <widget class="QLCDNumber" name="lcdPositionX">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="mode">
+            <enum>QLCDNumber::Hex</enum>
+           </property>
+           <property name="value" stdset="0">
+            <double>0.000000000000000</double>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -500,8 +514,8 @@
   <widget class="QSplitter" name="splitter">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>40</y>
+     <x>200</x>
+     <y>30</y>
      <width>351</width>
      <height>28</height>
     </rect>

@@ -6,6 +6,7 @@ from serial import *
 import log
 from threading import Event
 from queue import Queue
+from serial_cmd import SerialCmd
 
 class MainWin:
     def __init__(self):
@@ -21,6 +22,9 @@ class MainWin:
 
         #self.ui.comboBoxSerialPort. activated[str].connect(self.update_com_ports)
         self.ui.pbConectarSerial.clicked.connect(self.conn_serial)
+
+        self.ui.pbSendMode.clicked.connect(self.send_mode)
+        self.ui.pbSendSpeed.clicked.connect()
          
     def show(self):
         self.main_win.show()
@@ -47,7 +51,23 @@ class MainWin:
         else:
             log.logging.error("Serial already opened")
 
+    def send_mode(self):
+        if self.serial_task.is_connected:
+            if self.ui.rbModeIdle.isChecked():
+                self.txq.put(SerialCmd().set_mode("idle"))
+            elif self.ui.rbModeReadData.isChecked():
+                self.txq.put(SerialCmd().set_mode("read"))  
 
+    def send_speed(self):
+        if self.serial_task.is_connected:              
+            pass
+
+    def send_delay(self):
+        if self.serial_task.is_connected: 
+            if self.ui.rbSpeedX.isChecked():
+                pass      
+            elif self.ui.rbSpeedZ.isChecked():
+            
 
 
 if __name__ == '__main__':
