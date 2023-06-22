@@ -102,7 +102,7 @@ void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_s
 	data_read.mpu = mpu_flag;
 	data_read.fsr = fsr_flag;
 	data_read.vs = voltage_sensor;
-	}
+}
 
 void app_set_read_delay_ms(uint32_t delay_ms)
 {
