@@ -7,6 +7,8 @@ import log
 from threading import Event
 from queue import Queue
 from serial_cmd import SerialCmd
+from threading import *
+import time
 
 class MainWin:
     def __init__(self):
@@ -24,7 +26,13 @@ class MainWin:
         self.ui.pbConectarSerial.clicked.connect(self.conn_serial)
 
         self.ui.pbSendMode.clicked.connect(self.send_mode)
-        self.ui.pbSendSpeed.clicked.connect()
+        self.ui.pbSendDelay.clicked.connect(self.send_delay)
+        self.ui.pbSendSpeed.clicked.connect(self.send_speed)
+        self.ui.pbSendReadVar.clicked.connect(self.send_flags)
+        self.ui.pbHomeX.clicked.connect(self.send_pos_home_x)
+        self.ui.pbHomeZ.clicked.connect(self.send_pos_home_z)
+        self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
+        self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)
          
     def show(self):
         self.main_win.show()
@@ -48,8 +56,35 @@ class MainWin:
                 self.serial_task.set_init_parameters(self.serial,self.rxq, self.txq, self.stop)
                 self.serial_task.start()
                 self.ui.pbConectarSerial.setStyleSheet("background-color: lime")
+                self.recv = Thread(target=self.recv_data)
+                self.recv.start()
         else:
             log.logging.error("Serial already opened")
+
+    def recv_data(self):
+        while not self.stop.is_set():
+            new_cmd = False
+            try:
+                cmd = self.rxq.get(True, 1)
+            except Exception as e:
+                time.sleep(0.5)
+            else:
+                new_cmd = True
+
+            if new_cmd:
+                self.check_cmd(cmd)
+
+    def check_cmd(self,cmd):
+        if 'command' not in cmd:
+            return 
+
+        if cmd['command'] == 'position':
+            v = cmd['params']['value']
+            logging.debug('Adding {} data: {}'.format(cmd['command'],cmd))
+            
+        elif cmd['command'] == 'info':
+            self.info['bridge'][cmd['params']['key']] = cmd['params']['value']
+            self.update_gui()
 
     def send_mode(self):
         if self.serial_task.is_connected:
@@ -59,18 +94,56 @@ class MainWin:
                 self.txq.put(SerialCmd().set_mode("read"))  
 
     def send_speed(self):
-        if self.serial_task.is_connected:              
-            pass
+        if self.serial_task.is_connected: 
+            speed  = self.ui.spinBoxSpeed.value()
+            if self.ui.rbSpeedX.isChecked():
+                self.txq.put(SerialCmd().set_speed("x", speed))     
+            elif self.ui.rbSpeedZ.isChecked():
+                self.txq.put(SerialCmd().set_speed("z", speed))
 
     def send_delay(self):
         if self.serial_task.is_connected: 
-            if self.ui.rbSpeedX.isChecked():
-                pass      
-            elif self.ui.rbSpeedZ.isChecked():
-            
+            delay = self.ui.spinBoxDelay.value()
+            self.txq.put(SerialCmd().set_delay(delay))
+            pass
 
+    def read_checkbox_int(self, value):
+        if value == True:
+            return 1
+        else:
+            return 0    
 
-if __name__ == '__main__':
+    def send_flags(self):
+        if self.serial_task.is_connected: 
+            pos = self.read_checkbox_int(self.ui.checkBoxPosition.isChecked())
+            mpu = self.read_checkbox_int(self.ui.checkBoxMPU.isChecked())
+            fsr = self.read_checkbox_int(self.ui.checkBoxFSR.isChecked())
+            vs  = self.read_checkbox_int(self.ui.checkBoxVS.isChecked())
+            self.txq.put(SerialCmd().set_flags_read(pos, mpu, fsr, vs))        
+
+    def send_pos_home_x(self):   
+        if self.serial_task.is_connected: 
+            self.txq.put(SerialCmd().set_pos("x", "home"))     
+            self.ui.horizontalSliderX.setValue(0)   
+            self.ui.pbHomeX.setEnabled(False)  
+
+    def send_pos_home_z(self):   
+        if self.serial_task.is_connected: 
+            self.txq.put(SerialCmd().set_pos("z", "home"))  
+            self.ui.verticalSliderZ.setValue(0)
+            self.ui.pbHomeZ.setEnabled(False)  
+
+    def send_pos_x(self):
+        if self.serial_task.is_connected: 
+            pos_x = self.ui.horizontalSliderX.value() * 1000
+            self.txq.put(SerialCmd().set_pos("x", pos_x))      
+
+    def send_pos_z(self):
+        if self.serial_task.is_connected: 
+            pos_z = self.ui.verticalSliderZ.value() * 1000
+            self.txq.put(SerialCmd().set_pos("z", pos_z))                    
+
+if __name__ == "__main__":
     app = QApplication(sys.argv)
     main_win = MainWin()
     main_win.update_com_ports()

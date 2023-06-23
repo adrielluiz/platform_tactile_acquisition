@@ -86,7 +86,7 @@ void app_set_motor_pos_home(int motor)
 	motor_set_pos_home(motor);
 }
 
-uint16_t app_get_motor_pos(int motor)
+int app_get_motor_pos(int motor)
 {
 	return motor_get_pos(motor);
 }

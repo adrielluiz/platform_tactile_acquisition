@@ -183,3 +183,567 @@
 [DEBUG] 2023-06-22 18:15:26 Serial TX started
 [DEBUG] 2023-06-22 18:15:29 TX: b'set mode idle\n'
 [DEBUG] 2023-06-22 18:15:30 RX: b'ok\n'
+[INFO] 2023-06-23 13:58:47 Portas COM disponíveis:
+[INFO] 2023-06-23 13:58:47 COM30
+[INFO] 2023-06-23 13:58:47 COM31
+[INFO] 2023-06-23 13:58:47 COM38
+[INFO] 2023-06-23 14:14:45 Portas COM disponíveis:
+[INFO] 2023-06-23 14:14:45 COM30
+[INFO] 2023-06-23 14:14:45 COM31
+[INFO] 2023-06-23 14:14:45 COM38
+[DEBUG] 2023-06-23 14:14:50 Serial RX started
+[DEBUG] 2023-06-23 14:14:50 Serial TX started
+[DEBUG] 2023-06-23 14:14:53 TX: b'set mode idle\n'
+[DEBUG] 2023-06-23 14:14:54 RX: b'ok\n'
+[INFO] 2023-06-23 14:15:27 Portas COM disponíveis:
+[INFO] 2023-06-23 14:15:27 COM30
+[INFO] 2023-06-23 14:15:27 COM31
+[INFO] 2023-06-23 14:15:27 COM38
+[DEBUG] 2023-06-23 14:15:33 Serial RX started
+[DEBUG] 2023-06-23 14:15:33 Serial TX started
+[INFO] 2023-06-23 14:16:22 Portas COM disponíveis:
+[INFO] 2023-06-23 14:16:22 COM30
+[INFO] 2023-06-23 14:16:22 COM31
+[INFO] 2023-06-23 14:16:22 COM38
+[DEBUG] 2023-06-23 14:16:25 Serial RX started
+[DEBUG] 2023-06-23 14:16:25 Serial TX started
+[DEBUG] 2023-06-23 14:16:28 TX: b'set flags 0 1 1 0\n'
+[DEBUG] 2023-06-23 14:16:29 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:16:35 TX: b'set mode read\n'
+[DEBUG] 2023-06-23 14:16:36 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:16:36 RX: b'mode read\n'
+[DEBUG] 2023-06-23 14:16:36 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:36 RX: b'fsr 1019\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:37 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:38 RX: b'fsr 1022\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'fsr 1021\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:39 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:40 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:40 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:40 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 14:16:40 RX: b'fsr 1023\n'
+[DEBUG] 2023-06-23 14:16:40 TX: b'set mode idle\n'
+[DEBUG] 2023-06-23 14:16:41 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:16:41 RX: b'mode idle\n'
+[DEBUG] 2023-06-23 14:16:52 TX: b'set speed 1 30\n'
+[DEBUG] 2023-06-23 14:16:53 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:16:55 TX: b'set speed 2 30\n'
+[DEBUG] 2023-06-23 14:16:56 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:17:01 TX: b'set read_delay 10\n'
+[DEBUG] 2023-06-23 14:17:02 RX: b'ok\n'
+[ERROR] 2023-06-23 14:17:11 Serial already opened
+[INFO] 2023-06-23 14:32:03 Portas COM disponíveis:
+[INFO] 2023-06-23 14:32:03 COM30
+[INFO] 2023-06-23 14:32:03 COM31
+[INFO] 2023-06-23 14:32:03 COM38
+[DEBUG] 2023-06-23 14:32:11 Serial RX started
+[DEBUG] 2023-06-23 14:32:11 Serial TX started
+[DEBUG] 2023-06-23 14:32:12 TX: b'set speed 1 home\n'
+[DEBUG] 2023-06-23 14:32:13 RX: b'invalid command\n'
+[INFO] 2023-06-23 14:32:36 Portas COM disponíveis:
+[INFO] 2023-06-23 14:32:36 COM30
+[INFO] 2023-06-23 14:32:36 COM31
+[INFO] 2023-06-23 14:32:36 COM38
+[DEBUG] 2023-06-23 14:32:38 Serial RX started
+[DEBUG] 2023-06-23 14:32:38 Serial TX started
+[DEBUG] 2023-06-23 14:32:41 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:32:57 TX: None
+[DEBUG] 2023-06-23 14:32:57 TypeError("'NoneType' object is not subscriptable")
+[DEBUG] 2023-06-23 14:33:22 RX: b'ok\n'
+[INFO] 2023-06-23 14:33:28 Portas COM disponíveis:
+[INFO] 2023-06-23 14:33:28 COM30
+[INFO] 2023-06-23 14:33:28 COM31
+[INFO] 2023-06-23 14:33:28 COM38
+[DEBUG] 2023-06-23 14:33:32 Serial RX started
+[DEBUG] 2023-06-23 14:33:32 Serial TX started
+[DEBUG] 2023-06-23 14:33:37 TX: b'set speed 1 30\n'
+[DEBUG] 2023-06-23 14:33:38 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:33:42 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:34:03 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:34:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:34:10 TX: None
+[DEBUG] 2023-06-23 14:34:10 TypeError("'NoneType' object is not subscriptable")
+[INFO] 2023-06-23 14:34:23 Portas COM disponíveis:
+[INFO] 2023-06-23 14:34:23 COM30
+[INFO] 2023-06-23 14:34:23 COM31
+[INFO] 2023-06-23 14:34:23 COM38
+[DEBUG] 2023-06-23 14:34:25 Serial RX started
+[DEBUG] 2023-06-23 14:34:25 Serial TX started
+[DEBUG] 2023-06-23 14:34:26 TX: None
+[DEBUG] 2023-06-23 14:34:26 TypeError("'NoneType' object is not subscriptable")
+[DEBUG] 2023-06-23 14:34:37 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:34:37 RX: b'end_z 0\r\n'
+[INFO] 2023-06-23 14:35:23 Portas COM disponíveis:
+[INFO] 2023-06-23 14:35:23 COM30
+[INFO] 2023-06-23 14:35:23 COM31
+[INFO] 2023-06-23 14:35:23 COM38
+[DEBUG] 2023-06-23 14:35:28 Serial RX started
+[DEBUG] 2023-06-23 14:35:28 Serial TX started
+[DEBUG] 2023-06-23 14:35:30 TX: None
+[DEBUG] 2023-06-23 14:35:30 TypeError("'NoneType' object is not subscriptable")
+[INFO] 2023-06-23 14:35:42 Portas COM disponíveis:
+[INFO] 2023-06-23 14:35:42 COM30
+[INFO] 2023-06-23 14:35:42 COM31
+[INFO] 2023-06-23 14:35:42 COM38
+[DEBUG] 2023-06-23 14:35:45 Serial RX started
+[DEBUG] 2023-06-23 14:35:45 Serial TX started
+[DEBUG] 2023-06-23 14:35:46 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:35:47 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:36:05 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:36:11 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:36:11 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:36:11 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:36:17 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:36:18 RX: b'ok\n'
+[INFO] 2023-06-23 14:45:39 Portas COM disponíveis:
+[INFO] 2023-06-23 14:45:39 COM30
+[INFO] 2023-06-23 14:45:39 COM31
+[INFO] 2023-06-23 14:45:39 COM38
+[ERROR] 2023-06-23 14:45:43 could not open port 'COM38': PermissionError(13, 'Acesso negado.', None, 5)
+[INFO] 2023-06-23 14:45:51 Portas COM disponíveis:
+[INFO] 2023-06-23 14:45:51 COM30
+[INFO] 2023-06-23 14:45:51 COM31
+[INFO] 2023-06-23 14:45:51 COM38
+[DEBUG] 2023-06-23 14:45:54 Serial RX started
+[DEBUG] 2023-06-23 14:45:54 Serial TX started
+[DEBUG] 2023-06-23 14:45:56 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:45:57 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 1\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 2\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 3\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 5\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 7\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 8\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 9\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 10\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 11\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 13\n'
+[DEBUG] 2023-06-23 14:46:02 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 14\n'
+[DEBUG] 2023-06-23 14:46:02 TX: b'set position 1 15\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:03 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 16\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 17\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 18\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 19\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 21\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 22\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 23\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 24\n'
+[DEBUG] 2023-06-23 14:46:09 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 25\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 27\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 29\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 30\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 32\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 33\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 34\n'
+[DEBUG] 2023-06-23 14:46:09 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 35\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 37\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 39\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 40\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 42\n'
+[DEBUG] 2023-06-23 14:46:09 TX: b'set position 1 43\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 44\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 46\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 47\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 48\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 49\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 50\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 51\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 52\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 54\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 55\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 56\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 57\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 58\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 59\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 60\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 62\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 63\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 64\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 66\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 67\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 68\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 70\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 71\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 72\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 73\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 74\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 75\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 76\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 78\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 79\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 80\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 82\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 83\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 84\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 86\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 87\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 88\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 89\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 91\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 92\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 94\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 95\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 96\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 97\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 98\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 99\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 102\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 103\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 104\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 106\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 107\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 108\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 111\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 112\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 113\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 114\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 116\n'
+[DEBUG] 2023-06-23 14:46:10 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 118\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 120\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 121\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 122\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 123\n'
+[DEBUG] 2023-06-23 14:46:10 TX: b'set position 1 124\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 126\n'
+[DEBUG] 2023-06-23 14:46:11 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 128\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 129\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 131\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 132\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 136\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 137\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 138\n'
+[DEBUG] 2023-06-23 14:46:11 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:11 TX: b'set position 1 139\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:46:12 RX: b'ok\n'
+[INFO] 2023-06-23 14:46:52 Portas COM disponíveis:
+[INFO] 2023-06-23 14:46:52 COM30
+[INFO] 2023-06-23 14:46:52 COM31
+[INFO] 2023-06-23 14:46:52 COM38
+[DEBUG] 2023-06-23 14:46:55 Serial RX started
+[DEBUG] 2023-06-23 14:46:55 Serial TX started
+[DEBUG] 2023-06-23 14:46:56 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:46:57 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:03 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:47:05 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:05 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:47:08 TX: b'set position 1 38000\n'
+[DEBUG] 2023-06-23 14:47:12 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:14 TX: b'set position 1 0\n'
+[DEBUG] 2023-06-23 14:47:17 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:29 TX: b'set position 2 14000\n'
+[DEBUG] 2023-06-23 14:47:31 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:47:41 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:47 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:47:53 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:47:53 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:47:55 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:47:56 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:48:47 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:48:49 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:48:49 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:48:58 TX: b'set position 1 33000\n'
+[DEBUG] 2023-06-23 14:48:59 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:49:01 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:49:02 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:49:11 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:49:11 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:49:13 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:49:14 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:49:16 TX: b'set position 2 17000\n'
+[DEBUG] 2023-06-23 14:49:17 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:49:30 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:49:32 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:49:33 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:49:38 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:49:39 RX: b'ok\n'
+[INFO] 2023-06-23 14:54:30 Portas COM disponíveis:
+[INFO] 2023-06-23 14:54:30 COM30
+[INFO] 2023-06-23 14:54:30 COM31
+[INFO] 2023-06-23 14:54:30 COM38
+[DEBUG] 2023-06-23 14:54:36 Serial RX started
+[DEBUG] 2023-06-23 14:54:36 Serial TX started
+[DEBUG] 2023-06-23 14:54:37 TX: b'set position 1 home\n'
+[INFO] 2023-06-23 14:56:41 Portas COM disponíveis:
+[INFO] 2023-06-23 14:56:41 COM30
+[INFO] 2023-06-23 14:56:41 COM31
+[INFO] 2023-06-23 14:57:09 Portas COM disponíveis:
+[INFO] 2023-06-23 14:57:09 COM30
+[INFO] 2023-06-23 14:57:09 COM31
+[INFO] 2023-06-23 14:57:09 COM38
+[DEBUG] 2023-06-23 14:57:12 Serial RX started
+[DEBUG] 2023-06-23 14:57:12 Serial TX started
+[DEBUG] 2023-06-23 14:57:13 RX: b'\xff'
+[DEBUG] 2023-06-23 14:57:14 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 14:57:23 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:57:23 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 14:57:26 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 14:57:27 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:57:29 TX: b'set position 1 90000\n'
+[DEBUG] 2023-06-23 14:57:30 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 14:57:37 RX: b'ok\n'
+[DEBUG] 2023-06-23 14:57:41 TX: b'set position 1 152000\n'
+[DEBUG] 2023-06-23 14:57:46 RX: b'ok\n'
+[INFO] 2023-06-23 15:56:12 Portas COM disponíveis:
+[INFO] 2023-06-23 15:56:12 COM30
+[INFO] 2023-06-23 15:56:12 COM31
+[INFO] 2023-06-23 15:56:12 COM38
+[DEBUG] 2023-06-23 15:56:17 Serial RX started
+[DEBUG] 2023-06-23 15:56:17 Serial TX started
+[DEBUG] 2023-06-23 15:56:18 TX: b'set position 1 home\n'
+[INFO] 2023-06-23 15:58:01 Portas COM disponíveis:
+[INFO] 2023-06-23 15:58:01 COM30
+[INFO] 2023-06-23 15:58:01 COM31
+[INFO] 2023-06-23 15:58:01 COM38
+[DEBUG] 2023-06-23 15:58:07 Serial RX started
+[DEBUG] 2023-06-23 15:58:07 Serial TX started
+[DEBUG] 2023-06-23 15:58:09 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 15:58:10 RX: b'ok\n'
+[INFO] 2023-06-23 15:59:00 Portas COM disponíveis:
+[INFO] 2023-06-23 15:59:00 COM30
+[INFO] 2023-06-23 15:59:00 COM31
+[INFO] 2023-06-23 15:59:00 COM38
+[DEBUG] 2023-06-23 15:59:06 Serial RX started
+[DEBUG] 2023-06-23 15:59:06 Serial TX started
+[DEBUG] 2023-06-23 15:59:09 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 15:59:28 RX: b'ok\n'
+[DEBUG] 2023-06-23 15:59:28 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 15:59:33 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 15:59:46 RX: b'ok\n'
+[DEBUG] 2023-06-23 15:59:46 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 15:59:48 TX: b'set position 1 43000\n'
+[DEBUG] 2023-06-23 15:59:49 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 15:59:53 RX: b'ok\n'
+[DEBUG] 2023-06-23 15:59:55 TX: b'set position 1 79000\n'
+[DEBUG] 2023-06-23 15:59:59 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:02 TX: b'set position 1 146000\n'
+[DEBUG] 2023-06-23 16:00:08 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:16 TX: b'set position 2 11000\n'
+[DEBUG] 2023-06-23 16:00:18 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 16:00:25 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:27 TX: b'set position 2 18000\n'
+[DEBUG] 2023-06-23 16:00:33 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:40 TX: b'set speed 2 70\n'
+[DEBUG] 2023-06-23 16:00:41 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:44 TX: b'set position 2 21000\n'
+[DEBUG] 2023-06-23 16:00:45 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:46 TX: b'set position 2 24000\n'
+[DEBUG] 2023-06-23 16:00:48 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:00:49 TX: b'set position 2 31000\n'
+[DEBUG] 2023-06-23 16:00:51 RX: b'ok\n'
+[ERROR] 2023-06-23 16:00:58 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:00:58 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:00:59 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:00:59 Serial already opened
+[ERROR] 2023-06-23 16:00:59 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:01:00 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:01:00 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:01:01 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2023-06-23 16:01:01 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[INFO] 2023-06-23 16:02:53 Portas COM disponíveis:
+[INFO] 2023-06-23 16:02:53 COM30
+[INFO] 2023-06-23 16:02:53 COM31
+[INFO] 2023-06-23 16:02:53 COM38
+[DEBUG] 2023-06-23 16:02:56 Serial RX started
+[DEBUG] 2023-06-23 16:02:56 Serial TX started
+[DEBUG] 2023-06-23 16:02:57 TX: b'set position 1 home\n'
+[DEBUG] 2023-06-23 16:03:30 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:03:30 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 16:03:34 TX: b'set position 2 home\n'
+[DEBUG] 2023-06-23 16:03:36 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:03:36 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 16:03:39 TX: b'set position 1 28000\n'
+[DEBUG] 2023-06-23 16:03:40 RX: b'end_x 0\r\n'
+[DEBUG] 2023-06-23 16:03:42 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:03:44 TX: b'set position 2 9000\n'
+[DEBUG] 2023-06-23 16:03:46 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 16:03:52 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:03:54 TX: b'set position 2 23000\n'
+[DEBUG] 2023-06-23 16:04:05 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:04:15 TX: b'set position 2 26000\n'
+[DEBUG] 2023-06-23 16:04:18 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:04:23 TX: b'set position 2 30000\n'
+[DEBUG] 2023-06-23 16:04:27 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:04:37 TX: b'set position 2 0\n'
+[DEBUG] 2023-06-23 16:05:01 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:01 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 16:05:05 TX: b'set position 2 15000\n'
+[DEBUG] 2023-06-23 16:05:07 RX: b'end_z 0\r\n'
+[DEBUG] 2023-06-23 16:05:17 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:21 TX: b'set speed 2 60\n'
+[DEBUG] 2023-06-23 16:05:22 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:25 TX: b'set position 2 18000\n'
+[DEBUG] 2023-06-23 16:05:27 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:28 TX: b'set position 2 23000\n'
+[DEBUG] 2023-06-23 16:05:29 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:34 TX: b'set position 2 16000\n'
+[DEBUG] 2023-06-23 16:05:36 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:39 TX: b'set position 2 28000\n'
+[DEBUG] 2023-06-23 16:05:41 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:45 TX: b'set position 2 27000\n'
+[DEBUG] 2023-06-23 16:05:47 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:51 TX: b'set position 1 69000\n'
+[DEBUG] 2023-06-23 16:05:55 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:05:56 TX: b'set position 1 105000\n'
+[DEBUG] 2023-06-23 16:06:00 RX: b'ok\n'
+[INFO] 2023-06-23 16:07:06 Portas COM disponíveis:
+[INFO] 2023-06-23 16:07:06 COM30
+[INFO] 2023-06-23 16:07:06 COM31
+[INFO] 2023-06-23 16:07:06 COM38
+[DEBUG] 2023-06-23 16:07:18 Serial RX started
+[DEBUG] 2023-06-23 16:07:18 Serial TX started
+[DEBUG] 2023-06-23 16:07:21 TX: b'set flags 0 1 0 0\n'
+[DEBUG] 2023-06-23 16:07:22 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:07:25 TX: b'set mode read\n'
+[DEBUG] 2023-06-23 16:07:26 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:07:26 RX: b'mode read\n'
+[DEBUG] 2023-06-23 16:07:26 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:26 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:27 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:27 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:27 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:28 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:28 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:28 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:28 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:29 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:29 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:29 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:30 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:30 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:30 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:31 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:31 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:31 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:31 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:32 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:32 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:32 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:33 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:33 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:33 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:34 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:34 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:34 TX: b'set mode idle\n'
+[DEBUG] 2023-06-23 16:07:34 RX: b'mpu  -1 -1 -1 3652 -1 -1 -1\n'
+[DEBUG] 2023-06-23 16:07:35 RX: b'ok\n'
+[DEBUG] 2023-06-23 16:07:35 RX: b'mode idle\n'

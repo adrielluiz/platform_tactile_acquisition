@@ -36,7 +36,7 @@ void app_set_motor_speed(int motor, int speed_ms);
 uint16_t app_get_motor_speed(int motor);
 void app_set_motor_pos(int motor, int pos_mm);
 void app_set_motor_pos_home(int motor);
-uint16_t app_get_motor_pos(int motor);
+int app_get_motor_pos(int motor);
 mpu_data_t* app_get_mpu(void);
 void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_sensor);
 void app_set_read_delay_ms(uint32_t delay_ms);

@@ -72,10 +72,10 @@ void motor_set_pos(int motor_id, int pos_um)
     int pos_steps = motor_convert_um_steps(motor_id, new_pos_um);
 
     motor_move(motor_id, pos_steps);
-    motor_pos_um[motor_id -1] = new_pos_um;
+    motor_pos_um[motor_id -1] = pos_um;
 }
 
-uint16_t motor_get_pos(int motor_id)
+int motor_get_pos(int motor_id)
 {
     return motor_pos_um[motor_id-1];    
 }

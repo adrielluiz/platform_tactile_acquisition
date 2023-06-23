@@ -8,6 +8,10 @@
 #include "app.h"
 #include "mpu.h"
 
+#define CMD_POS_X_MAX 160000
+#define CMD_POS_Z_MAX 36000
+int max_pos[2] = {CMD_POS_X_MAX, CMD_POS_Z_MAX};
+
 #define CMD_MAX_ARGS 10
 
 #define CMD_INIT(n,h,e,s,g,r) {	\
@@ -48,17 +52,19 @@ static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_set_flags_handler(uint32_t argc, uint8_t *argv[]);
 
 
 const cmd_entry_t cmd_list[] =
 {
 	CMD_INIT("help","show available commands","help; help command",cmd_default_handler,cmd_default_handler,cmd_run_help_handler),
-	CMD_INIT("mode","get/set operation mode (idle,read) flags (motors, mpu, fsr, vs)","set mode read",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler),
+	CMD_INIT("mode","get/set operation mode (idle,read)","set mode read",cmd_set_mode_handler,cmd_get_mode_handler,cmd_default_handler), 
 	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
-	CMD_INIT("position","get/set motor (1-2) position (0-170000) um","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
+	CMD_INIT("position","get/set motor (1-2) position (0-160000) um","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
 	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
 	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),
 	CMD_INIT("fsr","get fsr","get fst",cmd_default_handler,cmd_get_fsr_handler,cmd_default_handler),	
+	CMD_INIT("flags","set flags (motors, mpu, fsr, vs)","get flags 1 0 1 1",cmd_set_flags_handler,cmd_default_handler,cmd_default_handler),	
 };
 
 uint32_t cmd_parse_args(uint8_t * const cmdline, uint32_t size, uint32_t *argc, uint8_t *argv[], uint32_t max_args)
@@ -224,23 +230,11 @@ static bool cmd_set_mode_handler(uint32_t argc, uint8_t *argv[])
 			app_set_mode(APP_MODE_IDLE);
 			status = true;
 		}
-	}
-	else if(argc == 5)
-	{
-		uint32_t flag_motors = 0;
-		uint32_t flag_mpu = 0;
-		uint32_t flag_fsr= 0;
-		uint32_t flag_vs = 0;
-
-		if(strncmp((char *)argv[0],"read",4) == 0)
+		else if(strncmp((char *)argv[0],"read",4) == 0)
 		{
-			if(cmd_convert_uint(argv[1],&flag_motors,0,1) && cmd_convert_uint(argv[2],&flag_mpu,0,1) && cmd_convert_uint(argv[3],&flag_fsr,0,1) && cmd_convert_uint(argv[4],&flag_vs,0,1))
-			{
-				app_set_mode(APP_MODE_READ);
-				app_set_read(flag_motors, flag_mpu, flag_fsr, flag_vs);
-				status = true;				
-			}
-		}
+			app_set_mode(APP_MODE_READ);
+			status = true;		
+		}		
 	}
 
 	if(status)
@@ -258,7 +252,7 @@ static bool cmd_get_mode_handler(uint32_t argc, uint8_t *argv[])
 
 	if(argc == 0)
 	{
-		char *modes[] = { "idle", "read"};
+		char *modes[] = { (char *) "idle", (char *) "read"};
 
 		app_mode_t mode = app_get_mode();
 		CMD_ADD_MSG(modes[mode]);
@@ -329,16 +323,19 @@ static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[])
 		uint32_t val1 = 0;
 		int32_t val2 = 0;
 
-		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_int(argv[1],&val2,0,170000))
+		if(cmd_convert_uint(argv[0],&val1,1,2)) 
 		{
-			app_set_motor_pos(val1,val2);
+			if(cmd_convert_int(argv[1],&val2,0,max_pos[val1-1]))
+			{
+				app_set_motor_pos(val1,val2);
 
-			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
-			CMD_ADD_MSG(buffer);
+				snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+				CMD_ADD_MSG(buffer);
 
-			status = true;
+				status = true;
+			}
 		}
-		else if(cmd_convert_uint(argv[0],&val1,1,2) && (strncmp((char *)argv[1],"home",4) == 0))
+		if(cmd_convert_uint(argv[0],&val1,1,2) && (strncmp((char *)argv[1],"home",4) == 0))
 		{
 			app_set_motor_pos_home(val1);
 
@@ -460,6 +457,31 @@ static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[])
 		CMD_ADD_MSG(buffer);
 
 		status = true;
+	}
+
+	return status;
+}
+
+static bool cmd_set_flags_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 4)
+	{
+		char buffer[CMD_PRINTF_INT_SIZE];
+		uint32_t flag_motors = 0;
+		uint32_t flag_mpu = 0;
+		uint32_t flag_fsr= 0;
+		uint32_t flag_vs = 0;
+
+		if(cmd_convert_uint(argv[0],&flag_motors,0,1) && cmd_convert_uint(argv[1],&flag_mpu,0,1) && cmd_convert_uint(argv[2],&flag_fsr,0,1) && cmd_convert_uint(argv[3],&flag_vs,0,1))
+		{			
+			app_set_read(flag_motors, flag_mpu, flag_fsr, flag_vs);
+
+			status = true;
+			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+			CMD_ADD_MSG(buffer);				
+		}		
 	}
 
 	return status;

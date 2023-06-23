@@ -2,6 +2,7 @@ import serial.tools.list_ports
 import log
 from threading import Event, Thread, Lock
 import time
+from serial_cmd import SerialCmd
 
 class SerialRx(Thread):
     def __init__(self, serial, rxq, stop):
@@ -30,7 +31,15 @@ class SerialRx(Thread):
             log.logging.debug('RX: %s' % (cmdline))
             
             if cmdline[-1] == 10: # Termina com char null          
-               pass
+                try:
+                    cmd = SerialCmd().decode(cmdline)
+                except Exception as e:
+                    log.logging.error(repr(e))
+                    time.sleep(0.5)
+                    continue
+                    
+                log.logging.debug('RX: %s' % (cmd))
+                self.rxq.put(cmd)
            
         log.logging.debug('Serial Rx stopped')
 
