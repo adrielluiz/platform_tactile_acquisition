@@ -82,26 +82,39 @@ int motor_get_pos(int motor_id)
 
 void motor_set_pos_home(int motor_id)
 {
+    volatile bool home_x_set = false;
+    volatile bool home_z_set = false;
+
     motor[motor_id-1].setSpeed(MOTOR_HOME_SPEED);
 
     if(motor_id == 1)
     {
-        if(hw_get_flag_pos_home_x_start() == false)
+        if(home_x_set == false)
         {
-            motor_set_pos(1,-PLATAFORM_MAX_DIST_X_uM);
-            hw_set_flag_pos_home_x();
+            if(hw_get_flag_pos_home_x_start() == false)
+            {
+                motor_set_pos(1,-PLATAFORM_MAX_DIST_X_uM);
+                hw_set_flag_pos_home_x();
+            }
+
+            home_x_set = true;
         }
 
     }
     else if(motor_id == 2)
     {
-        if(hw_get_flag_pos_home_z_start() == false)
+        if(home_z_set == false)
         {
-            motor_set_pos(2, -PLATAFORM_MAX_DIST_Z_uM);
-            hw_set_flag_pos_home_z();
+            if(hw_get_flag_pos_home_z_start() == false)
+            {
+                motor_set_pos(2, -PLATAFORM_MAX_DIST_Z_uM);
+                hw_set_flag_pos_home_z();
+            }
+
+            home_z_set = true;           
         }
     }
-
+    
     motor[motor_id-1].setSpeed(motor_speed[motor_id]);
     motor_pos_um[motor_id -1] = 0;
 }

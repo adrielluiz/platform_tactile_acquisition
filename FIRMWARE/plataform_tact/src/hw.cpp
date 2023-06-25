@@ -6,7 +6,10 @@
 #include <stdalign.h>
 #include <stdlib.h>
 #include "hw.h"
+#include "app.h"
 
+HardwareTimer timer(TIM1);
+HardwareTimer timer_usb_tx(TIM2);
 volatile bool flag_pos_home_x = false;
 volatile bool flag_pos_home_z = false;
 volatile bool flag_pos_home_x_start = false;
@@ -120,6 +123,37 @@ uint32_t hw_vs_read(void)
 	return analogRead(VS_PIN);
 }
 
+void hw_timer_usb_tx_init(void)
+{	
+	timer_usb_tx.setPrescaleFactor(10000); // Set prescaler to 10000 => timer frequency = 84MHz/1000 = 8400 Hz 
+    timer_usb_tx.setOverflow(8400/1000); // Set overflow
+    timer_usb_tx.attachInterrupt(app_timer_usb_tx_cbk);
+    timer_usb_tx.refresh(); // Make register changes take effect
+    timer_usb_tx.resume(); // Start
+}
+
+void hw_timer_cbk(void)
+{
+    //Serial.println(millis());
+	app_timer_cbk();
+}
+
+void hw_timer_config(uint16_t freq)
+{
+    //volatile uint32_t SysClockFreq = HAL_RCC_GetSysClockFreq(); 84 MHz
+
+	timer.setPrescaleFactor(10000); // Set prescaler to 10000 => timer frequency = 84MHz/1000 = 8400 Hz 
+    timer.setOverflow(8400/freq); // Set overflow
+    timer.attachInterrupt(hw_timer_cbk);
+    timer.refresh(); // Make register changes take effect
+    timer.resume(); // Start
+}
+
+void hw_timer_init(void)
+{
+	hw_timer_config(INIT_READ_FREQ);
+}
+
 void hw_init(void)
 {
 	pinMode(SW1_PIN, INPUT_PULLUP);
@@ -134,4 +168,8 @@ void hw_init(void)
 
 	flag_pos_home_x_start = !digitalRead(SW1_PIN);	
 	flag_pos_home_z_start = !digitalRead(SW2_PIN);	
+
+	hw_timer_init();
+	hw_timer_usb_tx_init();
+
 }

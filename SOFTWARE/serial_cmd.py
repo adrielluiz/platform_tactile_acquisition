@@ -1,6 +1,14 @@
 import log
 
 class SerialCmd():
+    def __str2int(self,s):
+        try:
+            v = int(s)
+        except Exception as e:
+            log.logging.error(repr(e))
+            v = None
+        return v
+
     def decode(self,cmdline):
         try:
             argv = cmdline.decode('ascii').strip()
@@ -52,11 +60,11 @@ class SerialCmd():
         elif axis == "z":
             return self.__set_encode2('speed', '2', speed)    
         
-    def set_delay(self, delay):
-        return self.__set_encode('read_delay', delay)      
+    def set_freq(self, delay):
+        return self.__set_encode('read_freq', delay)      
 
     def set_flags_read(self, position, mpu, fsr, vs):
-        s = 'set flags %s %s %s %s\n' % (mpu, position, fsr, vs)
+        s = 'set flags %s %s %s %s\n' % (position, mpu, fsr, vs)
         return s.encode('ascii')    
     
     def set_pos(self, motor, pos):

@@ -104,14 +104,15 @@ void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_s
 	data_read.vs = voltage_sensor;
 }
 
-void app_set_read_delay_ms(uint32_t delay_ms)
+void app_set_read_freq(uint32_t read_freq)
 {
-	data_read.delay_ms = delay_ms;
+	data_read.read_freq = read_freq;
+	hw_timer_config(read_freq);
 }
 
-uint32_t app_get_read_delay_ms(void)
+uint32_t app_get_read_freq(void)
 {
-	return data_read.delay_ms;
+	return data_read.read_freq;
 }
 
 uint32_t app_get_fsr(void)
@@ -156,13 +157,13 @@ static void app_proc_read(app_mode_state_t state)
 	switch(state)
 	{
 	case APP_MODE_STATE_INIT:
-		start_time_ms = hw_timer_get_tick_ms();
+		//start_time_ms = hw_timer_get_tick_ms();
 		snprintf(buffer,64,"mode read\n");
 		APP_ADD_MSG(buffer);
 		break;
 	case APP_MODE_STATE_RUN:
-		if(hw_timer_elapsed_ms(start_time_ms) > data_read.delay_ms)
-		{
+		//if(hw_timer_elapsed_ms(start_time_ms) > 100)
+		//{
 			if(data_read.motors)
 			{
 				pos1 = app_get_motor_pos(1);
@@ -194,9 +195,9 @@ static void app_proc_read(app_mode_state_t state)
 				APP_ADD_MSG(buffer);
 			}
 
-			start_time_ms = hw_timer_get_tick_ms();
-		}
-		break;
+			//start_time_ms = hw_timer_get_tick_ms();
+		//}
+		//break;
 	case APP_MODE_STATE_STOP:
 	default:
 		break;
@@ -291,7 +292,15 @@ void app_out(void)
 
 }
 
+void app_timer_usb_tx_cbk(void)
+{
+	app_out();
+}
 
+void app_timer_cbk(void)
+{
+	app_proc(app_mode);
+}
 
 void app_init(void)
 {
@@ -305,7 +314,7 @@ void app_init(void)
 
 	data_read.motors = false;
 	data_read.mpu = false;
-	data_read.delay_ms = 100;	
+	data_read.read_freq = INIT_READ_FREQ;	
 
 	app_started = true;
 }
@@ -315,6 +324,10 @@ void app_loop(void)
 	app_usb2uc_rx_cbk();
 
 	app_in();
-	app_proc(app_mode);
-	app_out();
+
+	//Moved to interruptio timer 1
+	//app_proc(app_mode);
+
+	//Moved to interruptio timer usb tx
+	//app_out();	
 }

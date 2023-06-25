@@ -49,8 +49,8 @@ static bool cmd_get_speed_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_pos_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_pos_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[]);
-static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[]);
-static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_set_read_freq_handler(uint32_t argc, uint8_t *argv[]);
+static bool cmd_get_read_freq_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_flags_handler(uint32_t argc, uint8_t *argv[]);
 
@@ -62,7 +62,7 @@ const cmd_entry_t cmd_list[] =
 	CMD_INIT("speed","get/set motor (1-2) speed (1-200) m/s","set speed 1 70",cmd_set_speed_handler,cmd_get_speed_handler,cmd_default_handler),
 	CMD_INIT("position","get/set motor (1-2) position (0-160000) um","set position 1 50000",cmd_set_pos_handler,cmd_get_pos_handler,cmd_default_handler),
 	CMD_INIT("mpu","get mpu","get mpu",cmd_default_handler,cmd_get_mpu_handler,cmd_default_handler),
-	CMD_INIT("read_delay","get/set read_delay (1-5000) ms","set read_delay 100",cmd_set_delay_handler,cmd_get_delay_handler,cmd_default_handler),
+	CMD_INIT("read_freq","get/set read_freq (1-200) Hz","set read_freq 100",cmd_set_read_freq_handler,cmd_get_read_freq_handler,cmd_default_handler),
 	CMD_INIT("fsr","get fsr","get fst",cmd_default_handler,cmd_get_fsr_handler,cmd_default_handler),	
 	CMD_INIT("flags","set flags (motors, mpu, fsr, vs)","get flags 1 0 1 1",cmd_set_flags_handler,cmd_default_handler,cmd_default_handler),	
 };
@@ -398,7 +398,7 @@ static bool cmd_get_mpu_handler(uint32_t argc, uint8_t *argv[])
 	return status;
 }
 
-static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[])
+static bool cmd_set_read_freq_handler(uint32_t argc, uint8_t *argv[])
 {
 	bool status = false;
 
@@ -407,9 +407,9 @@ static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[])
 		char buffer[CMD_PRINTF_INT_SIZE];
 		uint32_t val = 0;
 
-		if(cmd_convert_uint(argv[0],&val,1,5000))
+		if(cmd_convert_uint(argv[0],&val,1,200))
 		{
-			app_set_read_delay_ms(val);
+			app_set_read_freq(val);
 
 			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
 			CMD_ADD_MSG(buffer);
@@ -421,7 +421,7 @@ static bool cmd_set_delay_handler(uint32_t argc, uint8_t *argv[])
 	return status;
 }
 
-static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[])
+static bool cmd_get_read_freq_handler(uint32_t argc, uint8_t *argv[])
 {
 	bool status = false;
 
@@ -430,9 +430,9 @@ static bool cmd_get_delay_handler(uint32_t argc, uint8_t *argv[])
 		uint32_t  val = 0;
 		char buffer[CMD_PRINTF_INT_SIZE];
 
-		val = app_get_read_delay_ms();
+		val = app_get_read_freq();
 
-		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"read_delay %d\n",val);
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"read_freq %d\n",val);
 		CMD_ADD_MSG(buffer);
 
 		status = true;

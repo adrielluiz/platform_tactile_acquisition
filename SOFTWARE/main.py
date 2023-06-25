@@ -26,13 +26,13 @@ class MainWin:
         self.ui.pbConectarSerial.clicked.connect(self.conn_serial)
 
         self.ui.pbSendMode.clicked.connect(self.send_mode)
-        self.ui.pbSendDelay.clicked.connect(self.send_delay)
+        self.ui.pbSendFreq.clicked.connect(self.send_freq)
         self.ui.pbSendSpeed.clicked.connect(self.send_speed)
         self.ui.pbSendReadVar.clicked.connect(self.send_flags)
         self.ui.pbHomeX.clicked.connect(self.send_pos_home_x)
         self.ui.pbHomeZ.clicked.connect(self.send_pos_home_z)
         self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
-        self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)
+        self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)        
          
     def show(self):
         self.main_win.show()
@@ -79,12 +79,16 @@ class MainWin:
             return 
 
         if cmd['command'] == 'position':
-            v = cmd['params']['value']
-            logging.debug('Adding {} data: {}'.format(cmd['command'],cmd))
+            x = cmd['params']['x']
+            z = cmd['params']['z']
+            log.logging.debug('New position x: {} z: {}'.format(x, z))
+            self.ui.lcdPositionX.display(x)
+            self.ui.lcdPositionZ.display(z)
             
-        elif cmd['command'] == 'info':
-            self.info['bridge'][cmd['params']['key']] = cmd['params']['value']
-            self.update_gui()
+        elif cmd['command'] == 'fsr':
+            fsr = cmd['params']['value']
+            log.logging.debug('New fsr fsr: {}'.format(fsr))
+            self.ui.lcdFSR.display(fsr)
 
     def send_mode(self):
         if self.serial_task.is_connected:
@@ -101,10 +105,10 @@ class MainWin:
             elif self.ui.rbSpeedZ.isChecked():
                 self.txq.put(SerialCmd().set_speed("z", speed))
 
-    def send_delay(self):
+    def send_freq(self):
         if self.serial_task.is_connected: 
-            delay = self.ui.spinBoxDelay.value()
-            self.txq.put(SerialCmd().set_delay(delay))
+            freq = self.ui.spinBoxFreq.value()
+            self.txq.put(SerialCmd().set_freq(freq))
             pass
 
     def read_checkbox_int(self, value):

@@ -8,7 +8,7 @@
 #define PLATAFORM_MAX_DIST_Z_MM 50
 #define PLATAFORM_MAX_DIST_X_uM 1700000
 #define PLATAFORM_MAX_DIST_Z_uM 40000
-
+#define INIT_READ_FREQ 10
 
 // MPU
 #define MPU_ADDR 0x68
@@ -54,4 +54,6 @@ bool hw_get_flag_pos_home_z_start(void);
 uint32_t hw_fsr_read(void);
 uint32_t hw_vs_read(void);
 bool hw_sw_is_on(int axis, int dir);
+void hw_timer_config(uint16_t freq);
+void hw_timer_init(void);
 void hw_init(void);
