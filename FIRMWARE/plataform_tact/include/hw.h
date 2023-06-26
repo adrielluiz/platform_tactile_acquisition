@@ -56,4 +56,5 @@ uint32_t hw_vs_read(void);
 bool hw_sw_is_on(int axis, int dir);
 void hw_timer_config(uint16_t freq);
 void hw_timer_init(void);
+void hw_restart(void);
 void hw_init(void);

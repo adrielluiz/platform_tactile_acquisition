@@ -7,6 +7,7 @@
 #include "cmd.h"
 #include "app.h"
 #include "mpu.h"
+#include "hw.h"
 
 #define CMD_POS_X_MAX 160000
 #define CMD_POS_Z_MAX 36000
@@ -53,7 +54,7 @@ static bool cmd_set_read_freq_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_read_freq_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_get_fsr_handler(uint32_t argc, uint8_t *argv[]);
 static bool cmd_set_flags_handler(uint32_t argc, uint8_t *argv[]);
-
+static bool cmd_run_restart_handler(uint32_t argc, uint8_t *argv[]);
 
 const cmd_entry_t cmd_list[] =
 {
@@ -65,6 +66,7 @@ const cmd_entry_t cmd_list[] =
 	CMD_INIT("read_freq","get/set read_freq (1-200) Hz","set read_freq 100",cmd_set_read_freq_handler,cmd_get_read_freq_handler,cmd_default_handler),
 	CMD_INIT("fsr","get fsr","get fst",cmd_default_handler,cmd_get_fsr_handler,cmd_default_handler),	
 	CMD_INIT("flags","set flags (motors, mpu, fsr, vs)","get flags 1 0 1 1",cmd_set_flags_handler,cmd_default_handler,cmd_default_handler),	
+	CMD_INIT("restart","set restart","set restart",cmd_default_handler,cmd_default_handler,cmd_run_restart_handler),	
 };
 
 uint32_t cmd_parse_args(uint8_t * const cmdline, uint32_t size, uint32_t *argc, uint8_t *argv[], uint32_t max_args)
@@ -482,6 +484,27 @@ static bool cmd_set_flags_handler(uint32_t argc, uint8_t *argv[])
 			snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
 			CMD_ADD_MSG(buffer);				
 		}		
+	}
+
+	return status;
+}
+
+
+static bool cmd_run_restart_handler(uint32_t argc, uint8_t *argv[])
+{
+	bool status = false;
+
+	if(argc == 0)
+	{
+		char buffer[CMD_PRINTF_INT_SIZE];
+
+		hw_restart();
+
+		snprintf(buffer,CMD_PRINTF_INT_SIZE-1,"ok\n");
+		CMD_ADD_MSG(buffer);
+
+		status = true;
+		
 	}
 
 	return status;

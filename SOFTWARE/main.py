@@ -10,6 +10,7 @@ from queue import Queue
 from serial_cmd import SerialCmd
 from threading import *
 import time
+from exp import RunExperiment
 
 class MainWin:
     def __init__(self):
@@ -176,4 +177,3 @@ if __name__ == "__main__":
     main_win.update_com_ports()
     main_win.show()
     sys.exit(app.exec_())
-

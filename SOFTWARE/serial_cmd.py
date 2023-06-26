@@ -38,6 +38,8 @@ class SerialCmd():
                 return {}
             else:
                 return {'command':'fsr', 'params':{'value':v}}
+        elif cmd == 'ok':    
+            return {'command':'ok'}    
         return {}
 
     def __set_encode(self,k,v):
@@ -65,6 +67,10 @@ class SerialCmd():
 
     def set_flags_read(self, position, mpu, fsr, vs):
         s = 'set flags %s %s %s %s\n' % (position, mpu, fsr, vs)
+        return s.encode('ascii')
+
+    def set_restart(self):
+        s = 'restart\n'
         return s.encode('ascii')    
     
     def set_pos(self, motor, pos):

@@ -154,6 +154,11 @@ void hw_timer_init(void)
 	hw_timer_config(INIT_READ_FREQ);
 }
 
+void hw_restart(void)
+{
+	HAL_NVIC_SystemReset();
+}
+
 void hw_init(void)
 {
 	pinMode(SW1_PIN, INPUT_PULLUP);

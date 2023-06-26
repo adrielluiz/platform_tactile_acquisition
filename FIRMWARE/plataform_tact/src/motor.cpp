@@ -3,7 +3,7 @@
 #include "motor.h"
 #include "hw.h"
 
-#define MOTOR_HOME_SPEED 20
+#define MOTOR_HOME_SPEED 30
 const int stepsPerRevolution = 40000;  
 
 Stepper motor[2] = {Stepper(stepsPerRevolution, MOTOR1_PIN1, MOTOR1_PIN2, MOTOR1_PIN3, MOTOR1_PIN4), Stepper(stepsPerRevolution, MOTOR2_PIN1, MOTOR2_PIN2, MOTOR2_PIN3, MOTOR2_PIN4)};
