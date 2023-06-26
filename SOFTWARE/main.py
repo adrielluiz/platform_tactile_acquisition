@@ -1,7 +1,8 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox, QAction
 from main_window import Ui_Dialog
 import sys
 from serial_port import SerialConn
+from excel import Excel
 from serial import *
 import log
 from threading import Event
@@ -31,8 +32,12 @@ class MainWin:
         self.ui.pbSendReadVar.clicked.connect(self.send_flags)
         self.ui.pbHomeX.clicked.connect(self.send_pos_home_x)
         self.ui.pbHomeZ.clicked.connect(self.send_pos_home_z)
+        self.ui.pbSaveExcel.clicked.connect(self.save_excel)
+        self.ui.pbUpdateFileName.clicked.connect(self.update_file_name)
         self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
-        self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)        
+        self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)    
+
+        self.excel = Excel()   
          
     def show(self):
         self.main_win.show()
@@ -84,11 +89,14 @@ class MainWin:
             log.logging.debug('New position x: {} z: {}'.format(x, z))
             self.ui.lcdPositionX.display(x)
             self.ui.lcdPositionZ.display(z)
+            self.excel.append_pos_x(x)
+            self.excel.append_pos_x(z)
             
         elif cmd['command'] == 'fsr':
             fsr = cmd['params']['value']
             log.logging.debug('New fsr fsr: {}'.format(fsr))
             self.ui.lcdFSR.display(fsr)
+            self.excel.append_fsr(fsr)
 
     def send_mode(self):
         if self.serial_task.is_connected:
@@ -145,7 +153,22 @@ class MainWin:
     def send_pos_z(self):
         if self.serial_task.is_connected: 
             pos_z = self.ui.verticalSliderZ.value() * 1000
-            self.txq.put(SerialCmd().set_pos("z", pos_z))                    
+            self.txq.put(SerialCmd().set_pos("z", pos_z))         
+
+    def save_excel(self):
+        self.excel.save_file()        
+        self.show_info_messagebox()         
+        sys.exit(1)   
+
+    def show_info_messagebox(self):
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Information)
+        msg.setText( f"Excel file {self.excel.filename} saved!")        
+        msg.setWindowTitle("Information")
+        msg.exec_()        
+  
+    def update_file_name(self):
+        self.excel.set_file_name(self.ui.lineEditFileName.text())
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
@@ -153,3 +176,4 @@ if __name__ == "__main__":
     main_win.update_com_ports()
     main_win.show()
     sys.exit(app.exec_())
+
