@@ -14,7 +14,7 @@ class SerialRx(Thread):
 
     def run(self):
 
-        log.logging.debug('Serial RX started')
+        log.logging.info('Serial RX started')
 
         while not self.stop.is_set():
             try:
@@ -41,7 +41,7 @@ class SerialRx(Thread):
                 log.logging.debug('RX: %s' % (cmd))
                 self.rxq.put(cmd)
            
-        log.logging.debug('Serial Rx stopped')
+        log.logging.error('Serial Rx stopped')
 
 class SerialConn(Thread):
     def __init__(self):
@@ -61,7 +61,7 @@ class SerialConn(Thread):
     def close_serial(self):
         self.rx_task.stop
         self.ser.close()    
-        log.logging.debug("Serial port closed")
+        log.logging.error("Serial port closed")
 
     def get_ports_available(self):
         ports = serial.tools.list_ports.comports()
@@ -81,7 +81,7 @@ class SerialConn(Thread):
             try:
                 n += self.ser.write(buf[n:])
             except Exception as e:
-                log.logging.debug(repr(e))
+                log.logging.error(repr(e))
                 raise Exception('Serial TX error')
 
             if n >= len(buf):
@@ -91,7 +91,7 @@ class SerialConn(Thread):
 
     def run(self):
         
-        log.logging.debug('Serial TX started')
+        log.logging.info('Serial TX started')
 
         while not self.stop.is_set():
             try:
@@ -99,9 +99,9 @@ class SerialConn(Thread):
             except Exception as e:
                 continue
 
-            log.logging.debug('TX: %s' % (cmdline))
+            log.logging.info('TX: %s' % (cmdline))
 
             self.tx_buf(cmdline)
 
         self.ser.close()
-        log.logging.debug('Serial TX stopped')
+        log.logging.error('Serial TX stopped')

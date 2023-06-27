@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox, QAction
+from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox
 from main_window import Ui_Dialog
 import sys
 from serial_port import SerialConn
@@ -24,9 +24,7 @@ class MainWin:
         self.rxq = Queue()
         self.serial_task = SerialConn()
 
-        #self.ui.comboBoxSerialPort. activated[str].connect(self.update_com_ports)
         self.ui.pbConectarSerial.clicked.connect(self.conn_serial)
-
         self.ui.pbSendMode.clicked.connect(self.send_mode)
         self.ui.pbSendFreq.clicked.connect(self.send_freq)
         self.ui.pbSendSpeed.clicked.connect(self.send_speed)
@@ -34,12 +32,15 @@ class MainWin:
         self.ui.pbHomeX.clicked.connect(self.send_pos_home_x)
         self.ui.pbHomeZ.clicked.connect(self.send_pos_home_z)
         self.ui.pbSaveExcel.clicked.connect(self.save_excel)
+        self.ui.pbRunTest.clicked.connect(self.run_exp)
         self.ui.pbUpdateFileName.clicked.connect(self.update_file_name)
+
         self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
         self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)    
 
         self.excel = Excel()   
-         
+        
+        
     def show(self):
         self.main_win.show()
 
@@ -61,9 +62,13 @@ class MainWin:
             else:
                 self.serial_task.set_init_parameters(self.serial,self.rxq, self.txq, self.stop)
                 self.serial_task.start()
+                self.exp = RunExperiment(self.txq)
                 self.ui.pbConectarSerial.setStyleSheet("background-color: lime")
                 self.recv = Thread(target=self.recv_data)
                 self.recv.start()
+
+                self.txq.put(SerialCmd().set_restart())
+                time.sleep(1)
         else:
             log.logging.error("Serial already opened")
 
@@ -83,21 +88,34 @@ class MainWin:
     def check_cmd(self,cmd):
         if 'command' not in cmd:
             return 
+        
+        tab = self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
 
         if cmd['command'] == 'position':
             x = cmd['params']['x']
             z = cmd['params']['z']
             log.logging.debug('New position x: {} z: {}'.format(x, z))
-            self.ui.lcdPositionX.display(x)
-            self.ui.lcdPositionZ.display(z)
+
+            if tab == "Test":
+                self.ui.lcdPositionX.display(x)
+                self.ui.lcdPositionZ.display(z)
+
             self.excel.append_pos_x(x)
-            self.excel.append_pos_x(z)
+            self.excel.append_pos_z(z)
             
         elif cmd['command'] == 'fsr':
             fsr = cmd['params']['value']
             log.logging.debug('New fsr fsr: {}'.format(fsr))
-            self.ui.lcdFSR.display(fsr)
+            if tab == "Test":
+                self.ui.lcdFSR.display(fsr)
+            elif tab == "Run 1":    
+                self.exp.set_fsr_read(fsr)
+            
             self.excel.append_fsr(fsr)
+
+        elif cmd['command'] == 'ok':
+            if tab == "Run 1":
+                self.exp.read_ok = True    
 
     def send_mode(self):
         if self.serial_task.is_connected:
@@ -170,6 +188,16 @@ class MainWin:
   
     def update_file_name(self):
         self.excel.set_file_name(self.ui.lineEditFileName.text())
+
+    def run_exp(self):
+        if self.serial_task.is_connected:
+            init_x  = self.ui.sbXinit.value()
+            init_z  = self.ui.sbZinit.value()
+            fsr  = self.ui.sbFSR.value()
+            num  = self.ui.sbNumTests.value()
+
+            self.exp.set_all_param(init_x, init_z, fsr, num)    
+            self.exp.run()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
