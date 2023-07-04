@@ -1,5 +1,7 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox
-from main_window import Ui_Dialog
+from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox, QListWidgetItem
+from PyQt5.QtCore import Qt, QThread, pyqtSignal
+from PyQt5.QtGui import QColor
+from main_window import Ui_MainWindow
 import sys
 from serial_port import SerialConn
 from excel import Excel
@@ -12,11 +14,14 @@ from threading import *
 import time
 from exp import RunExperiment
 
-class MainWin:
-    def __init__(self):
+class MainWin(QMainWindow):
+    work_requested = pyqtSignal()
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
         self.main_win = QMainWindow()
-        self.ui = Ui_Dialog()
+        self.ui = Ui_MainWindow()
         self.ui.setupUi(self.main_win)        
 
         self.stop = Event()
@@ -32,15 +37,24 @@ class MainWin:
         self.ui.pbHomeX.clicked.connect(self.send_pos_home_x)
         self.ui.pbHomeZ.clicked.connect(self.send_pos_home_z)
         self.ui.pbSaveExcel.clicked.connect(self.save_excel)
-        self.ui.pbRunTest.clicked.connect(self.run_exp)
+        self.ui.pbStartRun1.clicked.connect(self.run_exp)
         self.ui.pbUpdateFileName.clicked.connect(self.update_file_name)
+        self.ui.pbStopRun1.clicked.connect(self.run1_stop)
 
         self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
         self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)    
 
-        self.excel = Excel()   
+        self.excel = Excel()           
+
+        self.worker_thread = QThread()
+        self.exp = RunExperiment(self.txq, 1)
         
-        
+        self.exp.progress_bar.connect(self.run1_update_progress)
+        self.exp.msg_box.connect(self.run1_append_msg)
+        self.work_requested.connect(self.exp.run)
+
+        self.exp.moveToThread(self.worker_thread) #run1_append_msg
+       
     def show(self):
         self.main_win.show()
 
@@ -61,8 +75,8 @@ class MainWin:
                 sys.exit(1)         
             else:
                 self.serial_task.set_init_parameters(self.serial,self.rxq, self.txq, self.stop)
-                self.serial_task.start()
-                self.exp = RunExperiment(self.txq)
+                self.serial_task.start()              
+             
                 self.ui.pbConectarSerial.setStyleSheet("background-color: lime")
                 self.recv = Thread(target=self.recv_data)
                 self.recv.start()
@@ -197,8 +211,30 @@ class MainWin:
             num  = self.ui.sbNumTests.value()
 
             self.exp.set_all_param(init_x, init_z, fsr, num)    
-            self.exp.run()
+            self.worker_thread.start()
+            self.work_requested.emit()
 
+    def run1_update_progress(self, val):
+        self.ui.progressBarRun1.setValue(val)
+
+    def run1_append_msg(self, msg, type):
+        item = QListWidgetItem(msg)
+        
+        if type == 'info':
+            item.setForeground(QColor(Qt.darkGreen))
+        elif type == 'error':
+            item.setForeground(QColor(Qt.red))
+
+        if 'Running New Test' in msg:
+            item.setTextAlignment(Qt.AlignCenter)    
+        
+        self.ui.listWidgetRun1.addItem(item)
+
+    def run1_stop(self):
+        self.worker_thread.terminate()
+        self.run1_append_msg("Run 1 stopped", "error")
+
+    
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     main_win = MainWin()

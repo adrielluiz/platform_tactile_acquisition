@@ -2790,3 +2790,697 @@
 [INFO] 2023-06-27 08:37:15 TX: b'set position 2 0\n'
 [INFO] 2023-06-27 08:37:16 Test Finished!
 [INFO] 2023-06-27 08:37:16 TX: b'restart\n'
+[INFO] 2023-06-27 13:58:05 Portas COM disponíveis:
+[INFO] 2023-06-27 13:58:05 COM30
+[INFO] 2023-06-27 13:58:05 COM27
+[INFO] 2023-06-27 13:58:05 COM31
+[INFO] 2023-07-03 11:43:50 Portas COM disponíveis:
+[INFO] 2023-07-03 11:43:50 COM30
+[INFO] 2023-07-03 11:43:50 COM27
+[INFO] 2023-07-03 11:43:50 COM31
+[INFO] 2023-07-03 15:34:32 Portas COM disponíveis:
+[INFO] 2023-07-03 15:34:32 COM30
+[INFO] 2023-07-03 15:34:32 COM31
+[INFO] 2023-07-03 15:48:24 Portas COM disponíveis:
+[INFO] 2023-07-03 15:48:24 COM30
+[INFO] 2023-07-03 15:48:24 COM31
+[INFO] 2023-07-03 15:48:24 COM42
+[INFO] 2023-07-03 15:48:32 Serial RX started
+[INFO] 2023-07-03 15:48:32 Serial TX started
+[INFO] 2023-07-03 15:48:32 TX: b'restart\n'
+[INFO] 2023-07-03 15:48:39 Running New Test
+[INFO] 2023-07-03 15:48:39 Init position X: 90000
+[INFO] 2023-07-03 15:48:39 Init position z: 20000
+[INFO] 2023-07-03 15:48:39 Minimum FSR : 800
+[INFO] 2023-07-03 15:48:39 Number of executions: 3
+[INFO] 2023-07-03 15:48:39 TX: b'restart\n'
+[INFO] 2023-07-03 15:48:44 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-03 15:48:45 TX: b'set mode read\n'
+[INFO] 2023-07-03 15:48:47 TX: b'set speed 1 70\n'
+[INFO] 2023-07-03 15:48:48 TX: b'set speed 2 65\n'
+[INFO] 2023-07-03 15:48:49 TX: b'set position 1 home\n'
+[INFO] 2023-07-03 15:49:02 TX: b'set position 2 home\n'
+[INFO] 2023-07-03 15:49:06 TX: b'set position 1 90000\n'
+[INFO] 2023-07-03 15:49:52 Portas COM disponíveis:
+[INFO] 2023-07-03 15:49:52 COM30
+[INFO] 2023-07-03 15:49:52 COM31
+[INFO] 2023-07-03 15:49:52 COM42
+[INFO] 2023-07-03 15:49:56 Serial RX started
+[INFO] 2023-07-03 15:49:56 Serial TX started
+[INFO] 2023-07-03 15:49:56 TX: b'restart\n'
+[INFO] 2023-07-03 15:50:00 Running New Test
+[INFO] 2023-07-03 15:50:18 Init position X: 90000
+[INFO] 2023-07-03 15:51:10 Portas COM disponíveis:
+[INFO] 2023-07-03 15:51:10 COM30
+[INFO] 2023-07-03 15:51:10 COM31
+[INFO] 2023-07-03 15:51:10 COM42
+[INFO] 2023-07-03 15:51:23 Portas COM disponíveis:
+[INFO] 2023-07-03 15:51:23 COM30
+[INFO] 2023-07-03 15:51:23 COM31
+[INFO] 2023-07-03 15:51:23 COM42
+[INFO] 2023-07-03 15:51:27 Serial RX started
+[INFO] 2023-07-03 15:51:27 Serial TX started
+[INFO] 2023-07-03 15:51:27 TX: b'restart\n'
+[INFO] 2023-07-03 15:52:02 Portas COM disponíveis:
+[INFO] 2023-07-03 15:52:02 COM30
+[INFO] 2023-07-03 15:52:02 COM31
+[INFO] 2023-07-03 15:52:02 COM42
+[INFO] 2023-07-03 15:52:06 Serial RX started
+[INFO] 2023-07-03 15:52:06 Serial TX started
+[INFO] 2023-07-03 15:52:06 TX: b'restart\n'
+[INFO] 2023-07-03 15:52:13 Running New Test
+[INFO] 2023-07-03 15:52:13 Init position X: 90000
+[INFO] 2023-07-03 15:52:13 Init position z: 20000
+[INFO] 2023-07-03 15:52:13 Minimum FSR : 800
+[INFO] 2023-07-03 15:52:13 Number of executions: 3
+[INFO] 2023-07-03 15:52:13 TX: b'restart\n'
+[INFO] 2023-07-03 15:52:18 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-03 15:52:19 TX: b'set mode read\n'
+[INFO] 2023-07-03 15:52:20 TX: b'set speed 1 70\n'
+[INFO] 2023-07-03 15:52:21 TX: b'set speed 2 65\n'
+[INFO] 2023-07-03 15:52:22 TX: b'set position 1 home\n'
+[INFO] 2023-07-03 16:06:39 Portas COM disponíveis:
+[INFO] 2023-07-03 16:06:39 COM30
+[INFO] 2023-07-03 16:06:39 COM31
+[INFO] 2023-07-03 16:06:39 COM42
+[INFO] 2023-07-03 16:06:44 Serial RX started
+[INFO] 2023-07-03 16:06:44 Serial TX started
+[INFO] 2023-07-03 16:06:44 TX: b'restart\n'
+[INFO] 2023-07-03 16:06:55 Running New Test
+[INFO] 2023-07-03 16:06:55 Init position X: 90000
+[INFO] 2023-07-03 16:06:55 Init position z: 20000
+[INFO] 2023-07-03 16:06:55 Minimum FSR : 800
+[INFO] 2023-07-03 16:06:55 Number of executions: 3
+[INFO] 2023-07-03 16:06:55 TX: b'restart\n'
+[INFO] 2023-07-03 16:07:00 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-03 16:07:01 TX: b'set mode read\n'
+[INFO] 2023-07-03 16:07:02 TX: b'set speed 1 70\n'
+[INFO] 2023-07-03 16:07:03 TX: b'set speed 2 65\n'
+[INFO] 2023-07-03 16:07:04 TX: b'set position 1 home\n'
+[INFO] 2023-07-03 16:08:32 Portas COM disponíveis:
+[INFO] 2023-07-03 16:08:32 COM30
+[INFO] 2023-07-03 16:08:32 COM31
+[INFO] 2023-07-03 16:08:32 COM42
+[INFO] 2023-07-03 16:08:35 Serial RX started
+[INFO] 2023-07-03 16:08:35 Serial TX started
+[INFO] 2023-07-03 16:08:35 TX: b'restart\n'
+[INFO] 2023-07-03 16:08:38 Running New Test
+[INFO] 2023-07-03 16:20:06 Portas COM disponíveis:
+[INFO] 2023-07-03 16:20:06 COM30
+[INFO] 2023-07-03 16:20:06 COM31
+[INFO] 2023-07-03 16:20:06 COM42
+[INFO] 2023-07-03 16:20:08 Serial RX started
+[INFO] 2023-07-03 16:20:12 Serial TX started
+[INFO] 2023-07-03 16:25:11 Portas COM disponíveis:
+[INFO] 2023-07-03 16:25:11 COM30
+[INFO] 2023-07-03 16:25:11 COM31
+[INFO] 2023-07-03 16:25:11 COM42
+[INFO] 2023-07-03 16:25:24 Portas COM disponíveis:
+[INFO] 2023-07-03 16:25:24 COM30
+[INFO] 2023-07-03 16:25:24 COM31
+[INFO] 2023-07-03 16:25:24 COM42
+[INFO] 2023-07-03 16:25:27 Serial RX started
+[INFO] 2023-07-03 16:25:32 Serial TX started
+[INFO] 2023-07-03 16:29:31 Portas COM disponíveis:
+[INFO] 2023-07-03 16:29:31 COM30
+[INFO] 2023-07-03 16:29:31 COM31
+[INFO] 2023-07-03 16:29:31 COM42
+[INFO] 2023-07-03 16:29:44 Portas COM disponíveis:
+[INFO] 2023-07-03 16:29:44 COM30
+[INFO] 2023-07-03 16:29:44 COM31
+[INFO] 2023-07-03 16:29:44 COM42
+[INFO] 2023-07-03 16:29:47 Serial RX started
+[INFO] 2023-07-03 16:29:47 Serial TX started
+[INFO] 2023-07-04 08:11:49 Portas COM disponíveis:
+[INFO] 2023-07-04 08:11:49 COM30
+[INFO] 2023-07-04 08:11:49 COM31
+[INFO] 2023-07-04 08:35:40 Portas COM disponíveis:
+[INFO] 2023-07-04 08:35:40 COM30
+[INFO] 2023-07-04 08:35:40 COM31
+[INFO] 2023-07-04 08:35:40 COM1
+[INFO] 2023-07-04 08:35:40 COM2
+[INFO] 2023-07-04 08:35:58 Serial TX started
+[INFO] 2023-07-04 08:35:58 Serial RX started
+[INFO] 2023-07-04 08:35:58 TX: b'restart\n'
+[INFO] 2023-07-04 08:36:47 Portas COM disponíveis:
+[INFO] 2023-07-04 08:36:47 COM30
+[INFO] 2023-07-04 08:36:47 COM31
+[INFO] 2023-07-04 08:36:47 COM1
+[INFO] 2023-07-04 08:36:47 COM2
+[INFO] 2023-07-04 08:36:53 Serial RX started
+[INFO] 2023-07-04 08:36:53 Serial TX started
+[INFO] 2023-07-04 08:36:53 TX: b'restart\n'
+[INFO] 2023-07-04 08:38:30 Portas COM disponíveis:
+[INFO] 2023-07-04 08:38:30 COM30
+[INFO] 2023-07-04 08:38:30 COM31
+[INFO] 2023-07-04 08:38:30 COM1
+[INFO] 2023-07-04 08:38:30 COM2
+[INFO] 2023-07-04 08:38:33 Serial RX started
+[INFO] 2023-07-04 08:38:33 Serial TX started
+[INFO] 2023-07-04 08:38:33 TX: b'restart\n'
+[INFO] 2023-07-04 08:41:33 Portas COM disponíveis:
+[INFO] 2023-07-04 08:41:33 COM30
+[INFO] 2023-07-04 08:41:33 COM31
+[INFO] 2023-07-04 08:41:33 COM1
+[INFO] 2023-07-04 08:41:33 COM2
+[INFO] 2023-07-04 08:41:38 Serial RX started
+[INFO] 2023-07-04 08:41:38 Serial TX started
+[INFO] 2023-07-04 08:41:38 TX: b'restart\n'
+[INFO] 2023-07-04 08:44:46 Portas COM disponíveis:
+[INFO] 2023-07-04 08:44:46 COM30
+[INFO] 2023-07-04 08:44:46 COM31
+[INFO] 2023-07-04 08:44:46 COM1
+[INFO] 2023-07-04 08:44:46 COM2
+[INFO] 2023-07-04 08:44:50 Serial RX started
+[INFO] 2023-07-04 08:44:50 Serial TX started
+[INFO] 2023-07-04 08:44:50 TX: b'restart\n'
+[INFO] 2023-07-04 08:51:03 Portas COM disponíveis:
+[INFO] 2023-07-04 08:51:03 COM30
+[INFO] 2023-07-04 08:51:03 COM31
+[INFO] 2023-07-04 08:51:03 COM1
+[INFO] 2023-07-04 08:51:03 COM2
+[INFO] 2023-07-04 08:51:07 Serial RX started
+[INFO] 2023-07-04 08:51:07 Serial TX started
+[INFO] 2023-07-04 08:51:07 TX: b'restart\n'
+[INFO] 2023-07-04 08:51:13 Running New Test
+[INFO] 2023-07-04 08:51:13 Init position X: 90000
+[INFO] 2023-07-04 08:51:13 Init position z: 20000
+[INFO] 2023-07-04 08:51:13 Minimum FSR : 800
+[INFO] 2023-07-04 08:51:13 Number of executions: 3
+[INFO] 2023-07-04 08:51:13 TX: b'restart\n'
+[INFO] 2023-07-04 08:51:18 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 08:51:23 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 08:51:23 TX: b'set mode read\n'
+[ERROR] 2023-07-04 08:51:28 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 08:51:28 TX: b'set speed 1 70\n'
+[ERROR] 2023-07-04 08:51:33 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2023-07-04 08:51:33 TX: b'set speed 2 65\n'
+[ERROR] 2023-07-04 08:51:38 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2023-07-04 08:51:38 TX: b'set position 1 home\n'
+[ERROR] 2023-07-04 08:51:58 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2023-07-04 08:51:58 TX: b'set position 2 home\n'
+[ERROR] 2023-07-04 08:52:18 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2023-07-04 08:52:18 TX: b'set position 1 90000\n'
+[ERROR] 2023-07-04 08:52:38 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2023-07-04 08:52:38 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 08:52:58 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 08:52:58 Running experiment 1 of 3
+[INFO] 2023-07-04 08:52:58 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 08:53:03 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 08:53:03 Running experiment 2 of 3
+[INFO] 2023-07-04 08:53:03 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 08:53:08 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 08:53:08 Running experiment 3 of 3
+[INFO] 2023-07-04 08:53:08 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 08:53:13 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 08:53:13 TX: b'set position 1 0\n'
+[INFO] 2023-07-04 09:05:53 Portas COM disponíveis:
+[INFO] 2023-07-04 09:05:53 COM30
+[INFO] 2023-07-04 09:05:53 COM31
+[INFO] 2023-07-04 09:05:53 COM1
+[INFO] 2023-07-04 09:05:53 COM2
+[INFO] 2023-07-04 09:05:57 Serial RX started
+[INFO] 2023-07-04 09:05:57 Serial TX started
+[INFO] 2023-07-04 09:05:57 TX: b'restart\n'
+[INFO] 2023-07-04 09:06:00 Running New Test
+[INFO] 2023-07-04 09:06:39 Portas COM disponíveis:
+[INFO] 2023-07-04 09:06:39 COM30
+[INFO] 2023-07-04 09:06:39 COM31
+[INFO] 2023-07-04 09:06:39 COM1
+[INFO] 2023-07-04 09:06:39 COM2
+[INFO] 2023-07-04 09:06:42 Serial RX started
+[INFO] 2023-07-04 09:06:42 Serial TX started
+[INFO] 2023-07-04 09:06:42 TX: b'restart\n'
+[INFO] 2023-07-04 09:06:44 Running New Test
+[INFO] 2023-07-04 09:06:44 Init position X: 90000
+[INFO] 2023-07-04 09:06:44 Init position z: 20000
+[INFO] 2023-07-04 09:06:44 Minimum FSR : 800
+[INFO] 2023-07-04 09:06:44 Number of executions: 3
+[INFO] 2023-07-04 09:06:44 TX: b'restart\n'
+[INFO] 2023-07-04 09:06:49 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:06:54 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:06:54 TX: b'set mode read\n'
+[INFO] 2023-07-04 09:07:28 Portas COM disponíveis:
+[INFO] 2023-07-04 09:07:28 COM30
+[INFO] 2023-07-04 09:07:28 COM31
+[INFO] 2023-07-04 09:07:28 COM1
+[INFO] 2023-07-04 09:07:28 COM2
+[INFO] 2023-07-04 09:07:33 Serial RX started
+[INFO] 2023-07-04 09:07:33 Serial TX started
+[INFO] 2023-07-04 09:07:33 TX: b'restart\n'
+[INFO] 2023-07-04 09:07:42 Running New Test
+[INFO] 2023-07-04 09:08:59 Portas COM disponíveis:
+[INFO] 2023-07-04 09:08:59 COM30
+[INFO] 2023-07-04 09:08:59 COM31
+[INFO] 2023-07-04 09:08:59 COM1
+[INFO] 2023-07-04 09:08:59 COM2
+[INFO] 2023-07-04 09:09:01 Serial RX started
+[INFO] 2023-07-04 09:09:01 Serial TX started
+[INFO] 2023-07-04 09:09:01 TX: b'restart\n'
+[INFO] 2023-07-04 09:09:03 Running New Test
+[INFO] 2023-07-04 09:09:03 Init position X: 90000
+[INFO] 2023-07-04 09:09:03 Init position z: 20000
+[INFO] 2023-07-04 09:09:03 Minimum FSR : 800
+[INFO] 2023-07-04 09:09:03 Number of executions: 3
+[INFO] 2023-07-04 09:09:03 TX: b'restart\n'
+[INFO] 2023-07-04 09:09:08 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:09:13 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:09:13 TX: b'set mode read\n'
+[INFO] 2023-07-04 09:10:37 Portas COM disponíveis:
+[INFO] 2023-07-04 09:10:37 COM30
+[INFO] 2023-07-04 09:10:37 COM31
+[INFO] 2023-07-04 09:10:37 COM1
+[INFO] 2023-07-04 09:10:37 COM2
+[INFO] 2023-07-04 09:10:50 Portas COM disponíveis:
+[INFO] 2023-07-04 09:10:50 COM30
+[INFO] 2023-07-04 09:10:50 COM31
+[INFO] 2023-07-04 09:10:50 COM1
+[INFO] 2023-07-04 09:10:50 COM2
+[INFO] 2023-07-04 09:10:52 Serial RX started
+[INFO] 2023-07-04 09:10:52 Serial TX started
+[INFO] 2023-07-04 09:10:52 TX: b'restart\n'
+[INFO] 2023-07-04 09:10:55 Running New Test
+[INFO] 2023-07-04 09:10:55 Init position X: 90000
+[INFO] 2023-07-04 09:10:55 Init position z: 20000
+[INFO] 2023-07-04 09:10:55 Minimum FSR : 800
+[INFO] 2023-07-04 09:10:55 Number of executions: 3
+[INFO] 2023-07-04 09:10:55 TX: b'restart\n'
+[INFO] 2023-07-04 09:11:00 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:11:22 Portas COM disponíveis:
+[INFO] 2023-07-04 09:11:22 COM30
+[INFO] 2023-07-04 09:11:22 COM31
+[INFO] 2023-07-04 09:11:22 COM1
+[INFO] 2023-07-04 09:11:22 COM2
+[INFO] 2023-07-04 09:11:24 Serial RX started
+[INFO] 2023-07-04 09:11:24 Serial TX started
+[INFO] 2023-07-04 09:11:24 TX: b'restart\n'
+[INFO] 2023-07-04 09:11:26 Running New Test
+[INFO] 2023-07-04 09:11:26 Init position X: 90000
+[INFO] 2023-07-04 09:11:26 Init position z: 20000
+[INFO] 2023-07-04 09:11:26 Minimum FSR : 800
+[INFO] 2023-07-04 09:11:26 Number of executions: 3
+[INFO] 2023-07-04 09:11:26 TX: b'restart\n'
+[INFO] 2023-07-04 09:11:31 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:11:36 Portas COM disponíveis:
+[INFO] 2023-07-04 09:11:36 COM30
+[INFO] 2023-07-04 09:11:36 COM31
+[INFO] 2023-07-04 09:11:36 COM1
+[INFO] 2023-07-04 09:11:36 COM2
+[INFO] 2023-07-04 09:12:12 Portas COM disponíveis:
+[INFO] 2023-07-04 09:12:12 COM30
+[INFO] 2023-07-04 09:12:12 COM31
+[INFO] 2023-07-04 09:12:12 COM1
+[INFO] 2023-07-04 09:12:12 COM2
+[INFO] 2023-07-04 09:12:15 Serial RX started
+[INFO] 2023-07-04 09:12:15 Serial TX started
+[INFO] 2023-07-04 09:12:15 TX: b'restart\n'
+[INFO] 2023-07-04 09:12:17 Running New Test
+[INFO] 2023-07-04 09:12:17 Init position X: 90000
+[INFO] 2023-07-04 09:12:17 Init position z: 20000
+[INFO] 2023-07-04 09:12:17 Minimum FSR : 800
+[INFO] 2023-07-04 09:12:17 Number of executions: 3
+[INFO] 2023-07-04 09:12:17 TX: b'restart\n'
+[INFO] 2023-07-04 09:12:22 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:12:46 Portas COM disponíveis:
+[INFO] 2023-07-04 09:12:46 COM30
+[INFO] 2023-07-04 09:12:46 COM31
+[INFO] 2023-07-04 09:12:46 COM1
+[INFO] 2023-07-04 09:12:46 COM2
+[INFO] 2023-07-04 09:12:48 Serial RX started
+[INFO] 2023-07-04 09:12:48 Serial TX started
+[INFO] 2023-07-04 09:12:48 TX: b'restart\n'
+[INFO] 2023-07-04 09:12:50 Running New Test
+[INFO] 2023-07-04 09:12:50 Init position X: 90000
+[INFO] 2023-07-04 09:12:50 Init position z: 20000
+[INFO] 2023-07-04 09:12:50 Minimum FSR : 800
+[INFO] 2023-07-04 09:12:50 Number of executions: 3
+[INFO] 2023-07-04 09:12:50 TX: b'restart\n'
+[INFO] 2023-07-04 09:14:10 Portas COM disponíveis:
+[INFO] 2023-07-04 09:14:10 COM30
+[INFO] 2023-07-04 09:14:10 COM31
+[INFO] 2023-07-04 09:14:10 COM1
+[INFO] 2023-07-04 09:14:10 COM2
+[INFO] 2023-07-04 09:14:13 Serial RX started
+[INFO] 2023-07-04 09:14:13 Serial TX started
+[INFO] 2023-07-04 09:14:13 TX: b'restart\n'
+[INFO] 2023-07-04 09:14:14 Running New Test
+[INFO] 2023-07-04 09:14:14 Init position X: 90000
+[INFO] 2023-07-04 09:14:14 Init position z: 20000
+[INFO] 2023-07-04 09:14:14 Minimum FSR : 800
+[INFO] 2023-07-04 09:14:14 Number of executions: 3
+[INFO] 2023-07-04 09:14:14 TX: b'restart\n'
+[INFO] 2023-07-04 09:17:25 Portas COM disponíveis:
+[INFO] 2023-07-04 09:17:25 COM30
+[INFO] 2023-07-04 09:17:25 COM31
+[INFO] 2023-07-04 09:17:25 COM1
+[INFO] 2023-07-04 09:17:25 COM2
+[INFO] 2023-07-04 09:17:27 Serial RX started
+[INFO] 2023-07-04 09:17:27 Serial TX started
+[INFO] 2023-07-04 09:17:27 TX: b'restart\n'
+[INFO] 2023-07-04 09:17:30 Running New Test
+[INFO] 2023-07-04 09:17:30 Init position X: 90000
+[INFO] 2023-07-04 09:17:30 Init position z: 20000
+[INFO] 2023-07-04 09:17:30 Minimum FSR : 800
+[INFO] 2023-07-04 09:17:30 Number of executions: 3
+[INFO] 2023-07-04 09:17:30 TX: b'restart\n'
+[INFO] 2023-07-04 09:17:35 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:17:40 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:17:40 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:17:45 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:17:45 TX: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:19:12 Portas COM disponíveis:
+[INFO] 2023-07-04 09:19:12 COM30
+[INFO] 2023-07-04 09:19:12 COM31
+[INFO] 2023-07-04 09:19:12 COM1
+[INFO] 2023-07-04 09:19:12 COM2
+[INFO] 2023-07-04 09:19:15 Serial RX started
+[INFO] 2023-07-04 09:19:15 Serial TX started
+[INFO] 2023-07-04 09:19:15 TX: b'restart\n'
+[INFO] 2023-07-04 09:19:17 Running New Test
+[INFO] 2023-07-04 09:19:17 Init position X: 90000
+[INFO] 2023-07-04 09:19:17 Init position z: 20000
+[INFO] 2023-07-04 09:19:17 Minimum FSR : 800
+[INFO] 2023-07-04 09:19:17 Number of executions: 3
+[INFO] 2023-07-04 09:19:17 TX: b'restart\n'
+[INFO] 2023-07-04 09:19:22 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:19:27 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:19:27 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:19:32 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:19:32 TX: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:22:11 Portas COM disponíveis:
+[INFO] 2023-07-04 09:22:11 COM30
+[INFO] 2023-07-04 09:22:11 COM31
+[INFO] 2023-07-04 09:22:11 COM1
+[INFO] 2023-07-04 09:22:11 COM2
+[INFO] 2023-07-04 09:22:14 Serial RX started
+[INFO] 2023-07-04 09:22:14 Serial TX started
+[INFO] 2023-07-04 09:22:14 TX: b'restart\n'
+[INFO] 2023-07-04 09:22:16 Running New Test
+[INFO] 2023-07-04 09:22:16 Init position X: 90000
+[INFO] 2023-07-04 09:22:16 Init position z: 20000
+[INFO] 2023-07-04 09:22:16 Minimum FSR : 800
+[INFO] 2023-07-04 09:22:16 Number of executions: 3
+[INFO] 2023-07-04 09:22:16 TX: b'restart\n'
+[INFO] 2023-07-04 09:22:21 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:22:26 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:22:26 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:22:31 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:22:31 TX: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:22:45 Portas COM disponíveis:
+[INFO] 2023-07-04 09:22:45 COM30
+[INFO] 2023-07-04 09:22:45 COM31
+[INFO] 2023-07-04 09:22:45 COM1
+[INFO] 2023-07-04 09:22:45 COM2
+[INFO] 2023-07-04 09:22:48 Serial RX started
+[INFO] 2023-07-04 09:22:48 Serial TX started
+[INFO] 2023-07-04 09:22:48 TX: b'restart\n'
+[INFO] 2023-07-04 09:22:50 --Running New Test--
+[INFO] 2023-07-04 09:22:50 Init position X: 90000
+[INFO] 2023-07-04 09:22:50 Init position z: 20000
+[INFO] 2023-07-04 09:22:50 Minimum FSR : 800
+[INFO] 2023-07-04 09:22:50 Number of executions: 3
+[INFO] 2023-07-04 09:22:50 TX: b'restart\n'
+[INFO] 2023-07-04 09:22:55 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:23:00 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:23:00 TX: b'set mode read\n'
+[INFO] 2023-07-04 09:23:16 Portas COM disponíveis:
+[INFO] 2023-07-04 09:23:16 COM30
+[INFO] 2023-07-04 09:23:16 COM31
+[INFO] 2023-07-04 09:23:16 COM1
+[INFO] 2023-07-04 09:23:16 COM2
+[INFO] 2023-07-04 09:23:18 Serial RX started
+[INFO] 2023-07-04 09:23:18 Serial TX started
+[INFO] 2023-07-04 09:23:18 TX: b'restart\n'
+[INFO] 2023-07-04 09:23:20 --------Running New Test--------
+[INFO] 2023-07-04 09:23:20 Init position X: 90000
+[INFO] 2023-07-04 09:23:20 Init position z: 20000
+[INFO] 2023-07-04 09:23:20 Minimum FSR : 800
+[INFO] 2023-07-04 09:23:20 Number of executions: 3
+[INFO] 2023-07-04 09:23:20 TX: b'restart\n'
+[INFO] 2023-07-04 09:23:34 Portas COM disponíveis:
+[INFO] 2023-07-04 09:23:34 COM30
+[INFO] 2023-07-04 09:23:34 COM31
+[INFO] 2023-07-04 09:23:34 COM1
+[INFO] 2023-07-04 09:23:34 COM2
+[INFO] 2023-07-04 09:23:37 Serial RX started
+[INFO] 2023-07-04 09:23:37 Serial TX started
+[INFO] 2023-07-04 09:23:37 TX: b'restart\n'
+[INFO] 2023-07-04 09:23:39 -------- Running New Test --------
+[INFO] 2023-07-04 09:23:39 Init position X: 90000
+[INFO] 2023-07-04 09:23:39 Init position z: 20000
+[INFO] 2023-07-04 09:23:39 Minimum FSR : 800
+[INFO] 2023-07-04 09:23:39 Number of executions: 3
+[INFO] 2023-07-04 09:23:39 TX: b'restart\n'
+[INFO] 2023-07-04 09:23:44 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:23:49 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:23:49 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:23:54 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:23:54 TX: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:24:07 Portas COM disponíveis:
+[INFO] 2023-07-04 09:24:07 COM30
+[INFO] 2023-07-04 09:24:07 COM31
+[INFO] 2023-07-04 09:24:07 COM1
+[INFO] 2023-07-04 09:24:07 COM2
+[INFO] 2023-07-04 09:24:11 Serial RX started
+[INFO] 2023-07-04 09:24:11 Serial TX started
+[INFO] 2023-07-04 09:24:11 TX: b'restart\n'
+[INFO] 2023-07-04 09:24:13 -------- Running New Test --------
+[INFO] 2023-07-04 09:24:13 Init position X: 90000
+[INFO] 2023-07-04 09:24:13 Init position z: 20000
+[INFO] 2023-07-04 09:24:13 Minimum FSR : 800
+[INFO] 2023-07-04 09:24:13 Number of executions: 3
+
+[INFO] 2023-07-04 09:24:13 TX: b'restart\n'
+[INFO] 2023-07-04 09:24:18 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:24:23 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:24:23 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:24:28 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:24:28 TX: b'set speed 1 70\n'
+[ERROR] 2023-07-04 09:24:33 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:24:33 TX: b'set speed 2 65\n'
+[ERROR] 2023-07-04 09:24:38 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2023-07-04 09:24:38 TX: b'set position 1 home\n'
+[ERROR] 2023-07-04 09:24:58 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2023-07-04 09:24:58 TX: b'set position 2 home\n'
+[ERROR] 2023-07-04 09:25:18 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2023-07-04 09:25:18 TX: b'set position 1 90000\n'
+[ERROR] 2023-07-04 09:25:38 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2023-07-04 09:25:38 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:25:58 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:25:58 Running experiment 1 of 3
+[INFO] 2023-07-04 09:25:58 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:26:03 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:26:03 Running experiment 2 of 3
+[INFO] 2023-07-04 09:26:03 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:26:08 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:26:08 Running experiment 3 of 3
+[INFO] 2023-07-04 09:26:08 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:26:13 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:26:13 TX: b'set position 1 0\n'
+[ERROR] 2023-07-04 09:26:33 Timeout in cmd: b'set position 1 0\n'
+[INFO] 2023-07-04 09:26:33 TX: b'set position 2 0\n'
+[ERROR] 2023-07-04 09:26:53 Timeout in cmd: b'set position 2 0\n'
+[INFO] 2023-07-04 09:26:53 Test Finished!
+[INFO] 2023-07-04 09:26:53 TX: b'restart\n'
+[INFO] 2023-07-04 09:31:10 Portas COM disponíveis:
+[INFO] 2023-07-04 09:31:10 COM30
+[INFO] 2023-07-04 09:31:10 COM31
+[INFO] 2023-07-04 09:31:10 COM1
+[INFO] 2023-07-04 09:31:10 COM2
+[INFO] 2023-07-04 09:31:14 Serial RX started
+[INFO] 2023-07-04 09:31:14 Serial TX started
+[INFO] 2023-07-04 09:31:14 TX: b'restart\n'
+[INFO] 2023-07-04 09:31:15 -------- Running New Test --------
+[INFO] 2023-07-04 09:31:15 Init position X: 90000
+[INFO] 2023-07-04 09:31:15 Init position z: 20000
+[INFO] 2023-07-04 09:31:15 Minimum FSR : 800
+[INFO] 2023-07-04 09:31:15 Number of executions: 3
+
+[INFO] 2023-07-04 09:31:15 TX: b'restart\n'
+[INFO] 2023-07-04 09:31:53 Portas COM disponíveis:
+[INFO] 2023-07-04 09:31:53 COM30
+[INFO] 2023-07-04 09:31:53 COM31
+[INFO] 2023-07-04 09:31:53 COM1
+[INFO] 2023-07-04 09:31:53 COM2
+[INFO] 2023-07-04 09:31:56 Serial RX started
+[INFO] 2023-07-04 09:31:56 Serial TX started
+[INFO] 2023-07-04 09:31:56 TX: b'restart\n'
+[INFO] 2023-07-04 09:31:58 -------- Running New Test --------
+[INFO] 2023-07-04 09:31:58 Init position X: 90000
+[INFO] 2023-07-04 09:31:58 Init position z: 20000
+[INFO] 2023-07-04 09:31:58 Minimum FSR : 800
+[INFO] 2023-07-04 09:31:58 Number of executions: 3
+
+[INFO] 2023-07-04 09:31:58 TX: b'restart\n'
+[INFO] 2023-07-04 09:32:03 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:32:08 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:32:08 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:32:13 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:32:13 TX: b'set speed 1 70\n'
+[ERROR] 2023-07-04 09:32:18 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:32:18 TX: b'set speed 2 65\n'
+[ERROR] 2023-07-04 09:32:23 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2023-07-04 09:32:23 TX: b'set position 1 home\n'
+[ERROR] 2023-07-04 09:32:43 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2023-07-04 09:32:43 TX: b'set position 2 home\n'
+[ERROR] 2023-07-04 09:33:03 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2023-07-04 09:33:03 TX: b'set position 1 90000\n'
+[ERROR] 2023-07-04 09:33:23 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2023-07-04 09:33:23 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:33:43 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:33:43 Running experiment 1 of 3
+[INFO] 2023-07-04 09:33:43 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:33:48 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:33:48 Running experiment 2 of 3
+[INFO] 2023-07-04 09:33:48 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:33:53 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:33:53 Running experiment 3 of 3
+[INFO] 2023-07-04 09:33:53 TX: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:34:51 Portas COM disponíveis:
+[INFO] 2023-07-04 09:34:51 COM30
+[INFO] 2023-07-04 09:34:51 COM31
+[INFO] 2023-07-04 09:34:51 COM1
+[INFO] 2023-07-04 09:34:51 COM2
+[INFO] 2023-07-04 09:34:53 Serial RX started
+[INFO] 2023-07-04 09:34:53 Serial TX started
+[INFO] 2023-07-04 09:34:53 TX: b'restart\n'
+[INFO] 2023-07-04 09:34:54 -------- Running New Test --------
+[INFO] 2023-07-04 09:34:54 Init position X: 90000
+[INFO] 2023-07-04 09:34:54 Init position z: 20000
+[INFO] 2023-07-04 09:34:54 Minimum FSR : 800
+[INFO] 2023-07-04 09:34:54 Number of executions: 3
+
+[INFO] 2023-07-04 09:34:54 TX: b'restart\n'
+[INFO] 2023-07-04 09:34:59 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:35:04 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:35:04 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:35:09 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:35:09 TX: b'set speed 1 70\n'
+[ERROR] 2023-07-04 09:35:14 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:35:14 TX: b'set speed 2 65\n'
+[ERROR] 2023-07-04 09:35:19 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2023-07-04 09:35:19 TX: b'set position 1 home\n'
+[ERROR] 2023-07-04 09:35:39 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2023-07-04 09:35:39 TX: b'set position 2 home\n'
+[ERROR] 2023-07-04 09:35:59 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2023-07-04 09:35:59 TX: b'set position 1 90000\n'
+[ERROR] 2023-07-04 09:36:19 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2023-07-04 09:36:19 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:36:40 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:36:40 Running experiment 1 of 3
+[INFO] 2023-07-04 09:36:40 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:36:45 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:36:45 Running experiment 2 of 3
+[INFO] 2023-07-04 09:36:45 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:36:50 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:36:50 Running experiment 3 of 3
+[INFO] 2023-07-04 09:36:50 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:36:55 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:36:55 TX: b'set position 1 0\n'
+[INFO] 2023-07-04 09:37:32 Portas COM disponíveis:
+[INFO] 2023-07-04 09:37:32 COM30
+[INFO] 2023-07-04 09:37:32 COM31
+[INFO] 2023-07-04 09:37:32 COM1
+[INFO] 2023-07-04 09:37:32 COM2
+[INFO] 2023-07-04 09:37:34 Serial RX started
+[INFO] 2023-07-04 09:37:34 Serial TX started
+[INFO] 2023-07-04 09:37:34 TX: b'restart\n'
+[INFO] 2023-07-04 09:37:36 -------- Running New Test --------
+[INFO] 2023-07-04 09:37:36 Init position X: 90000
+[INFO] 2023-07-04 09:37:36 Init position z: 20000
+[INFO] 2023-07-04 09:37:36 Minimum FSR : 800
+[INFO] 2023-07-04 09:37:36 Number of executions: 3
+
+[INFO] 2023-07-04 09:37:36 TX: b'restart\n'
+[INFO] 2023-07-04 09:37:41 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2023-07-04 09:37:46 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:37:46 TX: b'set mode read\n'
+[ERROR] 2023-07-04 09:37:51 Timeout in cmd: b'set mode read\n'
+[INFO] 2023-07-04 09:37:51 TX: b'set speed 1 70\n'
+[ERROR] 2023-07-04 09:37:56 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2023-07-04 09:37:56 TX: b'set speed 2 65\n'
+[ERROR] 2023-07-04 09:38:01 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2023-07-04 09:38:01 TX: b'set position 1 home\n'
+[ERROR] 2023-07-04 09:38:21 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2023-07-04 09:38:21 TX: b'set position 2 home\n'
+[ERROR] 2023-07-04 09:38:41 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2023-07-04 09:38:41 TX: b'set position 1 90000\n'
+[ERROR] 2023-07-04 09:39:01 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2023-07-04 09:39:01 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:39:21 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:39:21 Running experiment 1 of 3
+[INFO] 2023-07-04 09:39:21 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:39:26 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:39:26 Running experiment 2 of 3
+[INFO] 2023-07-04 09:39:26 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:39:31 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:39:31 Running experiment 3 of 3
+[INFO] 2023-07-04 09:39:31 TX: b'set position 2 20000\n'
+[ERROR] 2023-07-04 09:39:36 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2023-07-04 09:39:36 TX: b'set position 1 0\n'
+[INFO] 2023-07-04 09:44:02 Portas COM disponíveis:
+[INFO] 2023-07-04 09:44:02 COM30
+[INFO] 2023-07-04 09:44:02 COM31
+[INFO] 2023-07-04 09:44:02 COM1
+[INFO] 2023-07-04 09:44:02 COM2
+[INFO] 2023-07-04 09:44:06 Serial RX started
+[INFO] 2023-07-04 09:44:06 Serial TX started
+[INFO] 2023-07-04 09:44:06 TX: b'restart\n'
+[INFO] 2023-07-04 09:44:10 -------- Running New Test --------
+[INFO] 2023-07-04 09:44:10 Init position X: 90000
+[INFO] 2023-07-04 09:44:10 Init position z: 20000
+[INFO] 2023-07-04 09:44:10 Minimum FSR : 800
+[INFO] 2023-07-04 09:44:10 Number of executions: 3
+
+[INFO] 2023-07-04 09:44:10 TX: b'restart\n'
+[INFO] 2023-07-04 09:44:15 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:46:03 Portas COM disponíveis:
+[INFO] 2023-07-04 09:46:03 COM30
+[INFO] 2023-07-04 09:46:03 COM31
+[INFO] 2023-07-04 09:46:03 COM1
+[INFO] 2023-07-04 09:46:03 COM2
+[INFO] 2023-07-04 09:46:06 Serial RX started
+[INFO] 2023-07-04 09:46:06 Serial TX started
+[INFO] 2023-07-04 09:46:06 TX: b'restart\n'
+[INFO] 2023-07-04 09:46:08 -------- Running New Test --------
+[INFO] 2023-07-04 09:46:08 Init position X: 90000
+[INFO] 2023-07-04 09:46:08 Init position z: 20000
+[INFO] 2023-07-04 09:46:08 Minimum FSR : 800
+[INFO] 2023-07-04 09:46:08 Number of executions: 3
+
+[INFO] 2023-07-04 09:46:08 TX: b'restart\n'
+[INFO] 2023-07-04 09:46:13 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:47:16 Portas COM disponíveis:
+[INFO] 2023-07-04 09:47:16 COM30
+[INFO] 2023-07-04 09:47:16 COM31
+[INFO] 2023-07-04 09:47:16 COM1
+[INFO] 2023-07-04 09:47:16 COM2
+[INFO] 2023-07-04 09:47:21 Serial RX started
+[INFO] 2023-07-04 09:47:21 Serial TX started
+[INFO] 2023-07-04 09:47:21 TX: b'restart\n'
+[INFO] 2023-07-04 09:47:23 -------- Running New Test --------
+[INFO] 2023-07-04 09:47:23 Init position X: 90000
+[INFO] 2023-07-04 09:47:23 Init position z: 20000
+[INFO] 2023-07-04 09:47:23 Minimum FSR : 800
+[INFO] 2023-07-04 09:47:23 Number of executions: 3
+
+[INFO] 2023-07-04 09:47:23 TX: b'restart\n'
+[INFO] 2023-07-04 09:47:28 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 09:47:35 -------- Running New Test --------
+[INFO] 2023-07-04 09:47:35 Init position X: 90000
+[INFO] 2023-07-04 09:47:35 Init position z: 20000
+[INFO] 2023-07-04 09:47:35 Minimum FSR : 800
+[INFO] 2023-07-04 09:47:35 Number of executions: 3
+
+[INFO] 2023-07-04 09:47:35 TX: b'restart\n'
+[INFO] 2023-07-04 09:47:40 TX: b'set flags 1 0 1 1\n'
+[INFO] 2023-07-04 10:00:54 Portas COM disponíveis:
+[INFO] 2023-07-04 10:00:54 COM30
+[INFO] 2023-07-04 10:00:54 COM31
+[INFO] 2023-07-04 10:00:54 COM1
+[INFO] 2023-07-04 10:00:54 COM2
+[INFO] 2023-07-04 10:01:23 Portas COM disponíveis:
+[INFO] 2023-07-04 10:01:23 COM30
+[INFO] 2023-07-04 10:01:23 COM31
+[INFO] 2023-07-04 10:01:23 COM1
+[INFO] 2023-07-04 10:01:23 COM2

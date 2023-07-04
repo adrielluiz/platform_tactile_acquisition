@@ -1,3 +1,4 @@
 Converter ui para py:
 
 pyuic5 -o main_window.py main_window.ui   
+pyuic5 -o main_window.py main_gui.ui   
