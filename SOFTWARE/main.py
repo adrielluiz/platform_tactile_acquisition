@@ -53,7 +53,7 @@ class MainWin(QMainWindow):
         self.exp.msg_box.connect(self.run1_append_msg)
         self.work_requested.connect(self.exp.run)
 
-        self.exp.moveToThread(self.worker_thread) #run1_append_msg
+        self.exp.moveToThread(self.worker_thread) 
        
     def show(self):
         self.main_win.show()
@@ -119,7 +119,7 @@ class MainWin(QMainWindow):
             
         elif cmd['command'] == 'fsr':
             fsr = cmd['params']['value']
-            log.logging.debug('New fsr fsr: {}'.format(fsr))
+            log.logging.debug('New fsr: {}'.format(fsr))
             if tab == "Test":
                 self.ui.lcdFSR.display(fsr)
             elif tab == "Run 1":    
