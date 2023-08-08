@@ -243,3 +243,32 @@
 [INFO] 2023-07-12 15:17:59 Setting position Z 31500
 [INFO] 2023-07-12 15:17:59 FSR target 800 actual 1023
 
+[INFO] 2023-08-03 09:45:34 Portas COM disponíveis:
+[INFO] 2023-08-03 09:45:34 COM30
+[INFO] 2023-08-03 09:45:34 COM31
+[INFO] 2023-08-03 09:48:02 Portas COM disponíveis:
+[INFO] 2023-08-03 09:48:02 COM30
+[INFO] 2023-08-03 09:48:02 COM31
+[INFO] 2023-08-03 09:48:02 COM34
+[INFO] 2023-08-03 09:48:09 Serial RX started
+[INFO] 2023-08-03 09:48:09 Serial TX started
+[INFO] 2023-08-03 09:48:09 TX: b'restart\n'
+[INFO] 2023-08-03 09:48:21 TX: b'set mode idle\n'
+[INFO] 2023-08-03 09:48:32 TX: b'set position 2 home\n'
+[INFO] 2023-08-03 09:48:42 TX: b'set position 2 1000\n'
+[INFO] 2023-08-03 09:49:52 TX: b'set flags 1 0 1 0\n'
+[INFO] 2023-08-03 09:49:56 TX: b'set mode read\n'
+[INFO] 2023-08-03 09:51:22 TX: b'set read_freq 100\n'
+[INFO] 2023-08-03 09:51:29 TX: b'set read_freq 10\n'
+[INFO] 2023-08-03 09:56:18 TX: b'set position 1 home\n'
+[ERROR] 2023-08-03 09:56:56 Serial already opened
+[INFO] 2023-08-03 09:57:11 Portas COM disponíveis:
+[INFO] 2023-08-03 09:57:11 COM30
+[INFO] 2023-08-03 09:57:11 COM31
+[INFO] 2023-08-03 09:57:11 COM34
+[INFO] 2023-08-03 09:57:40 Serial RX started
+[INFO] 2023-08-03 09:57:40 Serial TX started
+[INFO] 2023-08-03 09:57:40 TX: b'restart\n'
+[INFO] 2023-08-03 09:57:44 TX: b'set position 2 home\n'
+[INFO] 2023-08-03 09:58:11 TX: b'set flags 1 0 1 0\n'
+[INFO] 2023-08-03 09:58:13 TX: b'set mode read\n'
