@@ -24,12 +24,6 @@ void motor_init(void)
 { 
     motor[0].begin(MOTOR_INITIAL_SPEED_RPM, MOTOR_FULL_STEP);
     motor[1].begin(MOTOR_INITIAL_SPEED_RPM, MOTOR_FULL_STEP);
-
-    digitalWrite(MOTOR1_DIR_PIN, HIGH);
-    digitalWrite(MOTOR1_STP_PIN, HIGH);
-
-    digitalWrite(MOTOR2_DIR_PIN, HIGH);
-    digitalWrite(MOTOR2_STP_PIN, HIGH);
 }
 
 bool motor_move(int motor_id, int step)
