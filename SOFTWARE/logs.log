@@ -272,3 +272,71 @@
 [INFO] 2023-08-03 09:57:44 TX: b'set position 2 home\n'
 [INFO] 2023-08-03 09:58:11 TX: b'set flags 1 0 1 0\n'
 [INFO] 2023-08-03 09:58:13 TX: b'set mode read\n'
+[INFO] 2023-09-04 15:51:38 Portas COM disponíveis:
+[INFO] 2023-09-04 15:51:38 COM30
+[INFO] 2023-09-04 15:51:38 COM31
+[INFO] 2023-10-03 15:13:38 Portas COM disponíveis:
+[INFO] 2023-10-03 15:13:38 COM30
+[INFO] 2023-10-03 15:13:38 COM31
+[INFO] 2024-01-18 11:37:47 Portas COM disponíveis:
+[INFO] 2024-01-18 11:37:47 COM30
+[INFO] 2024-01-18 11:37:47 COM31
+[INFO] 2024-01-18 11:37:47 COM25
+[INFO] 2024-01-18 11:37:58 Serial RX started
+[INFO] 2024-01-18 11:37:58 Serial TX started
+[INFO] 2024-01-18 11:37:58 TX: b'restart\n'
+[INFO] 2024-01-18 11:38:05 TX: b'set position 1 home\n'
+[INFO] 2024-01-18 11:38:10 TX: b'set position 1 68000\n'
+[INFO] 2024-01-18 11:38:13 TX: b'set position 1 97000\n'
+[INFO] 2024-01-18 11:38:17 TX: b'set position 2 home\n'
+[INFO] 2024-01-18 11:38:22 TX: b'set position 2 16000\n'
+[INFO] 2024-01-18 11:38:25 TX: b'set position 2 20000\n'
+[INFO] 2024-01-18 11:38:32 TX: b'set position 1 64000\n'
+[INFO] 2024-01-18 11:38:34 TX: b'set position 1 142000\n'
+[INFO] 2024-01-18 11:38:39 TX: b'set position 1 18000\n'
+[INFO] 2024-01-18 11:38:44 TX: b'set position 1 0\n'
+[INFO] 2024-01-18 11:38:48 TX: b'set position 1 65000\n'
+[INFO] 2024-01-18 11:38:53 TX: b'set position 1 119000\n'
+[INFO] 2024-01-18 11:38:59 TX: b'set position 1 132000\n'
+[INFO] 2024-01-18 11:39:04 TX: b'set position 1 26000\n'
+[INFO] 2024-01-18 11:39:12 TX: b'set position 2 26000\n'
+[INFO] 2024-01-18 11:39:17 TX: b'set position 2 33000\n'
+[INFO] 2024-01-18 11:39:20 TX: b'set position 2 34000\n'
+[INFO] 2024-01-18 11:39:22 TX: b'set position 2 35000\n'
+[INFO] 2024-01-18 11:39:29 TX: b'set position 2 16000\n'
+[INFO] 2024-01-18 11:39:32 TX: b'set position 2 1000\n'
+[INFO] 2024-01-18 11:39:36 TX: b'set position 2 0\n'
+[INFO] 2024-01-18 11:40:05 Portas COM disponíveis:
+[INFO] 2024-01-18 11:40:05 COM30
+[INFO] 2024-01-18 11:40:05 COM31
+[INFO] 2024-01-18 11:40:05 COM25
+[INFO] 2024-01-18 11:40:27 Portas COM disponíveis:
+[INFO] 2024-01-18 11:40:27 COM30
+[INFO] 2024-01-18 11:40:27 COM31
+[INFO] 2024-01-18 11:40:27 COM25
+[INFO] 2024-01-18 11:40:30 Serial RX started
+[INFO] 2024-01-18 11:40:30 Serial TX started
+[INFO] 2024-01-18 11:40:30 TX: b'restart\n'
+[INFO] 2024-01-18 11:40:39 -------- Running New Test --------
+[INFO] 2024-01-18 11:40:39 Init position X: 90000
+[INFO] 2024-01-18 11:40:39 Init position z: 20000
+[INFO] 2024-01-18 11:40:39 Minimum FSR : 800
+[INFO] 2024-01-18 11:40:39 Number of executions: 3
+
+[INFO] 2024-01-18 11:40:39 TX: b'restart\n'
+[INFO] 2024-01-18 11:40:44 TX: b'set flags 1 0 1 1\n'
+[INFO] 2024-01-18 11:40:45 TX: b'set mode read\n'
+[INFO] 2024-01-18 11:40:46 TX: b'set speed 1 70\n'
+[INFO] 2024-01-18 11:40:47 TX: b'set speed 2 65\n'
+[ERROR] 2024-01-18 11:40:52 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2024-01-18 11:40:52 TX: b'set position 1 home\n'
+[INFO] 2024-01-18 11:41:13 -------- Running New Test --------
+[INFO] 2024-01-18 11:41:13 Init position X: 90000
+[INFO] 2024-01-18 11:41:13 Init position z: 20000
+[INFO] 2024-01-18 11:41:13 Minimum FSR : 800
+[INFO] 2024-01-18 11:41:13 Number of executions: 3
+
+[INFO] 2024-01-18 11:41:13 TX: b'restart\n'
+[INFO] 2024-01-18 11:41:18 TX: b'set flags 1 0 1 1\n'
+[ERROR] 2024-01-18 11:41:23 Timeout in cmd: b'set flags 1 0 1 1\n'
+[INFO] 2024-01-18 11:41:23 TX: b'set mode read\n'

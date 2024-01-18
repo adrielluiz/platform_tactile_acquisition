@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include <Stepper.h>
 #include "motor.h"
 #include "hw.h"
+#include <Stepper.h>
 
 #define MOTOR_HOME_SPEED 30
 const int stepsPerRevolution = 40000;  

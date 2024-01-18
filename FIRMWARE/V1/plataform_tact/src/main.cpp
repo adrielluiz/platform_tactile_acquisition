@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <Stepper.h>
+//#include <Stepper.h>
 #include <Wire.h>
 #include "app.h"
 #include "mpu.h"
