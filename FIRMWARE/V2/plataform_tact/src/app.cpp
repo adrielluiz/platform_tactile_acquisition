@@ -107,7 +107,7 @@ void app_set_read(bool motors_flag, bool mpu_flag, bool fsr_flag, bool voltage_s
 void app_set_read_freq(uint32_t read_freq)
 {
 	data_read.read_freq = read_freq;
-	hw_timer_config(read_freq);
+	hw_timer_app_config(read_freq);
 }
 
 uint32_t app_get_read_freq(void)
@@ -325,9 +325,9 @@ void app_loop(void)
 
 	app_in();
 
-	//Moved to interruptio timer 1
+	//Moved to interruption timer 1
 	//app_proc(app_mode);
 
-	//Moved to interruptio timer usb tx
+	//Moved to interruption timer usb tx
 	//app_out();	
 }

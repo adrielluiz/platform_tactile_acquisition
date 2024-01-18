@@ -8,12 +8,8 @@
 #include "hw.h"
 #include "app.h"
 
-HardwareTimer timer(TIM1);
+HardwareTimer timer_app(TIM1);
 HardwareTimer timer_usb_tx(TIM2);
-volatile bool flag_pos_home_x = false;
-volatile bool flag_pos_home_z = false;
-volatile bool flag_pos_home_x_start = false;
-volatile bool flag_pos_home_z_start = false;
 
 bool hw_usb_tx_data(uint8_t *buffer, uint8_t size)
 {
@@ -51,32 +47,6 @@ uint32_t hw_timer_elapsed_ms(uint32_t start)
 	return elapsed;
 }
 
-void hw_sw1_isr()
-{
-	static uint32_t deboucing_time_ms = 0;
-
-	if((millis() - deboucing_time_ms) >= HW_DEBOUCING_TIME_MS)
-	{
-		deboucing_time_ms = millis();
-		flag_pos_home_x = false;
-
-		Serial.println("end_x 0");
-	}
-}
-
-void hw_sw2_isr()
-{
-	static uint32_t deboucing_time_ms = 0;
-
-	if((millis() - deboucing_time_ms) >= HW_DEBOUCING_TIME_MS)
-	{
-		deboucing_time_ms = millis();
-		flag_pos_home_z = false;
-
-		Serial.println("end_z 0");
-	}
-}
-
 bool hw_sw_is_on(int axis)
 {
 	if(axis == AXIS_X )
@@ -85,32 +55,6 @@ bool hw_sw_is_on(int axis)
 		return !digitalRead(SW2_PIN);
 		
 	return false;	
-}
-
-void hw_set_flag_pos_home(bool state)
-{
-	flag_pos_home_x = state;
-	flag_pos_home_z = state;
-}
-
-void hw_set_flag_pos_home_x(void)
-{
-	flag_pos_home_x = true;
-}
-
-void hw_set_flag_pos_home_z(void)
-{
-	flag_pos_home_z = true;
-}
-
-bool hw_get_flag_pos_home_x_start(void)
-{
-	return flag_pos_home_x_start;
-}
-
-bool hw_get_flag_pos_home_z_start(void)
-{
-	return flag_pos_home_z_start;
 }
 
 uint32_t hw_fsr_read(void)
@@ -132,26 +76,23 @@ void hw_timer_usb_tx_init(void)
     timer_usb_tx.resume(); // Start
 }
 
-void hw_timer_cbk(void)
+void hw_timer_app_cbk(void)
 {
-    //Serial.println(millis());
 	app_timer_cbk();
 }
 
-void hw_timer_config(uint16_t freq)
+void hw_timer_app_config(uint16_t freq)
 {
-    //volatile uint32_t SysClockFreq = HAL_RCC_GetSysClockFreq(); 84 MHz
-
-	timer.setPrescaleFactor(10000); // Set prescaler to 10000 => timer frequency = 84MHz/1000 = 8400 Hz 
-    timer.setOverflow(8400/freq); // Set overflow
-    timer.attachInterrupt(hw_timer_cbk);
-    timer.refresh(); // Make register changes take effect
-    timer.resume(); // Start
+	timer_app.setPrescaleFactor(10000); // Set prescaler to 10000 => timer frequency = 84MHz/1000 = 8400 Hz 
+    timer_app.setOverflow(8400/freq); // Set overflow
+    timer_app.attachInterrupt(hw_timer_app_cbk);
+    timer_app.refresh(); // Make register changes take effect
+    timer_app.resume(); // Start
 }
 
-void hw_timer_init(void)
+void hw_timer_app_init(void)
 {
-	hw_timer_config(INIT_READ_FREQ);
+	hw_timer_app_config(INIT_READ_FREQ);
 }
 
 void hw_restart(void)
@@ -161,20 +102,13 @@ void hw_restart(void)
 
 void hw_init(void)
 {
-	pinMode(SW1_PIN, INPUT_PULLUP);
-	pinMode(SW2_PIN, INPUT_PULLUP);
+	pinMode(SW1_PIN, INPUT_PULLDOWN);
+	pinMode(SW2_PIN, INPUT_PULLDOWN);
 
 	pinMode(FSR_PIN, INPUT);
 
-	attachInterrupt(digitalPinToInterrupt(SW1_PIN), hw_sw1_isr, RISING);
-	attachInterrupt(digitalPinToInterrupt(SW2_PIN), hw_sw2_isr, RISING);
-
 	hw_serial_init(SERIAL_BAUDRATE);
 
-	flag_pos_home_x_start = !digitalRead(SW1_PIN);	
-	flag_pos_home_z_start = !digitalRead(SW2_PIN);	
-
-	hw_timer_init();
+	hw_timer_app_init();
 	hw_timer_usb_tx_init();
-
 }
