@@ -340,3 +340,10 @@
 [INFO] 2024-01-18 11:41:18 TX: b'set flags 1 0 1 1\n'
 [ERROR] 2024-01-18 11:41:23 Timeout in cmd: b'set flags 1 0 1 1\n'
 [INFO] 2024-01-18 11:41:23 TX: b'set mode read\n'
+[INFO] 2024-01-22 13:24:23 Portas COM disponíveis:
+[INFO] 2024-01-22 13:24:23 COM30
+[INFO] 2024-01-22 13:24:23 COM65
+[INFO] 2024-01-22 13:24:23 COM31
+[INFO] 2024-01-22 13:24:27 Serial RX started
+[INFO] 2024-01-22 13:24:27 Serial TX started
+[INFO] 2024-01-22 13:24:27 TX: b'restart\n'
