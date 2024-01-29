@@ -1,6 +1,6 @@
 #pragma once
 
-#define SERIAL_BAUDRATE 230400 //921600 //115200 
+#define SERIAL_BAUDRATE 115200 //230400 //921600 //115200 
 #define HW_DEBOUCING_TIME_MS 50
 #define AXIS_X 0
 #define AXIS_Z 1
@@ -26,6 +26,11 @@
 // Serial
 #define SERIAL_PIN_TX PA2 //Branco
 #define SERIAL_PIN_RX PA3 //Verde
+
+// Serial 1
+#define SERIAL1_PIN_TX PA10 //Verde
+#define SERIAL1_PIN_RX PA9  //Branco
+#define SERIAL1_BAUDRATE 115200
 
 // Limit Switch
 #define SW1_PIN PA6

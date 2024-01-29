@@ -1,0 +1,6 @@
+
+*.pyc
+*.zip
+PCB/board/plat_board/gerber_files
+PCB/board/plat_board/fp-info-cache
+SOFTWARE/plataform_data.xlsx
