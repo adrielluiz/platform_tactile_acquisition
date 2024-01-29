@@ -28,8 +28,14 @@ class MainWin(QMainWindow):
         self.txq = Queue()
         self.rxq = Queue()
         self.serial_task = SerialConn()
+        
+        self.mb_stop = Event()
+        self.mb_txq = Queue()
+        self.mb_rxq = Queue()
+        self.mb_serial_task = SerialConn()
 
         self.ui.pbConectarSerial.clicked.connect(self.conn_serial)
+        self.ui.pbConnMeasBoard.clicked.connect(self.conn_serial_mb)
         self.ui.pbSendMode.clicked.connect(self.send_mode)
         self.ui.pbSendFreq.clicked.connect(self.send_freq)
         self.ui.pbSendSpeed.clicked.connect(self.send_speed)
@@ -40,6 +46,7 @@ class MainWin(QMainWindow):
         self.ui.pbStartRun1.clicked.connect(self.run_exp)
         self.ui.pbUpdateFileName.clicked.connect(self.update_file_name)
         self.ui.pbStopRun1.clicked.connect(self.run1_stop)
+        self.ui.pbUpdateCOMList.clicked.connect(self.update_com_ports)
 
         self.ui.horizontalSliderX.sliderReleased.connect(self.send_pos_x)
         self.ui.verticalSliderZ.sliderReleased.connect(self.send_pos_z)    
@@ -60,16 +67,18 @@ class MainWin(QMainWindow):
 
     def update_com_ports(self):
         self.ui.comboBoxSerialPort.clear()
+        self.ui.comboBoxMeasBoard.clear()
         ports = self.serial_task.get_ports_available()
         for port in ports:            
             self.ui.comboBoxSerialPort.addItem(port.device)
+            self.ui.comboBoxMeasBoard.addItem(port.device)
 
     def conn_serial(self):
         print(self.ui.comboBoxSerialPort.currentText())
 
         if not self.serial_task.is_connected:        
             try:
-                self.serial = Serial(port=self.ui.comboBoxSerialPort.currentText(),timeout=1,baudrate=230400)
+                self.serial = Serial(port=self.ui.comboBoxSerialPort.currentText(),timeout=1,baudrate=115200)
             except Exception as e:
                 log.logging.error(str(e))
                 sys.exit(1)         
@@ -85,6 +94,26 @@ class MainWin(QMainWindow):
                 time.sleep(1)
         else:
             log.logging.error("Serial already opened")
+            
+    def conn_serial_mb(self):
+        print(self.ui.comboBoxMeasBoard.currentText())
+
+        if not self.mb_serial_task.is_connected:        
+            try:
+                self.mb_serial = Serial(port=self.ui.comboBoxMeasBoard.currentText(),timeout=1,baudrate=115200)
+            except Exception as e:
+                log.logging.error(str(e))
+                sys.exit(1)         
+            else:
+                self.mb_serial_task.set_init_parameters(self.mb_serial,self.mb_rxq, self.mb_txq, self.mb_stop)
+                self.mb_serial_task.start()              
+             
+                self.ui.pbConnMeasBoard.setStyleSheet("background-color: lime")
+                self.mb_recv = Thread(target=self.mb_recv_data)
+                self.mb_recv.start()
+                time.sleep(1)
+        else:
+            log.logging.error("Serial already opened")        
 
     def recv_data(self):
         while not self.stop.is_set():
@@ -98,6 +127,23 @@ class MainWin(QMainWindow):
 
             if new_cmd:
                 self.check_cmd(cmd)
+                
+    def mb_recv_data(self):
+        while not self.mb_stop.is_set():
+            new_cmd = False
+            try:
+                cmd = self.mb_rxq.get(True, 1)
+            except Exception as e:
+                time.sleep(0.5)
+            else:
+                new_cmd = True
+
+            if new_cmd:
+                try:    
+                    log.logging.debug('Meas: {} z'.format(cmd))
+                    self.excel.append_meas(cmd['ts'], cmd['params'])
+                except Exception:
+                    print(cmd) 
 
     def check_cmd(self,cmd):
         if 'command' not in cmd:
@@ -108,14 +154,14 @@ class MainWin(QMainWindow):
         if cmd['command'] == 'position':
             x = cmd['params']['x']
             z = cmd['params']['z']
-            log.logging.debug('New position x: {} z: {}'.format(x, z))
+            ts = cmd['params']['ts']
+            log.logging.debug('New position x: {} z: {} ts: {}'.format(x, z, ts))
 
             if tab == "Test":
                 self.ui.lcdPositionX.display(x)
                 self.ui.lcdPositionZ.display(z)
 
-            self.excel.append_pos_x(x)
-            self.excel.append_pos_z(z)
+            self.excel.append_pos(x, z, ts)
             
         elif cmd['command'] == 'fsr':
             fsr = cmd['params']['value']

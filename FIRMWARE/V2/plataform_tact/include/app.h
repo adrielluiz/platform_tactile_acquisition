@@ -24,6 +24,7 @@ typedef struct app_data_read_e
 	volatile bool fsr;
 	volatile bool vs;
 	uint32_t read_freq;
+	volatile bool ts;
 }app_data_read_t;
 
 void app_init(void);

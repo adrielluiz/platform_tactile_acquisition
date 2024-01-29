@@ -160,23 +160,29 @@ static void app_proc_read(app_mode_state_t state)
 		//start_time_ms = hw_timer_get_tick_ms();
 		snprintf(buffer,64,"mode read\n");
 		APP_ADD_MSG(buffer);
+		data_read.ts = true;
 		break;
 	case APP_MODE_STATE_RUN:
 		//if(hw_timer_elapsed_ms(start_time_ms) > 100)
 		//{
+			// if(data_read.ts)
+			// {
+			// 	snprintf(buffer,64,"ts %u\n", hw_timer_get_tick_ms());
+			// 	APP_ADD_MSG(buffer);
+			// }
 			if(data_read.motors)
 			{
 				pos1 = app_get_motor_pos(1);
 				pos2 = app_get_motor_pos(2);
 
-				snprintf(buffer,64,"position %d %d\n", pos1, pos2);
+				snprintf(buffer,64,"position %d %d %u\n", pos1, pos2, hw_timer_get_tick_ms());
 				APP_ADD_MSG(buffer);
 			}
 			if(data_read.mpu)
 			{
 				mpu_data = app_get_mpu();
 
-				snprintf(buffer,64,"mpu  %d %d %d %d %d %d %d\n",mpu_data->AcX, mpu_data->AcY, mpu_data->AcZ, mpu_data->Tmp,
+				snprintf(buffer,64,"mpu %d %d %d %d %d %d %d\n",mpu_data->AcX, mpu_data->AcY, mpu_data->AcZ, mpu_data->Tmp,
 																mpu_data->GyX, mpu_data->GyY, mpu_data->GyZ);
 				APP_ADD_MSG(buffer);
 			}

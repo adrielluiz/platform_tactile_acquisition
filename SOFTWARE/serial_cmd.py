@@ -25,13 +25,15 @@ class SerialCmd():
         argc = len(params)
         
 
-        if cmd == 'position' and argc == 2:
+        if cmd == 'position' and argc == 3:
             x = self.__str2int(params[0])
             z = self.__str2int(params[1])
+            ts = self.__str2int(params[2])
+
             if x == None or z == None:
                 return {}
             else:
-                return {'command':'position', 'params':{'x':x, 'z':z}}
+                return {'command':'position', 'params':{'x':x, 'z':z, 'ts': ts}}
         elif cmd == 'fsr' and argc == 1:    
             v = self.__str2int(params[0])
             if v == None:
@@ -40,6 +42,11 @@ class SerialCmd():
                 return {'command':'fsr', 'params':{'value':v}}
         elif cmd == 'ok':    
             return {'command':'ok'}    
+        elif cmd == 'meas'and argc == 16:
+            return {'command':'meas', 'ts': self.__str2int(params[0]),
+                    'params':{'x11':self.__str2int(params[1]), 'x12':self.__str2int(params[2]), 'x13':self.__str2int(params[3]), 'x14':self.__str2int(params[4]), 'x15':self.__str2int(params[5]),
+                              'x21':self.__str2int(params[6]), 'x22':self.__str2int(params[7]), 'x23':self.__str2int(params[8]), 'x24':self.__str2int(params[9]), 'x25':self.__str2int(params[10]),
+                              'x31':self.__str2int(params[11]), 'x32':self.__str2int(params[12]), 'x33':self.__str2int(params[13]), 'x34':self.__str2int(params[14]), 'x35':self.__str2int(params[15])}}
         return {}
 
     def __set_encode(self,k,v):
