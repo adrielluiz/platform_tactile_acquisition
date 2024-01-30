@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QApplication, QMessageBox, QListWidgetItem
-from PyQt5.QtCore import Qt, QThread, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, pyqtSignal, QTimer
 from PyQt5.QtGui import QColor
 from main_window import Ui_MainWindow
 import sys
@@ -61,6 +61,7 @@ class MainWin(QMainWindow):
         self.work_requested.connect(self.exp.run)
 
         self.exp.moveToThread(self.worker_thread) 
+        self.timer_init()
        
     def show(self):
         self.main_win.show()
@@ -142,6 +143,7 @@ class MainWin(QMainWindow):
                 try:    
                     log.logging.debug('Meas: {} z'.format(cmd))
                     self.excel.append_meas(cmd['ts'], cmd['params'])
+                    self.show_rx_label_meas_board()
                 except Exception:
                     print(cmd) 
 
@@ -160,8 +162,11 @@ class MainWin(QMainWindow):
             if tab == "Test":
                 self.ui.lcdPositionX.display(x)
                 self.ui.lcdPositionZ.display(z)
+            elif tab == "Run 1":    
+                self.exp.set_pos_z_read(z)    
 
             self.excel.append_pos(x, z, ts)
+            self.show_rx_label_plat()
             
         elif cmd['command'] == 'fsr':
             fsr = cmd['params']['value']
@@ -170,7 +175,7 @@ class MainWin(QMainWindow):
                 self.ui.lcdFSR.display(fsr)
             elif tab == "Run 1":    
                 self.exp.set_fsr_read(fsr)
-            
+           
             self.excel.append_fsr(fsr)
 
         elif cmd['command'] == 'ok':
@@ -236,13 +241,13 @@ class MainWin(QMainWindow):
 
     def save_excel(self):
         self.excel.save_file()        
-        self.show_info_messagebox()         
+        self.show_info_messagebox(f"Excel file {self.excel.filename} saved!")         
         sys.exit(1)   
 
-    def show_info_messagebox(self):
+    def show_info_messagebox(self, msg):
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Information)
-        msg.setText( f"Excel file {self.excel.filename} saved!")        
+        msg.setText( msg)        
         msg.setWindowTitle("Information")
         msg.exec_()        
   
@@ -253,12 +258,15 @@ class MainWin(QMainWindow):
         if self.serial_task.is_connected:
             init_x  = self.ui.sbXinit.value()
             init_z  = self.ui.sbZinit.value()
-            fsr  = self.ui.sbFSR.value()
+            final_z  = self.ui.sbZmax.value()
             num  = self.ui.sbNumTests.value()
-
-            self.exp.set_all_param(init_x, init_z, fsr, num)    
-            self.worker_thread.start()
-            self.work_requested.emit()
+            
+            if(final_z > init_z):
+                self.exp.set_all_param(init_x, init_z, final_z, num)    
+                self.worker_thread.start()
+                self.work_requested.emit()
+            else:
+                self.show_info_messagebox("Final Z must be greater than Initial Z")
 
     def run1_update_progress(self, val):
         self.ui.progressBarRun1.setValue(val)
@@ -279,9 +287,27 @@ class MainWin(QMainWindow):
     def run1_stop(self):
         self.worker_thread.terminate()
         self.run1_append_msg("Run 1 stopped", "error")
+            
+    def timer_init(self):
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.timer_cbk)
+        self.timer.start(1000)    
+        
+    def timer_cbk(self):
+        self.hide_rx_labels()  
+        
+    def hide_rx_labels(self):
+        self.ui.lb_Rx_MeasBoard.setText("RX")
+        self.ui.lbRxPlat.setText("RX")
+        
+    def show_rx_label_meas_board(self):
+        self.ui.lb_Rx_MeasBoard.setText("<html><head/><body><p><span style=\" color:#00aa00;\">RX</span></p></body></html>")    
+                
+    def show_rx_label_plat(self):
+        self.ui.lbRxPlat.setText("<html><head/><body><p><span style=\" color:#00aa00;\">RX</span></p></body></html>")  
 
     
-if __name__ == "__main__":
+if __name__ == "__main__": 
     app = QApplication(sys.argv)
     main_win = MainWin()
     main_win.update_com_ports()

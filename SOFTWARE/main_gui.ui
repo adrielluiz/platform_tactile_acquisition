@@ -86,6 +86,35 @@
            </property>
           </widget>
          </item>
+         <item>
+          <widget class="QLabel" name="lbRxPlat">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#00aa00;&quot;&gt;RX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
@@ -143,6 +172,32 @@
            </property>
            <property name="text">
             <string>Connect</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lb_Rx_MeasBoard">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#00aa00;&quot;&gt;RX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
            </property>
           </widget>
          </item>
@@ -404,12 +459,12 @@
                     </size>
                    </property>
                    <property name="text">
-                    <string>FSR target                   </string>
+                    <string>Z final position (um)  </string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QSpinBox" name="sbFSR">
+                  <widget class="QSpinBox" name="sbZmax">
                    <property name="alignment">
                     <set>Qt::AlignCenter</set>
                    </property>
@@ -417,10 +472,13 @@
                     <number>1</number>
                    </property>
                    <property name="maximum">
-                    <number>1023</number>
+                    <number>36000</number>
+                   </property>
+                   <property name="singleStep">
+                    <number>100</number>
                    </property>
                    <property name="value">
-                    <number>800</number>
+                    <number>25000</number>
                    </property>
                   </widget>
                  </item>

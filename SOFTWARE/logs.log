@@ -6398,3 +6398,929 @@
 [DEBUG] 2024-01-29 15:54:35 New position x: 0 z: 0 ts: 30700
 [DEBUG] 2024-01-29 15:54:35 RX: b'meas 208603 404 401 401 396 405 400 393 399 404 407 402 400 398 400 398\n'
 [DEBUG] 2024-01-29 15:54:35 RX: {'command': 'meas', 'ts': 208603, 'params': {'x11': 404, 'x12': 401, 'x13': 401, 'x14': 396, 'x15': 405, 'x21': 400, 'x22': 393, 'x23': 399, 'x24': 404, 'x25': 407, 'x31': 402, 'x32': 400, 'x33': 398, 'x34': 400, 'x35': 398}}
+[INFO] 2024-01-30 07:56:39 Portas COM disponíveis:
+[INFO] 2024-01-30 07:56:39 COM30
+[INFO] 2024-01-30 07:56:39 COM31
+[INFO] 2024-01-30 07:59:23 Portas COM disponíveis:
+[INFO] 2024-01-30 07:59:23 COM30
+[INFO] 2024-01-30 07:59:23 COM31
+[INFO] 2024-01-30 08:21:03 Portas COM disponíveis:
+[INFO] 2024-01-30 08:21:03 COM30
+[INFO] 2024-01-30 08:21:03 COM31
+[INFO] 2024-01-30 08:53:08 Portas COM disponíveis:
+[INFO] 2024-01-30 08:53:08 COM30
+[INFO] 2024-01-30 08:53:08 COM31
+[INFO] 2024-01-30 08:53:36 Portas COM disponíveis:
+[INFO] 2024-01-30 08:53:36 COM30
+[INFO] 2024-01-30 08:53:36 COM31
+[INFO] 2024-01-30 08:56:20 Portas COM disponíveis:
+[INFO] 2024-01-30 08:56:20 COM30
+[INFO] 2024-01-30 08:56:20 COM31
+[INFO] 2024-01-30 08:56:40 Portas COM disponíveis:
+[INFO] 2024-01-30 08:56:40 COM30
+[INFO] 2024-01-30 08:56:40 COM31
+[INFO] 2024-01-30 08:57:12 Portas COM disponíveis:
+[INFO] 2024-01-30 08:57:12 COM30
+[INFO] 2024-01-30 08:57:12 COM31
+[INFO] 2024-01-30 08:57:36 Portas COM disponíveis:
+[INFO] 2024-01-30 08:57:36 COM30
+[INFO] 2024-01-30 08:57:36 COM31
+[INFO] 2024-01-30 08:57:48 Portas COM disponíveis:
+[INFO] 2024-01-30 08:57:48 COM30
+[INFO] 2024-01-30 08:57:48 COM31
+[INFO] 2024-01-30 08:59:40 Portas COM disponíveis:
+[INFO] 2024-01-30 08:59:40 COM30
+[INFO] 2024-01-30 08:59:40 COM31
+[INFO] 2024-01-30 09:00:36 Portas COM disponíveis:
+[INFO] 2024-01-30 09:00:36 COM30
+[INFO] 2024-01-30 09:00:36 COM65
+[INFO] 2024-01-30 09:00:36 COM31
+[INFO] 2024-01-30 09:00:39 Serial RX started
+[INFO] 2024-01-30 09:00:39 Serial TX started
+[INFO] 2024-01-30 09:01:03 Portas COM disponíveis:
+[INFO] 2024-01-30 09:01:03 COM30
+[INFO] 2024-01-30 09:01:03 COM65
+[INFO] 2024-01-30 09:01:03 COM31
+[INFO] 2024-01-30 09:01:06 Serial RX started
+[INFO] 2024-01-30 09:01:06 Serial TX started
+[INFO] 2024-01-30 09:01:21 Portas COM disponíveis:
+[INFO] 2024-01-30 09:01:21 COM30
+[INFO] 2024-01-30 09:01:21 COM65
+[INFO] 2024-01-30 09:01:21 COM31
+[INFO] 2024-01-30 09:01:28 Serial RX started
+[INFO] 2024-01-30 09:01:28 Serial TX started
+[INFO] 2024-01-30 09:02:45 Portas COM disponíveis:
+[INFO] 2024-01-30 09:02:45 COM30
+[INFO] 2024-01-30 09:02:45 COM65
+[INFO] 2024-01-30 09:02:45 COM31
+[INFO] 2024-01-30 09:02:48 Serial RX started
+[INFO] 2024-01-30 09:02:48 Serial TX started
+[INFO] 2024-01-30 09:04:21 Portas COM disponíveis:
+[INFO] 2024-01-30 09:04:21 COM30
+[INFO] 2024-01-30 09:04:21 COM65
+[INFO] 2024-01-30 09:04:21 COM31
+[INFO] 2024-01-30 09:04:24 Serial RX started
+[INFO] 2024-01-30 09:04:24 Serial TX started
+[INFO] 2024-01-30 09:06:02 Portas COM disponíveis:
+[INFO] 2024-01-30 09:06:02 COM30
+[INFO] 2024-01-30 09:06:02 COM65
+[INFO] 2024-01-30 09:06:02 COM31
+[INFO] 2024-01-30 09:06:06 Serial RX started
+[INFO] 2024-01-30 09:06:06 Serial TX started
+[INFO] 2024-01-30 09:06:40 Portas COM disponíveis:
+[INFO] 2024-01-30 09:06:40 COM30
+[INFO] 2024-01-30 09:06:40 COM65
+[INFO] 2024-01-30 09:06:40 COM31
+[INFO] 2024-01-30 09:06:43 Serial RX started
+[INFO] 2024-01-30 09:06:43 Serial TX started
+[INFO] 2024-01-30 09:07:02 Portas COM disponíveis:
+[INFO] 2024-01-30 09:07:02 COM30
+[INFO] 2024-01-30 09:07:02 COM65
+[INFO] 2024-01-30 09:07:02 COM31
+[INFO] 2024-01-30 09:07:05 Serial RX started
+[INFO] 2024-01-30 09:07:05 Serial TX started
+[ERROR] 2024-01-30 09:07:16 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:16 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:17 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:17 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:18 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:18 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:19 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:19 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:20 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:20 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:21 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:21 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:22 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:22 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:23 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:23 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:07:24 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[INFO] 2024-01-30 09:34:33 Portas COM disponíveis:
+[INFO] 2024-01-30 09:34:33 COM30
+[INFO] 2024-01-30 09:34:33 COM31
+[INFO] 2024-01-30 09:35:47 Portas COM disponíveis:
+[INFO] 2024-01-30 09:35:47 COM30
+[INFO] 2024-01-30 09:35:47 COM31
+[INFO] 2024-01-30 09:36:53 Portas COM disponíveis:
+[INFO] 2024-01-30 09:36:53 COM30
+[INFO] 2024-01-30 09:36:53 COM65
+[INFO] 2024-01-30 09:36:53 COM31
+[INFO] 2024-01-30 09:36:55 Serial RX started
+[INFO] 2024-01-30 09:36:55 Serial TX started
+[ERROR] 2024-01-30 09:37:07 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:07 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:08 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:08 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:09 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:09 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:10 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:37:10 SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[INFO] 2024-01-30 09:38:17 Portas COM disponíveis:
+[INFO] 2024-01-30 09:38:17 COM30
+[INFO] 2024-01-30 09:38:17 COM65
+[INFO] 2024-01-30 09:38:17 COM31
+[INFO] 2024-01-30 09:38:19 Serial RX started
+[INFO] 2024-01-30 09:38:19 Serial TX started
+[ERROR] 2024-01-30 09:38:24 --------SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:38:24 --------SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:38:25 --------SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[ERROR] 2024-01-30 09:38:25 --------SerialException("ClearCommError failed (PermissionError(13, 'O dispositivo não reconhece o comando.', None, 22))")
+[INFO] 2024-01-30 09:42:04 Portas COM disponíveis:
+[INFO] 2024-01-30 09:42:04 COM30
+[INFO] 2024-01-30 09:42:04 COM31
+[INFO] 2024-01-30 09:42:08 Portas COM disponíveis:
+[INFO] 2024-01-30 09:42:08 COM30
+[INFO] 2024-01-30 09:42:08 COM65
+[INFO] 2024-01-30 09:42:08 COM31
+[ERROR] 2024-01-30 09:42:16 could not open port 'COM30': OSError(22, 'O tempo limite do semáforo expirou.', None, 121)
+[INFO] 2024-01-30 09:42:21 Portas COM disponíveis:
+[INFO] 2024-01-30 09:42:21 COM30
+[INFO] 2024-01-30 09:42:21 COM65
+[INFO] 2024-01-30 09:42:21 COM31
+[INFO] 2024-01-30 09:42:24 Serial RX started
+[INFO] 2024-01-30 09:42:24 Serial TX started
+[ERROR] 2024-01-30 09:42:36 Serial already opened
+[ERROR] 2024-01-30 09:42:37 Serial already opened
+[INFO] 2024-01-30 11:20:17 Portas COM disponíveis:
+[INFO] 2024-01-30 11:20:17 COM30
+[INFO] 2024-01-30 11:20:17 COM31
+[INFO] 2024-01-30 13:09:34 Portas COM disponíveis:
+[INFO] 2024-01-30 13:09:34 COM30
+[INFO] 2024-01-30 13:09:34 COM31
+[INFO] 2024-01-30 13:09:34 COM38
+[INFO] 2024-01-30 13:09:39 Serial RX started
+[INFO] 2024-01-30 13:09:39 Serial TX started
+[INFO] 2024-01-30 13:09:39 TX: b'restart\n'
+[INFO] 2024-01-30 13:11:14 Portas COM disponíveis:
+[INFO] 2024-01-30 13:11:14 COM30
+[INFO] 2024-01-30 13:11:14 COM31
+[INFO] 2024-01-30 13:11:14 COM38
+[INFO] 2024-01-30 13:11:18 Serial RX started
+[INFO] 2024-01-30 13:11:18 Serial TX started
+[INFO] 2024-01-30 13:11:18 TX: b'restart\n'
+[INFO] 2024-01-30 13:11:22 -------- Running New Test --------
+[INFO] 2024-01-30 13:11:22 Init position X: 90000
+[INFO] 2024-01-30 13:11:22 Init position Z: 20000
+[INFO] 2024-01-30 13:11:22 Final position Z: 10000
+[INFO] 2024-01-30 13:11:22 Number of executions: 3
+
+[INFO] 2024-01-30 13:11:22 TX: b'restart\n'
+[INFO] 2024-01-30 13:11:27 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 13:11:28 TX: b'set mode read\n'
+[INFO] 2024-01-30 13:11:29 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 13:11:30 TX: b'set speed 2 65\n'
+[ERROR] 2024-01-30 13:11:36 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2024-01-30 13:11:36 TX: b'set position 1 home\n'
+[ERROR] 2024-01-30 13:11:56 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2024-01-30 13:11:56 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 13:15:05 Portas COM disponíveis:
+[INFO] 2024-01-30 13:15:05 COM30
+[INFO] 2024-01-30 13:15:05 COM31
+[INFO] 2024-01-30 13:15:05 COM38
+[INFO] 2024-01-30 13:15:14 Serial RX started
+[INFO] 2024-01-30 13:15:14 Serial TX started
+[INFO] 2024-01-30 13:15:14 TX: b'restart\n'
+[INFO] 2024-01-30 13:15:19 -------- Running New Test --------
+[INFO] 2024-01-30 13:15:19 Init position X: 90000
+[INFO] 2024-01-30 13:15:19 Init position Z: 20000
+[INFO] 2024-01-30 13:15:19 Final position Z: 10000
+[INFO] 2024-01-30 13:15:19 Number of executions: 3
+
+[INFO] 2024-01-30 13:15:19 TX: b'restart\n'
+[INFO] 2024-01-30 13:15:24 TX: b'set flags 1 0 0 0\n'
+[ERROR] 2024-01-30 13:15:29 Timeout in cmd: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 13:15:29 TX: b'set mode read\n'
+[ERROR] 2024-01-30 13:15:34 Timeout in cmd: b'set mode read\n'
+[INFO] 2024-01-30 13:15:34 TX: b'set speed 1 70\n'
+[ERROR] 2024-01-30 13:15:39 Timeout in cmd: b'set speed 1 70\n'
+[INFO] 2024-01-30 13:15:39 TX: b'set speed 2 65\n'
+[ERROR] 2024-01-30 13:15:44 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2024-01-30 13:15:44 TX: b'set position 1 home\n'
+[ERROR] 2024-01-30 13:16:22 could not open port 'COM32': FileNotFoundError(2, 'O sistema não pode encontrar o arquivo especificado.', None, 2)
+[INFO] 2024-01-30 13:16:35 Portas COM disponíveis:
+[INFO] 2024-01-30 13:16:35 COM30
+[INFO] 2024-01-30 13:16:35 COM31
+[INFO] 2024-01-30 13:16:35 COM38
+[INFO] 2024-01-30 13:16:40 Serial RX started
+[INFO] 2024-01-30 13:16:40 Serial TX started
+[INFO] 2024-01-30 13:16:40 TX: b'restart\n'
+[INFO] 2024-01-30 13:16:47 -------- Running New Test --------
+[INFO] 2024-01-30 13:16:47 Init position X: 90000
+[INFO] 2024-01-30 13:16:47 Init position Z: 20000
+[INFO] 2024-01-30 13:16:47 Final position Z: 10000
+[INFO] 2024-01-30 13:16:47 Number of executions: 3
+
+[INFO] 2024-01-30 13:16:47 TX: b'restart\n'
+[INFO] 2024-01-30 13:16:52 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 13:16:53 TX: b'set mode read\n'
+[INFO] 2024-01-30 13:16:55 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 13:16:56 TX: b'set speed 2 65\n'
+[ERROR] 2024-01-30 13:17:01 Timeout in cmd: b'set speed 2 65\n'
+[INFO] 2024-01-30 13:17:01 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 13:20:46 Portas COM disponíveis:
+[INFO] 2024-01-30 13:20:46 COM30
+[INFO] 2024-01-30 13:20:46 COM31
+[INFO] 2024-01-30 13:20:46 COM38
+[ERROR] 2024-01-30 13:20:50 could not open port 'COM38': PermissionError(13, 'Acesso negado.', None, 5)
+[INFO] 2024-01-30 13:20:56 Portas COM disponíveis:
+[INFO] 2024-01-30 13:20:56 COM30
+[INFO] 2024-01-30 13:20:56 COM31
+[INFO] 2024-01-30 13:20:56 COM38
+[INFO] 2024-01-30 13:21:00 Serial RX started
+[INFO] 2024-01-30 13:21:00 Serial TX started
+[INFO] 2024-01-30 13:21:00 TX: b'restart\n'
+[INFO] 2024-01-30 13:21:04 -------- Running New Test --------
+[INFO] 2024-01-30 13:21:04 Init position X: 90000
+[INFO] 2024-01-30 13:21:04 Init position Z: 20000
+[INFO] 2024-01-30 13:21:04 Final position Z: 10000
+[INFO] 2024-01-30 13:21:04 Number of executions: 3
+
+[INFO] 2024-01-30 13:21:04 TX: b'restart\n'
+[INFO] 2024-01-30 13:21:09 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 13:21:10 TX: b'set mode read\n'
+[INFO] 2024-01-30 13:21:12 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 13:21:13 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 13:21:14 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 13:21:16 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 13:21:17 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 13:21:18 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 13:21:19 Running experiment 1 of 3
+[INFO] 2024-01-30 13:21:19 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 13:21:20 Running experiment 2 of 3
+[INFO] 2024-01-30 13:21:20 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 13:21:21 Running experiment 3 of 3
+[INFO] 2024-01-30 13:21:21 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 13:21:22 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 13:21:23 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 13:21:24 Test Finished!
+[INFO] 2024-01-30 13:21:24 TX: b'restart\n'
+[INFO] 2024-01-30 13:24:13 Portas COM disponíveis:
+[INFO] 2024-01-30 13:24:13 COM30
+[INFO] 2024-01-30 13:24:13 COM31
+[INFO] 2024-01-30 13:24:13 COM38
+[INFO] 2024-01-30 13:24:17 Serial RX started
+[INFO] 2024-01-30 13:24:17 Serial TX started
+[INFO] 2024-01-30 13:24:17 TX: b'restart\n'
+[INFO] 2024-01-30 13:24:22 -------- Running New Test --------
+[INFO] 2024-01-30 13:24:22 Init position X: 90000
+[INFO] 2024-01-30 13:24:22 Init position Z: 20000
+[INFO] 2024-01-30 13:24:22 Final position Z: 10000
+[INFO] 2024-01-30 13:24:22 Number of executions: 3
+
+[INFO] 2024-01-30 13:24:22 TX: b'restart\n'
+[INFO] 2024-01-30 13:24:27 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 13:24:28 TX: b'set mode read\n'
+[INFO] 2024-01-30 13:24:30 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 13:24:31 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 13:24:32 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:17:30 Portas COM disponíveis:
+[INFO] 2024-01-30 14:17:30 COM30
+[INFO] 2024-01-30 14:17:30 COM31
+[INFO] 2024-01-30 14:17:30 COM38
+[ERROR] 2024-01-30 14:17:33 could not open port 'COM38': PermissionError(13, 'Acesso negado.', None, 5)
+[INFO] 2024-01-30 14:17:39 Portas COM disponíveis:
+[INFO] 2024-01-30 14:17:39 COM30
+[INFO] 2024-01-30 14:17:39 COM31
+[INFO] 2024-01-30 14:17:39 COM38
+[INFO] 2024-01-30 14:17:43 Serial RX started
+[INFO] 2024-01-30 14:17:43 Serial TX started
+[INFO] 2024-01-30 14:17:43 TX: b'restart\n'
+[INFO] 2024-01-30 14:18:22 Portas COM disponíveis:
+[INFO] 2024-01-30 14:18:22 COM30
+[INFO] 2024-01-30 14:18:22 COM31
+[INFO] 2024-01-30 14:18:22 COM38
+[INFO] 2024-01-30 14:18:26 Serial RX started
+[INFO] 2024-01-30 14:18:26 Serial TX started
+[INFO] 2024-01-30 14:18:26 TX: b'restart\n'
+[INFO] 2024-01-30 14:18:33 -------- Running New Test --------
+[INFO] 2024-01-30 14:18:33 Init position X: 90000
+[INFO] 2024-01-30 14:18:33 Init position Z: 20000
+[INFO] 2024-01-30 14:18:33 Final position Z: 10000
+[INFO] 2024-01-30 14:18:33 Number of executions: 3
+
+[INFO] 2024-01-30 14:18:33 TX: b'restart\n'
+[INFO] 2024-01-30 14:18:38 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 14:18:39 TX: b'set mode read\n'
+[INFO] 2024-01-30 14:18:40 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 14:18:41 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 14:18:43 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:18:44 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:18:46 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 14:18:47 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:18:48 Running experiment 1 of 3
+[INFO] 2024-01-30 14:18:48 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:18:49 Running experiment 2 of 3
+[INFO] 2024-01-30 14:18:49 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:18:50 Running experiment 3 of 3
+[INFO] 2024-01-30 14:18:50 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:18:51 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 14:18:52 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 14:18:53 Test Finished!
+[INFO] 2024-01-30 14:18:53 TX: b'restart\n'
+[INFO] 2024-01-30 14:19:00 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:19:30 Portas COM disponíveis:
+[INFO] 2024-01-30 14:19:30 COM30
+[INFO] 2024-01-30 14:19:30 COM31
+[INFO] 2024-01-30 14:19:30 COM38
+[INFO] 2024-01-30 14:19:35 Serial RX started
+[INFO] 2024-01-30 14:19:35 Serial TX started
+[INFO] 2024-01-30 14:19:35 TX: b'restart\n'
+[INFO] 2024-01-30 14:19:38 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:19:44 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:19:48 TX: b'set position 2 3000\n'
+[INFO] 2024-01-30 14:49:18 Portas COM disponíveis:
+[INFO] 2024-01-30 14:49:18 COM30
+[INFO] 2024-01-30 14:49:18 COM31
+[INFO] 2024-01-30 14:49:18 COM38
+[INFO] 2024-01-30 14:49:25 Serial RX started
+[INFO] 2024-01-30 14:49:25 Serial TX started
+[INFO] 2024-01-30 14:49:25 TX: b'restart\n'
+[INFO] 2024-01-30 14:49:34 TX: b'set position 2 16000\n'
+[INFO] 2024-01-30 14:49:38 TX: b'set position 1 70000\n'
+[INFO] 2024-01-30 14:49:52 -------- Running New Test --------
+[INFO] 2024-01-30 14:49:52 Init position X: 90000
+[INFO] 2024-01-30 14:49:52 Init position Z: 20000
+[INFO] 2024-01-30 14:49:52 Final position Z: 10000
+[INFO] 2024-01-30 14:49:52 Number of executions: 3
+
+[INFO] 2024-01-30 14:49:52 TX: b'restart\n'
+[INFO] 2024-01-30 14:49:57 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 14:49:58 TX: b'set mode read\n'
+[INFO] 2024-01-30 14:50:00 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 14:50:01 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 14:50:02 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:50:03 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:50:04 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 14:50:07 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:50:08 Running experiment 1 of 3
+[INFO] 2024-01-30 14:50:08 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:50:09 Running experiment 2 of 3
+[INFO] 2024-01-30 14:50:09 Setting position Z 20500
+[INFO] 2024-01-30 14:50:09 Z target 10000 actual 20000
+
+[INFO] 2024-01-30 14:50:09 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 14:50:10 Setting position Z 21000
+[INFO] 2024-01-30 14:50:10 Z target 10000 actual 20000
+
+[INFO] 2024-01-30 14:50:10 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 14:50:11 Setting position Z 21500
+[INFO] 2024-01-30 14:50:11 Z target 10000 actual 20500
+
+[INFO] 2024-01-30 14:50:11 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 14:50:12 Setting position Z 22000
+[INFO] 2024-01-30 14:50:12 Z target 10000 actual 21000
+
+[INFO] 2024-01-30 14:50:12 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 14:50:13 Setting position Z 22500
+[INFO] 2024-01-30 14:50:13 Z target 10000 actual 21500
+
+[INFO] 2024-01-30 14:50:13 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 14:50:14 Setting position Z 23000
+[INFO] 2024-01-30 14:50:14 Z target 10000 actual 22000
+
+[INFO] 2024-01-30 14:50:14 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 14:50:16 Setting position Z 23500
+[INFO] 2024-01-30 14:50:16 Z target 10000 actual 22500
+
+[INFO] 2024-01-30 14:50:16 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 14:50:17 Setting position Z 24000
+[INFO] 2024-01-30 14:50:17 Z target 10000 actual 23000
+
+[INFO] 2024-01-30 14:50:17 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 14:50:18 Setting position Z 24500
+[INFO] 2024-01-30 14:50:18 Z target 10000 actual 23500
+
+[INFO] 2024-01-30 14:50:18 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 14:50:19 Setting position Z 25000
+[INFO] 2024-01-30 14:50:19 Z target 10000 actual 24000
+
+[INFO] 2024-01-30 14:50:19 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 14:50:20 Setting position Z 25500
+[INFO] 2024-01-30 14:50:20 Z target 10000 actual 24500
+
+[INFO] 2024-01-30 14:50:20 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 14:50:21 Setting position Z 26000
+[INFO] 2024-01-30 14:50:21 Z target 10000 actual 25000
+
+[INFO] 2024-01-30 14:50:21 TX: b'set position 2 26000\n'
+[INFO] 2024-01-30 14:50:22 Setting position Z 26500
+[INFO] 2024-01-30 14:50:22 Z target 10000 actual 25500
+
+[INFO] 2024-01-30 14:50:22 TX: b'set position 2 26500\n'
+[INFO] 2024-01-30 14:50:23 Setting position Z 27000
+[INFO] 2024-01-30 14:50:23 Z target 10000 actual 26000
+
+[INFO] 2024-01-30 14:50:23 TX: b'set position 2 27000\n'
+[INFO] 2024-01-30 14:50:24 Setting position Z 27500
+[INFO] 2024-01-30 14:50:24 Z target 10000 actual 26500
+
+[INFO] 2024-01-30 14:50:24 TX: b'set position 2 27500\n'
+[INFO] 2024-01-30 14:50:25 Setting position Z 28000
+[INFO] 2024-01-30 14:50:25 Z target 10000 actual 27000
+
+[INFO] 2024-01-30 14:50:25 TX: b'set position 2 28000\n'
+[INFO] 2024-01-30 14:50:26 Setting position Z 28500
+[INFO] 2024-01-30 14:50:26 Z target 10000 actual 27500
+
+[INFO] 2024-01-30 14:50:26 TX: b'set position 2 28500\n'
+[INFO] 2024-01-30 14:50:27 Setting position Z 29000
+[INFO] 2024-01-30 14:50:27 Z target 10000 actual 28000
+
+[INFO] 2024-01-30 14:50:27 TX: b'set position 2 29000\n'
+[INFO] 2024-01-30 14:50:28 Setting position Z 29500
+[INFO] 2024-01-30 14:50:28 Z target 10000 actual 28500
+
+[INFO] 2024-01-30 14:50:28 TX: b'set position 2 29500\n'
+[INFO] 2024-01-30 14:50:29 Setting position Z 30000
+[INFO] 2024-01-30 14:50:29 Z target 10000 actual 29000
+
+[INFO] 2024-01-30 14:50:29 TX: b'set position 2 30000\n'
+[INFO] 2024-01-30 14:50:30 Setting position Z 30500
+[INFO] 2024-01-30 14:50:30 Z target 10000 actual 29500
+
+[INFO] 2024-01-30 14:50:30 TX: b'set position 2 30500\n'
+[INFO] 2024-01-30 14:50:31 Setting position Z 31000
+[INFO] 2024-01-30 14:50:31 Z target 10000 actual 30000
+
+[INFO] 2024-01-30 14:50:31 TX: b'set position 2 31000\n'
+[INFO] 2024-01-30 14:50:32 Setting position Z 31500
+[INFO] 2024-01-30 14:50:32 Z target 10000 actual 30500
+
+[INFO] 2024-01-30 14:50:32 TX: b'set position 2 31500\n'
+[INFO] 2024-01-30 14:50:33 Setting position Z 32000
+[INFO] 2024-01-30 14:50:33 Z target 10000 actual 31000
+
+[INFO] 2024-01-30 14:50:33 TX: b'set position 2 32000\n'
+[INFO] 2024-01-30 14:50:34 Setting position Z 32500
+[INFO] 2024-01-30 14:50:34 Z target 10000 actual 31500
+
+[INFO] 2024-01-30 14:50:34 TX: b'set position 2 32500\n'
+[INFO] 2024-01-30 14:50:57 Portas COM disponíveis:
+[INFO] 2024-01-30 14:50:57 COM30
+[INFO] 2024-01-30 14:50:57 COM31
+[INFO] 2024-01-30 14:50:57 COM38
+[INFO] 2024-01-30 14:51:29 Serial RX started
+[INFO] 2024-01-30 14:51:29 Serial TX started
+[INFO] 2024-01-30 14:51:29 TX: b'restart\n'
+[INFO] 2024-01-30 14:51:36 -------- Running New Test --------
+[INFO] 2024-01-30 14:51:36 Init position X: 90000
+[INFO] 2024-01-30 14:51:36 Init position Z: 20000
+[INFO] 2024-01-30 14:51:36 Final position Z: 24000
+[INFO] 2024-01-30 14:51:36 Number of executions: 3
+
+[INFO] 2024-01-30 14:51:36 TX: b'restart\n'
+[INFO] 2024-01-30 14:51:41 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 14:51:42 TX: b'set mode read\n'
+[INFO] 2024-01-30 14:51:44 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 14:51:45 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 14:51:46 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:51:47 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:51:48 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 14:51:51 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:51:52 Running experiment 1 of 3
+[INFO] 2024-01-30 14:51:52 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:51:53 Running experiment 2 of 3
+[INFO] 2024-01-30 14:51:53 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:51:54 Running experiment 3 of 3
+[INFO] 2024-01-30 14:51:54 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:51:55 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 14:51:58 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 14:51:59 Test Finished!
+[INFO] 2024-01-30 14:51:59 TX: b'restart\n'
+[INFO] 2024-01-30 14:57:32 Portas COM disponíveis:
+[INFO] 2024-01-30 14:57:32 COM30
+[INFO] 2024-01-30 14:57:32 COM31
+[INFO] 2024-01-30 14:57:32 COM38
+[INFO] 2024-01-30 14:57:38 Serial RX started
+[INFO] 2024-01-30 14:57:38 Serial TX started
+[INFO] 2024-01-30 14:57:38 TX: b'restart\n'
+[INFO] 2024-01-30 14:57:42 -------- Running New Test --------
+[INFO] 2024-01-30 14:57:42 Init position X: 90000
+[INFO] 2024-01-30 14:57:42 Init position Z: 20000
+[INFO] 2024-01-30 14:57:42 Final position Z: 25000
+[INFO] 2024-01-30 14:57:42 Number of executions: 3
+
+[INFO] 2024-01-30 14:57:42 TX: b'restart\n'
+[INFO] 2024-01-30 14:57:47 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 14:57:48 TX: b'set mode read\n'
+[INFO] 2024-01-30 14:57:50 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 14:57:51 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 14:57:52 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:57:53 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:57:54 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 14:57:57 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:57:58 Running experiment 1 of 3
+[INFO] 2024-01-30 14:57:58 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:57:59 Running experiment 2 of 3
+[INFO] 2024-01-30 14:57:59 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:58:00 Running experiment 3 of 3
+[INFO] 2024-01-30 14:58:00 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:58:01 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 14:58:04 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 14:58:06 Test Finished!
+[INFO] 2024-01-30 14:58:06 TX: b'restart\n'
+[INFO] 2024-01-30 14:59:25 Portas COM disponíveis:
+[INFO] 2024-01-30 14:59:25 COM30
+[INFO] 2024-01-30 14:59:25 COM31
+[INFO] 2024-01-30 14:59:25 COM38
+[INFO] 2024-01-30 14:59:28 Serial RX started
+[INFO] 2024-01-30 14:59:28 Serial TX started
+[INFO] 2024-01-30 14:59:28 TX: b'restart\n'
+[INFO] 2024-01-30 14:59:32 -------- Running New Test --------
+[INFO] 2024-01-30 14:59:32 Init position X: 90000
+[INFO] 2024-01-30 14:59:32 Init position Z: 20000
+[INFO] 2024-01-30 14:59:32 Final position Z: 25000
+[INFO] 2024-01-30 14:59:32 Number of executions: 3
+
+[INFO] 2024-01-30 14:59:32 TX: b'restart\n'
+[INFO] 2024-01-30 14:59:37 TX: b'set flags 1 0 0 0\n'
+[ERROR] 2024-01-30 14:59:42 Timeout in cmd: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 14:59:42 TX: b'set mode read\n'
+[INFO] 2024-01-30 14:59:43 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 14:59:44 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 14:59:46 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 14:59:47 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 14:59:49 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 14:59:51 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 14:59:53 Running experiment 1 of 3
+[INFO] 2024-01-30 14:59:53 Setting position Z 20500
+[INFO] 2024-01-30 14:59:53 Z target 25000 actual 0
+
+[INFO] 2024-01-30 14:59:53 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 14:59:54 Setting position Z 21000
+[INFO] 2024-01-30 14:59:54 Z target 25000 actual 0
+
+[INFO] 2024-01-30 14:59:54 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 14:59:56 Setting position Z 21500
+[INFO] 2024-01-30 14:59:56 Z target 25000 actual 0
+
+[INFO] 2024-01-30 14:59:56 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 14:59:57 Setting position Z 22000
+[INFO] 2024-01-30 14:59:57 Z target 25000 actual 0
+
+[INFO] 2024-01-30 14:59:57 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 14:59:59 Setting position Z 22500
+[INFO] 2024-01-30 14:59:59 Z target 25000 actual 0
+
+[INFO] 2024-01-30 14:59:59 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 15:00:00 Setting position Z 23000
+[INFO] 2024-01-30 15:00:00 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:00 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 15:00:02 Setting position Z 23500
+[INFO] 2024-01-30 15:00:02 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:02 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 15:00:03 Setting position Z 24000
+[INFO] 2024-01-30 15:00:03 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:03 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 15:00:05 Setting position Z 24500
+[INFO] 2024-01-30 15:00:05 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:05 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 15:00:07 Setting position Z 25000
+[INFO] 2024-01-30 15:00:07 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:07 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 15:00:08 Setting position Z 25500
+[INFO] 2024-01-30 15:00:08 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:08 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 15:00:10 Setting position Z 26000
+[INFO] 2024-01-30 15:00:10 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:10 TX: b'set position 2 26000\n'
+[INFO] 2024-01-30 15:00:11 Setting position Z 26500
+[INFO] 2024-01-30 15:00:11 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:11 TX: b'set position 2 26500\n'
+[INFO] 2024-01-30 15:00:13 Setting position Z 27000
+[INFO] 2024-01-30 15:00:13 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:13 TX: b'set position 2 27000\n'
+[INFO] 2024-01-30 15:00:14 Setting position Z 27500
+[INFO] 2024-01-30 15:00:14 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:14 TX: b'set position 2 27500\n'
+[INFO] 2024-01-30 15:00:16 Setting position Z 28000
+[INFO] 2024-01-30 15:00:16 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:16 TX: b'set position 2 28000\n'
+[INFO] 2024-01-30 15:00:17 Setting position Z 28500
+[INFO] 2024-01-30 15:00:17 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:17 TX: b'set position 2 28500\n'
+[INFO] 2024-01-30 15:00:19 Setting position Z 29000
+[INFO] 2024-01-30 15:00:19 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:19 TX: b'set position 2 29000\n'
+[INFO] 2024-01-30 15:00:20 Setting position Z 29500
+[INFO] 2024-01-30 15:00:20 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:20 TX: b'set position 2 29500\n'
+[INFO] 2024-01-30 15:00:22 Setting position Z 30000
+[INFO] 2024-01-30 15:00:22 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:22 TX: b'set position 2 30000\n'
+[INFO] 2024-01-30 15:00:23 Setting position Z 30500
+[INFO] 2024-01-30 15:00:23 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:23 TX: b'set position 2 30500\n'
+[INFO] 2024-01-30 15:00:25 Setting position Z 31000
+[INFO] 2024-01-30 15:00:25 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:25 TX: b'set position 2 31000\n'
+[INFO] 2024-01-30 15:00:26 Setting position Z 31500
+[INFO] 2024-01-30 15:00:26 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:26 TX: b'set position 2 31500\n'
+[INFO] 2024-01-30 15:00:28 Setting position Z 32000
+[INFO] 2024-01-30 15:00:28 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:28 TX: b'set position 2 32000\n'
+[INFO] 2024-01-30 15:00:29 Setting position Z 32500
+[INFO] 2024-01-30 15:00:29 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:29 TX: b'set position 2 32500\n'
+[INFO] 2024-01-30 15:00:31 Setting position Z 33000
+[INFO] 2024-01-30 15:00:31 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:31 TX: b'set position 2 33000\n'
+[INFO] 2024-01-30 15:00:32 Setting position Z 33500
+[INFO] 2024-01-30 15:00:32 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:32 TX: b'set position 2 33500\n'
+[INFO] 2024-01-30 15:00:34 Setting position Z 34000
+[INFO] 2024-01-30 15:00:34 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:34 TX: b'set position 2 34000\n'
+[INFO] 2024-01-30 15:00:35 Setting position Z 34500
+[INFO] 2024-01-30 15:00:35 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:35 TX: b'set position 2 34500\n'
+[INFO] 2024-01-30 15:00:37 Setting position Z 35000
+[INFO] 2024-01-30 15:00:37 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:37 TX: b'set position 2 35000\n'
+[INFO] 2024-01-30 15:00:38 Setting position Z 35500
+[INFO] 2024-01-30 15:00:38 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:38 TX: b'set position 2 35500\n'
+[INFO] 2024-01-30 15:00:40 Setting position Z 36000
+[INFO] 2024-01-30 15:00:40 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:40 TX: b'set position 2 36000\n'
+[INFO] 2024-01-30 15:00:42 Setting position Z 36500
+[INFO] 2024-01-30 15:00:42 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:00:42 TX: b'set position 2 36500\n'
+[INFO] 2024-01-30 15:01:35 Portas COM disponíveis:
+[INFO] 2024-01-30 15:01:35 COM30
+[INFO] 2024-01-30 15:01:35 COM31
+[INFO] 2024-01-30 15:01:35 COM42
+[INFO] 2024-01-30 15:01:40 Serial RX started
+[INFO] 2024-01-30 15:01:40 Serial TX started
+[INFO] 2024-01-30 15:01:40 TX: b'restart\n'
+[INFO] 2024-01-30 15:01:44 -------- Running New Test --------
+[INFO] 2024-01-30 15:01:44 Init position X: 90000
+[INFO] 2024-01-30 15:01:44 Init position Z: 20000
+[INFO] 2024-01-30 15:01:44 Final position Z: 25000
+[INFO] 2024-01-30 15:01:44 Number of executions: 3
+
+[INFO] 2024-01-30 15:01:44 TX: b'restart\n'
+[INFO] 2024-01-30 15:01:49 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 15:01:50 TX: b'set mode read\n'
+[INFO] 2024-01-30 15:01:51 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 15:01:52 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 15:01:53 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 15:01:56 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 15:01:58 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 15:02:01 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:02:02 Running experiment 1 of 3
+[INFO] 2024-01-30 15:02:02 Setting position Z 20500
+[INFO] 2024-01-30 15:02:02 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:02:02 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 15:02:03 Setting position Z 21000
+[INFO] 2024-01-30 15:02:03 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:02:03 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 15:02:04 Setting position Z 21500
+[INFO] 2024-01-30 15:02:04 Z target 25000 actual 20500
+
+[INFO] 2024-01-30 15:02:04 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 15:02:05 Setting position Z 22000
+[INFO] 2024-01-30 15:02:05 Z target 25000 actual 21000
+
+[INFO] 2024-01-30 15:02:05 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 15:02:06 Setting position Z 22500
+[INFO] 2024-01-30 15:02:06 Z target 25000 actual 21500
+
+[INFO] 2024-01-30 15:02:06 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 15:02:07 Setting position Z 23000
+[INFO] 2024-01-30 15:02:07 Z target 25000 actual 22000
+
+[INFO] 2024-01-30 15:02:07 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 15:02:08 Setting position Z 23500
+[INFO] 2024-01-30 15:02:08 Z target 25000 actual 22500
+
+[INFO] 2024-01-30 15:02:08 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 15:02:09 Setting position Z 24000
+[INFO] 2024-01-30 15:02:09 Z target 25000 actual 23000
+
+[INFO] 2024-01-30 15:02:09 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 15:02:11 Setting position Z 24500
+[INFO] 2024-01-30 15:02:11 Z target 25000 actual 23500
+
+[INFO] 2024-01-30 15:02:11 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 15:02:12 Setting position Z 25000
+[INFO] 2024-01-30 15:02:12 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:02:12 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 15:02:13 Setting position Z 25500
+[INFO] 2024-01-30 15:02:13 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:02:13 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 15:02:14 Setting position Z 26000
+[INFO] 2024-01-30 15:02:14 Z target 25000 actual 25000
+
+[INFO] 2024-01-30 15:02:14 TX: b'set position 2 26000\n'
+[INFO] 2024-01-30 15:02:15 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:02:16 Running experiment 2 of 3
+[INFO] 2024-01-30 15:02:16 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:02:17 Running experiment 3 of 3
+[INFO] 2024-01-30 15:02:17 Setting position Z 20500
+[INFO] 2024-01-30 15:02:17 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:02:17 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 15:02:18 Setting position Z 21000
+[INFO] 2024-01-30 15:02:18 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:02:18 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 15:02:19 Setting position Z 21500
+[INFO] 2024-01-30 15:02:19 Z target 25000 actual 20500
+
+[INFO] 2024-01-30 15:02:19 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 15:02:20 Setting position Z 22000
+[INFO] 2024-01-30 15:02:20 Z target 25000 actual 21000
+
+[INFO] 2024-01-30 15:02:20 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 15:02:21 Setting position Z 22500
+[INFO] 2024-01-30 15:02:21 Z target 25000 actual 21500
+
+[INFO] 2024-01-30 15:02:21 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 15:02:22 Setting position Z 23000
+[INFO] 2024-01-30 15:02:22 Z target 25000 actual 22000
+
+[INFO] 2024-01-30 15:02:22 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 15:02:23 Setting position Z 23500
+[INFO] 2024-01-30 15:02:23 Z target 25000 actual 23000
+
+[INFO] 2024-01-30 15:02:23 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 15:02:24 Setting position Z 24000
+[INFO] 2024-01-30 15:02:24 Z target 25000 actual 23000
+
+[INFO] 2024-01-30 15:02:24 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 15:02:25 Setting position Z 24500
+[INFO] 2024-01-30 15:02:25 Z target 25000 actual 23500
+
+[INFO] 2024-01-30 15:02:25 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 15:02:26 Setting position Z 25000
+[INFO] 2024-01-30 15:02:26 Z target 25000 actual 24000
+
+[INFO] 2024-01-30 15:02:26 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 15:02:27 Setting position Z 25500
+[INFO] 2024-01-30 15:02:27 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:02:27 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 15:02:28 Setting position Z 26000
+[INFO] 2024-01-30 15:02:28 Z target 25000 actual 25000
+
+[INFO] 2024-01-30 15:02:28 TX: b'set position 2 26000\n'
+[INFO] 2024-01-30 15:02:29 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:02:30 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 15:02:33 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 15:02:35 Test Finished!
+[INFO] 2024-01-30 15:02:35 TX: b'restart\n'
+[INFO] 2024-01-30 15:03:31 Portas COM disponíveis:
+[INFO] 2024-01-30 15:03:31 COM30
+[INFO] 2024-01-30 15:03:31 COM31
+[INFO] 2024-01-30 15:03:31 COM42
+[INFO] 2024-01-30 15:03:34 Serial RX started
+[INFO] 2024-01-30 15:03:34 Serial TX started
+[INFO] 2024-01-30 15:03:34 TX: b'restart\n'
+[INFO] 2024-01-30 15:03:38 -------- Running New Test --------
+[INFO] 2024-01-30 15:03:38 Init position X: 90000
+[INFO] 2024-01-30 15:03:38 Init position Z: 20000
+[INFO] 2024-01-30 15:03:38 Final position Z: 25000
+[INFO] 2024-01-30 15:03:38 Number of executions: 3
+
+[INFO] 2024-01-30 15:03:38 TX: b'restart\n'
+[INFO] 2024-01-30 15:03:43 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-01-30 15:03:44 TX: b'set mode read\n'
+[INFO] 2024-01-30 15:03:45 TX: b'set speed 1 70\n'
+[INFO] 2024-01-30 15:03:46 TX: b'set speed 2 65\n'
+[INFO] 2024-01-30 15:03:47 TX: b'set position 1 home\n'
+[INFO] 2024-01-30 15:03:48 TX: b'set position 2 home\n'
+[INFO] 2024-01-30 15:03:50 TX: b'set position 1 90000\n'
+[INFO] 2024-01-30 15:03:52 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:03:54 Running experiment 1 of 3
+[INFO] 2024-01-30 15:03:54 Setting position Z 20500
+[INFO] 2024-01-30 15:03:54 Z target 25000 actual 0
+
+[INFO] 2024-01-30 15:03:54 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 15:03:55 Setting position Z 21000
+[INFO] 2024-01-30 15:03:55 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:03:55 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 15:03:56 Setting position Z 21500
+[INFO] 2024-01-30 15:03:56 Z target 25000 actual 20500
+
+[INFO] 2024-01-30 15:03:56 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 15:03:57 Setting position Z 22000
+[INFO] 2024-01-30 15:03:57 Z target 25000 actual 21000
+
+[INFO] 2024-01-30 15:03:57 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 15:03:58 Setting position Z 22500
+[INFO] 2024-01-30 15:03:58 Z target 25000 actual 21500
+
+[INFO] 2024-01-30 15:03:58 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 15:03:59 Setting position Z 23000
+[INFO] 2024-01-30 15:03:59 Z target 25000 actual 22000
+
+[INFO] 2024-01-30 15:03:59 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 15:04:00 Setting position Z 23500
+[INFO] 2024-01-30 15:04:00 Z target 25000 actual 22500
+
+[INFO] 2024-01-30 15:04:00 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 15:04:01 Setting position Z 24000
+[INFO] 2024-01-30 15:04:01 Z target 25000 actual 23000
+
+[INFO] 2024-01-30 15:04:01 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 15:04:02 Setting position Z 24500
+[INFO] 2024-01-30 15:04:02 Z target 25000 actual 23500
+
+[INFO] 2024-01-30 15:04:02 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 15:04:03 Setting position Z 25000
+[INFO] 2024-01-30 15:04:03 Z target 25000 actual 24000
+
+[INFO] 2024-01-30 15:04:03 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 15:04:04 Setting position Z 25500
+[INFO] 2024-01-30 15:04:04 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:04:04 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 15:04:05 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:04:06 Running experiment 2 of 3
+[INFO] 2024-01-30 15:04:06 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:04:07 Running experiment 3 of 3
+[INFO] 2024-01-30 15:04:07 Setting position Z 20500
+[INFO] 2024-01-30 15:04:07 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:04:07 TX: b'set position 2 20500\n'
+[INFO] 2024-01-30 15:04:08 Setting position Z 21000
+[INFO] 2024-01-30 15:04:08 Z target 25000 actual 20000
+
+[INFO] 2024-01-30 15:04:08 TX: b'set position 2 21000\n'
+[INFO] 2024-01-30 15:04:09 Setting position Z 21500
+[INFO] 2024-01-30 15:04:09 Z target 25000 actual 20500
+
+[INFO] 2024-01-30 15:04:09 TX: b'set position 2 21500\n'
+[INFO] 2024-01-30 15:04:10 Setting position Z 22000
+[INFO] 2024-01-30 15:04:10 Z target 25000 actual 21000
+
+[INFO] 2024-01-30 15:04:10 TX: b'set position 2 22000\n'
+[INFO] 2024-01-30 15:04:11 Setting position Z 22500
+[INFO] 2024-01-30 15:04:11 Z target 25000 actual 21500
+
+[INFO] 2024-01-30 15:04:11 TX: b'set position 2 22500\n'
+[INFO] 2024-01-30 15:04:12 Setting position Z 23000
+[INFO] 2024-01-30 15:04:12 Z target 25000 actual 22000
+
+[INFO] 2024-01-30 15:04:12 TX: b'set position 2 23000\n'
+[INFO] 2024-01-30 15:04:13 Setting position Z 23500
+[INFO] 2024-01-30 15:04:13 Z target 25000 actual 22500
+
+[INFO] 2024-01-30 15:04:13 TX: b'set position 2 23500\n'
+[INFO] 2024-01-30 15:04:14 Setting position Z 24000
+[INFO] 2024-01-30 15:04:14 Z target 25000 actual 23000
+
+[INFO] 2024-01-30 15:04:14 TX: b'set position 2 24000\n'
+[INFO] 2024-01-30 15:04:15 Setting position Z 24500
+[INFO] 2024-01-30 15:04:15 Z target 25000 actual 23500
+
+[INFO] 2024-01-30 15:04:15 TX: b'set position 2 24500\n'
+[INFO] 2024-01-30 15:04:17 Setting position Z 25000
+[INFO] 2024-01-30 15:04:17 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:04:17 TX: b'set position 2 25000\n'
+[INFO] 2024-01-30 15:04:18 Setting position Z 25500
+[INFO] 2024-01-30 15:04:18 Z target 25000 actual 24500
+
+[INFO] 2024-01-30 15:04:18 TX: b'set position 2 25500\n'
+[INFO] 2024-01-30 15:04:19 TX: b'set position 2 20000\n'
+[INFO] 2024-01-30 15:04:20 TX: b'set position 1 0\n'
+[INFO] 2024-01-30 15:04:22 TX: b'set position 2 0\n'
+[INFO] 2024-01-30 15:04:24 Test Finished!
+[INFO] 2024-01-30 15:04:24 TX: b'restart\n'

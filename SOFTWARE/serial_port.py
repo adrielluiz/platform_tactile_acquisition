@@ -3,6 +3,7 @@ import log
 from threading import Event, Thread, Lock
 import time
 from serial_cmd import SerialCmd
+import sys
 
 class SerialRx(Thread):
     def __init__(self, serial, rxq, stop):
@@ -19,6 +20,8 @@ class SerialRx(Thread):
         while not self.stop.is_set():
             try:
                 cmdline = self.serial.readline()
+            except serial.SerialException as e:
+                sys.exit(1)
             except Exception as e:
                 log.logging.error(repr(e))
                 time.sleep(0.5)
@@ -67,7 +70,7 @@ class SerialConn(Thread):
         ports = serial.tools.list_ports.comports()
 
         if len(ports) == 0:
-            log.logging.warning("Nenhuma porta COM encontrada.")
+            log.logging.warning("Nenhuma porta COM encontrada")
         else:
             log.logging.info("Portas COM disponíveis:")
             for port in ports:

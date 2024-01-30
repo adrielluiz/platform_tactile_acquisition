@@ -46,12 +46,12 @@ bool motor_move(int motor_id, int step)
 
 void motor_set_speed(int motor_id, int speed_rpm)
 {
-    motor[motor_id].setRPM(speed_rpm);         
+    motor[motor_id-1].setRPM(speed_rpm);         
 }
 
 uint16_t motor_get_speed(int motor_id)
 {
-    return (uint16_t) motor[0].getRPM();    
+    return (uint16_t) motor[motor_id-1].getRPM();    
 }
 
 int motor_convert_um_steps(int motor_id, int pos_um)
@@ -92,7 +92,7 @@ void motor_set_pos_home(int motor_id)
     int pos_steps = motor_convert_um_steps(motor_id, motor_max_dist_um[motor_id-1]);
 
     // find end stop
-  
+
     motor[motor_id-1].startMove(pos_steps);
 
     while (motor[motor_id-1].nextAction() != 0) 

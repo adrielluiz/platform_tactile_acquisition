@@ -50,9 +50,9 @@ uint32_t hw_timer_elapsed_ms(uint32_t start)
 bool hw_sw_is_on(int axis)
 {
 	if(axis == AXIS_X )
-		return !digitalRead(SW1_PIN);
+		return digitalRead(SW1_PIN);
 	else if(axis == AXIS_Z)	
-		return !digitalRead(SW2_PIN);
+		return digitalRead(SW2_PIN);
 		
 	return false;	
 }
