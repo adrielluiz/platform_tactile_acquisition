@@ -68,4 +68,5 @@ class Excel():
     
     def append_meas(self, ts, meas):
         self.colMeasTs.append(ts) 
-        self.colMeas.append(meas)    
+        self.colMeas.append(meas)   
+        

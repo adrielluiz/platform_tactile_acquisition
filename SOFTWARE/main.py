@@ -221,13 +221,13 @@ class MainWin(QMainWindow):
         if self.serial_task.is_connected: 
             self.txq.put(SerialCmd().set_pos("x", "home"))     
             self.ui.horizontalSliderX.setValue(0)   
-            self.ui.pbHomeX.setEnabled(False)  
+            #self.ui.pbHomeX.setEnabled(False)  
 
     def send_pos_home_z(self):   
         if self.serial_task.is_connected: 
             self.txq.put(SerialCmd().set_pos("z", "home"))  
             self.ui.verticalSliderZ.setValue(0)
-            self.ui.pbHomeZ.setEnabled(False)  
+            #self.ui.pbHomeZ.setEnabled(False)  
 
     def send_pos_x(self):
         if self.serial_task.is_connected: 
@@ -244,10 +244,10 @@ class MainWin(QMainWindow):
         self.show_info_messagebox(f"Excel file {self.excel.filename} saved!")         
         sys.exit(1)   
 
-    def show_info_messagebox(self, msg):
+    def show_info_messagebox(self, msg_write):
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Information)
-        msg.setText( msg)        
+        msg.setText(msg_write)        
         msg.setWindowTitle("Information")
         msg.exec_()        
   
@@ -262,6 +262,7 @@ class MainWin(QMainWindow):
             num  = self.ui.sbNumTests.value()
             
             if(final_z > init_z):
+                self.excel.clean_data()
                 self.exp.set_all_param(init_x, init_z, final_z, num)    
                 self.worker_thread.start()
                 self.work_requested.emit()

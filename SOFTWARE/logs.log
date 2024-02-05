@@ -7324,3 +7324,2497 @@
 [INFO] 2024-01-30 15:04:22 TX: b'set position 2 0\n'
 [INFO] 2024-01-30 15:04:24 Test Finished!
 [INFO] 2024-01-30 15:04:24 TX: b'restart\n'
+[INFO] 2024-01-31 14:41:45 Portas COM disponíveis:
+[INFO] 2024-01-31 14:41:45 COM30
+[INFO] 2024-01-31 14:41:45 COM65
+[INFO] 2024-01-31 14:41:45 COM31
+[INFO] 2024-01-31 14:41:45 COM42
+[INFO] 2024-01-31 14:41:52 Serial RX started
+[INFO] 2024-01-31 14:41:52 Serial TX started
+[INFO] 2024-01-31 14:41:52 TX: b'restart\n'
+[INFO] 2024-01-31 14:42:00 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:42:05 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:42:09 TX: b'set position 1 41000\n'
+[INFO] 2024-01-31 14:42:12 TX: b'set position 1 60000\n'
+[INFO] 2024-01-31 14:42:16 TX: b'set position 1 73000\n'
+[INFO] 2024-01-31 14:42:19 TX: b'set position 1 79000\n'
+[INFO] 2024-01-31 14:42:21 TX: b'set position 2 7000\n'
+[INFO] 2024-01-31 14:42:24 TX: b'set position 2 13000\n'
+[INFO] 2024-01-31 14:42:28 TX: b'set position 2 17000\n'
+[INFO] 2024-01-31 14:42:30 TX: b'set position 2 25000\n'
+[INFO] 2024-01-31 14:42:33 TX: b'set position 2 28000\n'
+[INFO] 2024-01-31 14:42:37 TX: b'set position 2 35000\n'
+[INFO] 2024-01-31 14:50:19 Portas COM disponíveis:
+[INFO] 2024-01-31 14:50:19 COM30
+[INFO] 2024-01-31 14:50:19 COM65
+[INFO] 2024-01-31 14:50:19 COM31
+[INFO] 2024-01-31 14:50:19 COM42
+[INFO] 2024-01-31 14:50:36 Serial RX started
+[INFO] 2024-01-31 14:50:36 Serial TX started
+[INFO] 2024-01-31 14:50:36 TX: b'restart\n'
+[INFO] 2024-01-31 14:50:41 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:50:44 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:50:51 TX: b'set position 2 18000\n'
+[INFO] 2024-01-31 14:50:55 TX: b'set position 1 74000\n'
+[INFO] 2024-01-31 14:50:59 TX: b'set position 1 79000\n'
+[INFO] 2024-01-31 14:51:02 TX: b'set position 1 81000\n'
+[INFO] 2024-01-31 14:51:06 TX: b'set position 2 26000\n'
+[INFO] 2024-01-31 14:51:09 TX: b'set position 2 27000\n'
+[INFO] 2024-01-31 14:51:11 TX: b'set position 2 28000\n'
+[INFO] 2024-01-31 14:51:13 TX: b'set position 2 29000\n'
+[INFO] 2024-01-31 14:51:16 TX: b'set position 2 31000\n'
+[INFO] 2024-01-31 14:51:19 TX: b'set position 2 33000\n'
+[INFO] 2024-01-31 14:51:22 TX: b'set position 2 34000\n'
+[INFO] 2024-01-31 14:51:26 TX: b'set position 2 35000\n'
+[INFO] 2024-01-31 14:51:30 TX: b'set position 1 64000\n'
+[INFO] 2024-01-31 14:51:35 TX: b'set position 1 60000\n'
+[INFO] 2024-01-31 14:51:38 TX: b'set position 1 53000\n'
+[INFO] 2024-01-31 14:51:45 TX: b'set position 1 33000\n'
+[INFO] 2024-01-31 14:51:50 TX: b'set position 1 20000\n'
+[INFO] 2024-01-31 14:51:54 TX: b'set position 2 34000\n'
+[INFO] 2024-01-31 14:51:57 TX: b'set position 2 32000\n'
+[INFO] 2024-01-31 14:52:03 TX: b'set position 2 31000\n'
+[INFO] 2024-01-31 14:52:05 TX: b'set position 2 28000\n'
+[INFO] 2024-01-31 14:53:47 Portas COM disponíveis:
+[INFO] 2024-01-31 14:53:47 COM30
+[INFO] 2024-01-31 14:53:47 COM65
+[INFO] 2024-01-31 14:53:47 COM31
+[INFO] 2024-01-31 14:53:47 COM42
+[INFO] 2024-01-31 14:54:26 Portas COM disponíveis:
+[INFO] 2024-01-31 14:54:26 COM30
+[INFO] 2024-01-31 14:54:26 COM65
+[INFO] 2024-01-31 14:54:26 COM31
+[INFO] 2024-01-31 14:54:26 COM42
+[INFO] 2024-01-31 14:54:32 Serial RX started
+[INFO] 2024-01-31 14:54:32 Serial TX started
+[INFO] 2024-01-31 14:54:32 TX: b'restart\n'
+[INFO] 2024-01-31 14:54:36 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:54:43 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:54:47 TX: b'set position 1 79000\n'
+[INFO] 2024-01-31 14:55:00 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:55:03 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:55:06 TX: b'set position 1 55000\n'
+[INFO] 2024-01-31 14:55:09 TX: b'set position 2 16000\n'
+[INFO] 2024-01-31 14:56:52 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:56:54 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:57:05 TX: b'set position 1 54000\n'
+[INFO] 2024-01-31 14:57:10 TX: b'set position 2 21000\n'
+[INFO] 2024-01-31 14:57:14 TX: b'set position 1 72000\n'
+[INFO] 2024-01-31 14:57:21 TX: b'set position 1 home\n'
+[INFO] 2024-01-31 14:57:23 TX: b'set position 2 home\n'
+[INFO] 2024-01-31 14:57:27 TX: b'set position 1 28000\n'
+[INFO] 2024-01-31 14:58:51 TX: b'set position 1 112000\n'
+[INFO] 2024-01-31 14:59:01 TX: b'set position 2 23000\n'
+[INFO] 2024-01-31 14:59:04 TX: b'set position 2 30000\n'
+[INFO] 2024-01-31 14:59:09 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 14:26:22 Portas COM disponíveis:
+[INFO] 2024-02-01 14:26:22 COM30
+[INFO] 2024-02-01 14:26:22 COM31
+[INFO] 2024-02-01 14:26:22 COM42
+[INFO] 2024-02-01 14:26:49 Portas COM disponíveis:
+[INFO] 2024-02-01 14:26:49 COM30
+[INFO] 2024-02-01 14:26:49 COM65
+[INFO] 2024-02-01 14:26:49 COM31
+[INFO] 2024-02-01 14:26:49 COM42
+[INFO] 2024-02-01 14:26:54 Serial RX started
+[INFO] 2024-02-01 14:26:54 Serial TX started
+[INFO] 2024-02-01 14:26:54 TX: b'restart\n'
+[INFO] 2024-02-01 14:26:57 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 14:27:12 TX: b'set position 1 54000\n'
+[INFO] 2024-02-01 14:27:19 TX: b'set position 2 9000\n'
+[INFO] 2024-02-01 14:27:23 TX: b'set position 2 8000\n'
+[INFO] 2024-02-01 14:27:27 TX: b'set position 1 110000\n'
+[INFO] 2024-02-01 14:27:32 TX: b'set position 2 11000\n'
+[INFO] 2024-02-01 14:27:36 TX: b'set position 1 24000\n'
+[INFO] 2024-02-01 14:27:39 TX: b'set position 2 6000\n'
+[INFO] 2024-02-01 14:27:43 TX: b'set position 2 8000\n'
+[INFO] 2024-02-01 14:27:50 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 14:27:58 TX: b'set position 1 66000\n'
+[INFO] 2024-02-01 14:28:04 TX: b'set position 2 9000\n'
+[INFO] 2024-02-01 14:28:08 TX: b'set position 1 110000\n'
+[INFO] 2024-02-01 14:28:14 TX: b'set position 2 10000\n'
+[INFO] 2024-02-01 14:28:18 TX: b'set position 1 57000\n'
+[INFO] 2024-02-01 14:28:28 TX: b'set position 2 7000\n'
+[INFO] 2024-02-01 14:28:30 TX: b'set position 2 6000\n'
+[INFO] 2024-02-01 14:28:34 TX: b'set position 1 73000\n'
+[INFO] 2024-02-01 14:28:37 TX: b'set position 1 59000\n'
+[INFO] 2024-02-01 14:28:40 TX: b'set position 1 46000\n'
+[INFO] 2024-02-01 14:28:43 TX: b'set position 2 10000\n'
+[INFO] 2024-02-01 14:28:47 TX: b'set position 2 12000\n'
+[INFO] 2024-02-01 14:28:50 TX: b'set position 2 10000\n'
+[INFO] 2024-02-01 14:28:56 TX: b'set position 2 6000\n'
+[INFO] 2024-02-01 14:28:58 TX: b'set position 2 9000\n'
+[INFO] 2024-02-01 14:29:01 TX: b'set position 2 10000\n'
+[INFO] 2024-02-01 14:29:05 TX: b'set position 2 11000\n'
+[INFO] 2024-02-01 14:29:09 TX: b'set position 2 12000\n'
+[INFO] 2024-02-01 14:29:14 TX: b'set position 2 13000\n'
+[INFO] 2024-02-01 14:29:42 TX: b'set position 2 12000\n'
+[INFO] 2024-02-01 14:29:48 TX: b'set position 1 40000\n'
+[INFO] 2024-02-01 14:29:51 TX: b'set position 2 15000\n'
+[INFO] 2024-02-01 14:29:57 TX: b'set position 2 14000\n'
+[INFO] 2024-02-01 14:30:01 TX: b'set position 2 13000\n'
+[INFO] 2024-02-01 14:30:04 TX: b'set position 1 68000\n'
+[INFO] 2024-02-01 14:30:08 TX: b'set position 1 33000\n'
+[INFO] 2024-02-01 14:30:13 TX: b'set position 1 47000\n'
+[INFO] 2024-02-01 14:30:18 TX: b'set position 1 10000\n'
+[INFO] 2024-02-01 14:30:44 TX: b'set position 2 8000\n'
+[INFO] 2024-02-01 14:30:47 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 14:30:55 TX: b'set position 1 61000\n'
+[INFO] 2024-02-01 14:30:59 TX: b'set position 1 74000\n'
+[INFO] 2024-02-01 14:31:03 TX: b'set position 1 83000\n'
+[INFO] 2024-02-01 14:31:08 TX: b'set position 2 12000\n'
+[INFO] 2024-02-01 14:31:10 TX: b'set position 2 14000\n'
+[INFO] 2024-02-01 15:53:34 Portas COM disponíveis:
+[INFO] 2024-02-01 15:53:34 COM30
+[INFO] 2024-02-01 15:53:34 COM65
+[INFO] 2024-02-01 15:53:34 COM31
+[INFO] 2024-02-01 15:53:34 COM42
+[INFO] 2024-02-01 15:53:40 Serial RX started
+[INFO] 2024-02-01 15:53:40 Serial TX started
+[INFO] 2024-02-01 15:53:40 TX: b'restart\n'
+[INFO] 2024-02-01 15:53:52 TX: b'set mode read\n'
+[INFO] 2024-02-01 15:56:53 Portas COM disponíveis:
+[INFO] 2024-02-01 15:56:53 COM30
+[INFO] 2024-02-01 15:56:53 COM65
+[INFO] 2024-02-01 15:56:53 COM31
+[INFO] 2024-02-01 15:56:53 COM42
+[INFO] 2024-02-01 16:00:48 Serial RX started
+[INFO] 2024-02-01 16:00:48 Serial TX started
+[INFO] 2024-02-01 16:00:48 TX: b'restart\n'
+[INFO] 2024-02-01 16:01:03 -------- Running New Test --------
+[INFO] 2024-02-01 16:01:03 Init position X: 90000
+[INFO] 2024-02-01 16:01:03 Init position Z: 20000
+[INFO] 2024-02-01 16:01:03 Final position Z: 25000
+[INFO] 2024-02-01 16:01:03 Number of executions: 3
+
+[INFO] 2024-02-01 16:01:03 TX: b'restart\n'
+[INFO] 2024-02-01 16:01:08 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:01:09 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:01:11 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:01:16 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:01:16 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:01:21 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:01:21 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:01:23 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:01:24 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:01:27 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:01:28 Running experiment 1 of 3
+[INFO] 2024-02-01 16:01:28 Setting position Z 20500
+[INFO] 2024-02-01 16:01:28 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:01:28 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:01:30 Setting position Z 21000
+[INFO] 2024-02-01 16:01:30 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:01:30 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:01:31 Setting position Z 21500
+[INFO] 2024-02-01 16:01:31 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:01:31 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:01:32 Setting position Z 22000
+[INFO] 2024-02-01 16:01:32 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:01:32 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:01:33 Setting position Z 22500
+[INFO] 2024-02-01 16:01:33 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:01:33 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:01:34 Setting position Z 23000
+[INFO] 2024-02-01 16:01:34 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:01:34 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:01:35 Setting position Z 23500
+[INFO] 2024-02-01 16:01:35 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:01:35 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:01:36 Setting position Z 24000
+[INFO] 2024-02-01 16:01:36 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:01:36 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:01:37 Setting position Z 24500
+[INFO] 2024-02-01 16:01:37 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:01:37 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:01:38 Setting position Z 25000
+[INFO] 2024-02-01 16:01:38 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:01:38 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:01:39 Setting position Z 25500
+[INFO] 2024-02-01 16:01:39 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:01:39 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:01:40 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:01:41 Running experiment 2 of 3
+[INFO] 2024-02-01 16:01:41 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:01:42 Running experiment 3 of 3
+[INFO] 2024-02-01 16:01:42 Setting position Z 20500
+[INFO] 2024-02-01 16:01:42 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:01:42 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:01:43 Setting position Z 21000
+[INFO] 2024-02-01 16:01:43 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:01:43 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:01:44 Setting position Z 21500
+[INFO] 2024-02-01 16:01:44 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:01:44 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:01:45 Setting position Z 22000
+[INFO] 2024-02-01 16:01:45 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:01:45 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:01:46 Setting position Z 22500
+[INFO] 2024-02-01 16:01:46 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:01:46 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:01:47 Setting position Z 23000
+[INFO] 2024-02-01 16:01:47 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:01:47 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:01:48 Setting position Z 23500
+[INFO] 2024-02-01 16:01:48 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:01:48 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:01:49 Setting position Z 24000
+[INFO] 2024-02-01 16:01:49 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:01:49 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:01:50 Setting position Z 24500
+[INFO] 2024-02-01 16:01:50 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:01:50 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:01:51 Setting position Z 25000
+[INFO] 2024-02-01 16:01:51 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:01:51 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:01:53 Setting position Z 25500
+[INFO] 2024-02-01 16:01:53 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:01:53 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:01:54 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:01:55 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:01:57 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:01:59 Test Finished!
+[INFO] 2024-02-01 16:01:59 TX: b'restart\n'
+[INFO] 2024-02-01 16:02:41 Portas COM disponíveis:
+[INFO] 2024-02-01 16:02:41 COM30
+[INFO] 2024-02-01 16:02:41 COM65
+[INFO] 2024-02-01 16:02:41 COM31
+[INFO] 2024-02-01 16:02:41 COM42
+[INFO] 2024-02-01 16:02:47 Serial RX started
+[INFO] 2024-02-01 16:02:47 Serial TX started
+[INFO] 2024-02-01 16:02:47 TX: b'restart\n'
+[INFO] 2024-02-01 16:02:59 -------- Running New Test --------
+[INFO] 2024-02-01 16:02:59 Init position X: 90000
+[INFO] 2024-02-01 16:02:59 Init position Z: 20000
+[INFO] 2024-02-01 16:02:59 Final position Z: 25000
+[INFO] 2024-02-01 16:02:59 Number of executions: 3
+
+[INFO] 2024-02-01 16:02:59 TX: b'restart\n'
+[INFO] 2024-02-01 16:03:04 TX: b'set flags 1 0 0 0\n'
+[ERROR] 2024-02-01 16:03:09 Timeout in cmd: b'set flags 1 0 0 0\n'
+[ERROR] 2024-02-01 16:03:14 Timeout in cmd: b'set mode read\n'
+[INFO] 2024-02-01 16:03:16 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:03:16 TX: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:03:16 TX: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:03:24 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:03:25 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:03:26 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:03:29 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:03:30 Running experiment 1 of 3
+[INFO] 2024-02-01 16:03:30 Setting position Z 20500
+[INFO] 2024-02-01 16:03:30 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:03:30 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:03:31 Setting position Z 21000
+[INFO] 2024-02-01 16:03:31 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:03:31 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:03:32 Setting position Z 21500
+[INFO] 2024-02-01 16:03:32 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:03:32 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:03:33 Setting position Z 22000
+[INFO] 2024-02-01 16:03:33 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:03:33 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:03:34 Setting position Z 22500
+[INFO] 2024-02-01 16:03:34 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:03:34 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:03:35 Setting position Z 23000
+[INFO] 2024-02-01 16:03:35 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:03:35 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:03:36 Setting position Z 23500
+[INFO] 2024-02-01 16:03:36 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:03:36 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:03:37 Setting position Z 24000
+[INFO] 2024-02-01 16:03:37 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:03:37 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:03:38 Setting position Z 24500
+[INFO] 2024-02-01 16:03:38 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:03:38 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:03:39 Setting position Z 25000
+[INFO] 2024-02-01 16:03:39 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:03:39 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:03:41 Setting position Z 25500
+[INFO] 2024-02-01 16:03:41 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:03:41 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:03:42 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:03:43 Running experiment 2 of 3
+[INFO] 2024-02-01 16:03:43 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:03:44 Running experiment 3 of 3
+[INFO] 2024-02-01 16:03:44 Setting position Z 20500
+[INFO] 2024-02-01 16:03:44 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:03:44 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:03:45 Setting position Z 21000
+[INFO] 2024-02-01 16:03:45 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:03:45 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:03:46 Setting position Z 21500
+[INFO] 2024-02-01 16:03:46 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:03:46 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:03:47 Setting position Z 22000
+[INFO] 2024-02-01 16:03:47 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:03:47 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:03:48 Setting position Z 22500
+[INFO] 2024-02-01 16:03:48 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:03:48 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:03:49 Setting position Z 23000
+[INFO] 2024-02-01 16:03:49 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:03:49 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:03:50 Setting position Z 23500
+[INFO] 2024-02-01 16:03:50 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:03:50 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:03:51 Setting position Z 24000
+[INFO] 2024-02-01 16:03:51 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:03:51 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:03:52 Setting position Z 24500
+[INFO] 2024-02-01 16:03:52 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:03:52 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:03:53 Setting position Z 25000
+[INFO] 2024-02-01 16:03:53 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:03:53 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:03:54 Setting position Z 25500
+[INFO] 2024-02-01 16:03:54 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:03:54 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:03:55 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:03:56 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:03:59 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:04:00 Test Finished!
+[INFO] 2024-02-01 16:04:00 TX: b'restart\n'
+[INFO] 2024-02-01 16:04:54 -------- Running New Test --------
+[INFO] 2024-02-01 16:04:54 Init position X: 90000
+[INFO] 2024-02-01 16:04:54 Init position Z: 20000
+[INFO] 2024-02-01 16:04:54 Final position Z: 25000
+[INFO] 2024-02-01 16:04:54 Number of executions: 3
+
+[INFO] 2024-02-01 16:04:54 TX: b'restart\n'
+[INFO] 2024-02-01 16:04:59 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:05:01 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:05:02 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:05:07 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:05:07 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:05:12 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:05:12 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:05:13 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:05:15 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:05:17 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:05:19 Running experiment 1 of 3
+[INFO] 2024-02-01 16:05:19 Setting position Z 20500
+[INFO] 2024-02-01 16:05:19 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:05:19 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:05:20 Setting position Z 21000
+[INFO] 2024-02-01 16:05:20 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:05:20 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:05:21 Setting position Z 21500
+[INFO] 2024-02-01 16:05:21 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:05:21 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:05:22 Setting position Z 22000
+[INFO] 2024-02-01 16:05:22 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:05:22 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:05:23 Setting position Z 22500
+[INFO] 2024-02-01 16:05:23 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:05:23 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:05:24 Setting position Z 23000
+[INFO] 2024-02-01 16:05:24 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:05:24 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:05:25 Setting position Z 23500
+[INFO] 2024-02-01 16:05:25 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:05:25 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:05:26 Setting position Z 24000
+[INFO] 2024-02-01 16:05:26 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:05:26 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:05:27 Setting position Z 24500
+[INFO] 2024-02-01 16:05:27 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:05:27 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:05:28 Setting position Z 25000
+[INFO] 2024-02-01 16:05:28 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:05:28 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:05:29 Setting position Z 25500
+[INFO] 2024-02-01 16:05:29 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:05:29 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:05:30 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:05:31 Running experiment 2 of 3
+[INFO] 2024-02-01 16:05:31 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:05:32 Running experiment 3 of 3
+[INFO] 2024-02-01 16:05:32 Setting position Z 20500
+[INFO] 2024-02-01 16:05:32 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:05:32 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:05:33 Setting position Z 21000
+[INFO] 2024-02-01 16:05:33 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:05:33 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:05:34 Setting position Z 21500
+[INFO] 2024-02-01 16:05:34 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:05:34 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:05:35 Setting position Z 22000
+[INFO] 2024-02-01 16:05:35 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:05:35 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:05:36 Setting position Z 22500
+[INFO] 2024-02-01 16:05:36 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:05:36 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:05:37 Setting position Z 23000
+[INFO] 2024-02-01 16:05:37 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:05:37 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:05:39 Setting position Z 23500
+[INFO] 2024-02-01 16:05:39 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:05:39 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:05:40 Setting position Z 24000
+[INFO] 2024-02-01 16:05:40 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:05:40 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:05:41 Setting position Z 24500
+[INFO] 2024-02-01 16:05:41 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:05:41 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:05:42 Setting position Z 25000
+[INFO] 2024-02-01 16:05:42 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:05:42 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:05:43 Setting position Z 25500
+[INFO] 2024-02-01 16:05:43 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:05:43 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:05:44 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:05:45 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:05:47 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:05:49 Test Finished!
+[INFO] 2024-02-01 16:05:49 TX: b'restart\n'
+[INFO] 2024-02-01 16:06:12 Portas COM disponíveis:
+[INFO] 2024-02-01 16:06:12 COM30
+[INFO] 2024-02-01 16:06:12 COM65
+[INFO] 2024-02-01 16:06:12 COM31
+[INFO] 2024-02-01 16:06:12 COM42
+[INFO] 2024-02-01 16:06:16 Serial RX started
+[INFO] 2024-02-01 16:06:16 Serial TX started
+[INFO] 2024-02-01 16:06:16 TX: b'restart\n'
+[INFO] 2024-02-01 16:06:21 -------- Running New Test --------
+[INFO] 2024-02-01 16:06:21 Init position X: 90000
+[INFO] 2024-02-01 16:06:21 Init position Z: 20000
+[INFO] 2024-02-01 16:06:21 Final position Z: 25000
+[INFO] 2024-02-01 16:06:21 Number of executions: 3
+
+[INFO] 2024-02-01 16:06:21 TX: b'restart\n'
+[INFO] 2024-02-01 16:06:26 TX: b'set flags 1 0 0 0\n'
+[ERROR] 2024-02-01 16:06:31 Timeout in cmd: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:06:31 TX: b'set mode read\n'
+[ERROR] 2024-02-01 16:06:36 Timeout in cmd: b'set mode read\n'
+[INFO] 2024-02-01 16:06:36 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:06:41 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:06:41 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:06:46 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:06:46 TX: b'set position 1 home\n'
+[ERROR] 2024-02-01 16:07:06 Timeout in cmd: b'set position 1 home\n'
+[INFO] 2024-02-01 16:07:06 TX: b'set position 2 home\n'
+[ERROR] 2024-02-01 16:07:26 Timeout in cmd: b'set position 2 home\n'
+[INFO] 2024-02-01 16:07:26 TX: b'set position 1 90000\n'
+[ERROR] 2024-02-01 16:07:46 Timeout in cmd: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:07:46 TX: b'set position 2 20000\n'
+[ERROR] 2024-02-01 16:08:06 Timeout in cmd: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:08:06 Running experiment 1 of 3
+[INFO] 2024-02-01 16:08:06 Setting position Z 20500
+[INFO] 2024-02-01 16:08:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:06 TX: b'set position 2 20500\n'
+[ERROR] 2024-02-01 16:08:11 Timeout in cmd: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:08:11 Setting position Z 21000
+[INFO] 2024-02-01 16:08:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:11 TX: b'set position 2 21000\n'
+[ERROR] 2024-02-01 16:08:16 Timeout in cmd: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:08:16 Setting position Z 21500
+[INFO] 2024-02-01 16:08:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:16 TX: b'set position 2 21500\n'
+[ERROR] 2024-02-01 16:08:21 Timeout in cmd: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:08:21 Setting position Z 22000
+[INFO] 2024-02-01 16:08:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:21 TX: b'set position 2 22000\n'
+[ERROR] 2024-02-01 16:08:26 Timeout in cmd: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:08:26 Setting position Z 22500
+[INFO] 2024-02-01 16:08:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:26 TX: b'set position 2 22500\n'
+[ERROR] 2024-02-01 16:08:31 Timeout in cmd: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:08:31 Setting position Z 23000
+[INFO] 2024-02-01 16:08:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:31 TX: b'set position 2 23000\n'
+[ERROR] 2024-02-01 16:08:36 Timeout in cmd: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:08:36 Setting position Z 23500
+[INFO] 2024-02-01 16:08:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:36 TX: b'set position 2 23500\n'
+[ERROR] 2024-02-01 16:08:41 Timeout in cmd: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:08:41 Setting position Z 24000
+[INFO] 2024-02-01 16:08:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:41 TX: b'set position 2 24000\n'
+[ERROR] 2024-02-01 16:08:46 Timeout in cmd: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:08:46 Setting position Z 24500
+[INFO] 2024-02-01 16:08:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:46 TX: b'set position 2 24500\n'
+[ERROR] 2024-02-01 16:08:51 Timeout in cmd: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:08:51 Setting position Z 25000
+[INFO] 2024-02-01 16:08:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:51 TX: b'set position 2 25000\n'
+[ERROR] 2024-02-01 16:08:56 Timeout in cmd: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:08:56 Setting position Z 25500
+[INFO] 2024-02-01 16:08:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:08:56 TX: b'set position 2 25500\n'
+[ERROR] 2024-02-01 16:09:01 Timeout in cmd: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:09:01 Setting position Z 26000
+[INFO] 2024-02-01 16:09:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:01 TX: b'set position 2 26000\n'
+[ERROR] 2024-02-01 16:09:06 Timeout in cmd: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:09:06 Setting position Z 26500
+[INFO] 2024-02-01 16:09:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:06 TX: b'set position 2 26500\n'
+[ERROR] 2024-02-01 16:09:11 Timeout in cmd: b'set position 2 26500\n'
+[INFO] 2024-02-01 16:09:11 Setting position Z 27000
+[INFO] 2024-02-01 16:09:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:11 TX: b'set position 2 27000\n'
+[ERROR] 2024-02-01 16:09:16 Timeout in cmd: b'set position 2 27000\n'
+[INFO] 2024-02-01 16:09:16 Setting position Z 27500
+[INFO] 2024-02-01 16:09:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:16 TX: b'set position 2 27500\n'
+[ERROR] 2024-02-01 16:09:21 Timeout in cmd: b'set position 2 27500\n'
+[INFO] 2024-02-01 16:09:21 Setting position Z 28000
+[INFO] 2024-02-01 16:09:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:21 TX: b'set position 2 28000\n'
+[ERROR] 2024-02-01 16:09:26 Timeout in cmd: b'set position 2 28000\n'
+[INFO] 2024-02-01 16:09:26 Setting position Z 28500
+[INFO] 2024-02-01 16:09:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:26 TX: b'set position 2 28500\n'
+[ERROR] 2024-02-01 16:09:31 Timeout in cmd: b'set position 2 28500\n'
+[INFO] 2024-02-01 16:09:31 Setting position Z 29000
+[INFO] 2024-02-01 16:09:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:31 TX: b'set position 2 29000\n'
+[ERROR] 2024-02-01 16:09:36 Timeout in cmd: b'set position 2 29000\n'
+[INFO] 2024-02-01 16:09:36 Setting position Z 29500
+[INFO] 2024-02-01 16:09:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:36 TX: b'set position 2 29500\n'
+[ERROR] 2024-02-01 16:09:41 Timeout in cmd: b'set position 2 29500\n'
+[INFO] 2024-02-01 16:09:41 Setting position Z 30000
+[INFO] 2024-02-01 16:09:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:41 TX: b'set position 2 30000\n'
+[ERROR] 2024-02-01 16:09:46 Timeout in cmd: b'set position 2 30000\n'
+[INFO] 2024-02-01 16:09:46 Setting position Z 30500
+[INFO] 2024-02-01 16:09:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:46 TX: b'set position 2 30500\n'
+[ERROR] 2024-02-01 16:09:51 Timeout in cmd: b'set position 2 30500\n'
+[INFO] 2024-02-01 16:09:51 Setting position Z 31000
+[INFO] 2024-02-01 16:09:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:51 TX: b'set position 2 31000\n'
+[ERROR] 2024-02-01 16:09:56 Timeout in cmd: b'set position 2 31000\n'
+[INFO] 2024-02-01 16:09:56 Setting position Z 31500
+[INFO] 2024-02-01 16:09:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:09:56 TX: b'set position 2 31500\n'
+[ERROR] 2024-02-01 16:10:01 Timeout in cmd: b'set position 2 31500\n'
+[INFO] 2024-02-01 16:10:01 Setting position Z 32000
+[INFO] 2024-02-01 16:10:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:01 TX: b'set position 2 32000\n'
+[ERROR] 2024-02-01 16:10:06 Timeout in cmd: b'set position 2 32000\n'
+[INFO] 2024-02-01 16:10:06 Setting position Z 32500
+[INFO] 2024-02-01 16:10:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:06 TX: b'set position 2 32500\n'
+[ERROR] 2024-02-01 16:10:11 Timeout in cmd: b'set position 2 32500\n'
+[INFO] 2024-02-01 16:10:11 Setting position Z 33000
+[INFO] 2024-02-01 16:10:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:11 TX: b'set position 2 33000\n'
+[ERROR] 2024-02-01 16:10:16 Timeout in cmd: b'set position 2 33000\n'
+[INFO] 2024-02-01 16:10:16 Setting position Z 33500
+[INFO] 2024-02-01 16:10:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:16 TX: b'set position 2 33500\n'
+[ERROR] 2024-02-01 16:10:21 Timeout in cmd: b'set position 2 33500\n'
+[INFO] 2024-02-01 16:10:21 Setting position Z 34000
+[INFO] 2024-02-01 16:10:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:21 TX: b'set position 2 34000\n'
+[ERROR] 2024-02-01 16:10:26 Timeout in cmd: b'set position 2 34000\n'
+[INFO] 2024-02-01 16:10:26 Setting position Z 34500
+[INFO] 2024-02-01 16:10:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:26 TX: b'set position 2 34500\n'
+[ERROR] 2024-02-01 16:10:31 Timeout in cmd: b'set position 2 34500\n'
+[INFO] 2024-02-01 16:10:31 Setting position Z 35000
+[INFO] 2024-02-01 16:10:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:31 TX: b'set position 2 35000\n'
+[ERROR] 2024-02-01 16:10:36 Timeout in cmd: b'set position 2 35000\n'
+[INFO] 2024-02-01 16:10:36 Setting position Z 35500
+[INFO] 2024-02-01 16:10:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:36 TX: b'set position 2 35500\n'
+[ERROR] 2024-02-01 16:10:41 Timeout in cmd: b'set position 2 35500\n'
+[INFO] 2024-02-01 16:10:41 Setting position Z 36000
+[INFO] 2024-02-01 16:10:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:41 TX: b'set position 2 36000\n'
+[ERROR] 2024-02-01 16:10:46 Timeout in cmd: b'set position 2 36000\n'
+[INFO] 2024-02-01 16:10:46 Setting position Z 36500
+[INFO] 2024-02-01 16:10:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:46 TX: b'set position 2 36500\n'
+[ERROR] 2024-02-01 16:10:51 Timeout in cmd: b'set position 2 36500\n'
+[INFO] 2024-02-01 16:10:51 Setting position Z 37000
+[INFO] 2024-02-01 16:10:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:51 TX: b'set position 2 37000\n'
+[ERROR] 2024-02-01 16:10:56 Timeout in cmd: b'set position 2 37000\n'
+[INFO] 2024-02-01 16:10:56 Setting position Z 37500
+[INFO] 2024-02-01 16:10:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:10:56 TX: b'set position 2 37500\n'
+[ERROR] 2024-02-01 16:11:01 Timeout in cmd: b'set position 2 37500\n'
+[INFO] 2024-02-01 16:11:01 Setting position Z 38000
+[INFO] 2024-02-01 16:11:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:01 TX: b'set position 2 38000\n'
+[ERROR] 2024-02-01 16:11:06 Timeout in cmd: b'set position 2 38000\n'
+[INFO] 2024-02-01 16:11:06 Setting position Z 38500
+[INFO] 2024-02-01 16:11:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:06 TX: b'set position 2 38500\n'
+[ERROR] 2024-02-01 16:11:11 Timeout in cmd: b'set position 2 38500\n'
+[INFO] 2024-02-01 16:11:11 Setting position Z 39000
+[INFO] 2024-02-01 16:11:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:11 TX: b'set position 2 39000\n'
+[ERROR] 2024-02-01 16:11:16 Timeout in cmd: b'set position 2 39000\n'
+[INFO] 2024-02-01 16:11:16 Setting position Z 39500
+[INFO] 2024-02-01 16:11:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:16 TX: b'set position 2 39500\n'
+[ERROR] 2024-02-01 16:11:21 Timeout in cmd: b'set position 2 39500\n'
+[INFO] 2024-02-01 16:11:21 Setting position Z 40000
+[INFO] 2024-02-01 16:11:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:21 TX: b'set position 2 40000\n'
+[ERROR] 2024-02-01 16:11:26 Timeout in cmd: b'set position 2 40000\n'
+[INFO] 2024-02-01 16:11:26 Setting position Z 40500
+[INFO] 2024-02-01 16:11:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:26 TX: b'set position 2 40500\n'
+[ERROR] 2024-02-01 16:11:31 Timeout in cmd: b'set position 2 40500\n'
+[INFO] 2024-02-01 16:11:31 Setting position Z 41000
+[INFO] 2024-02-01 16:11:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:31 TX: b'set position 2 41000\n'
+[ERROR] 2024-02-01 16:11:36 Timeout in cmd: b'set position 2 41000\n'
+[INFO] 2024-02-01 16:11:36 Setting position Z 41500
+[INFO] 2024-02-01 16:11:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:36 TX: b'set position 2 41500\n'
+[ERROR] 2024-02-01 16:11:41 Timeout in cmd: b'set position 2 41500\n'
+[INFO] 2024-02-01 16:11:41 Setting position Z 42000
+[INFO] 2024-02-01 16:11:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:41 TX: b'set position 2 42000\n'
+[ERROR] 2024-02-01 16:11:46 Timeout in cmd: b'set position 2 42000\n'
+[INFO] 2024-02-01 16:11:46 Setting position Z 42500
+[INFO] 2024-02-01 16:11:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:46 TX: b'set position 2 42500\n'
+[ERROR] 2024-02-01 16:11:51 Timeout in cmd: b'set position 2 42500\n'
+[INFO] 2024-02-01 16:11:51 Setting position Z 43000
+[INFO] 2024-02-01 16:11:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:51 TX: b'set position 2 43000\n'
+[ERROR] 2024-02-01 16:11:56 Timeout in cmd: b'set position 2 43000\n'
+[INFO] 2024-02-01 16:11:56 Setting position Z 43500
+[INFO] 2024-02-01 16:11:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:11:56 TX: b'set position 2 43500\n'
+[ERROR] 2024-02-01 16:12:01 Timeout in cmd: b'set position 2 43500\n'
+[INFO] 2024-02-01 16:12:01 Setting position Z 44000
+[INFO] 2024-02-01 16:12:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:01 TX: b'set position 2 44000\n'
+[ERROR] 2024-02-01 16:12:06 Timeout in cmd: b'set position 2 44000\n'
+[INFO] 2024-02-01 16:12:06 Setting position Z 44500
+[INFO] 2024-02-01 16:12:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:06 TX: b'set position 2 44500\n'
+[ERROR] 2024-02-01 16:12:11 Timeout in cmd: b'set position 2 44500\n'
+[INFO] 2024-02-01 16:12:11 Setting position Z 45000
+[INFO] 2024-02-01 16:12:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:11 TX: b'set position 2 45000\n'
+[ERROR] 2024-02-01 16:12:16 Timeout in cmd: b'set position 2 45000\n'
+[INFO] 2024-02-01 16:12:16 Setting position Z 45500
+[INFO] 2024-02-01 16:12:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:16 TX: b'set position 2 45500\n'
+[ERROR] 2024-02-01 16:12:21 Timeout in cmd: b'set position 2 45500\n'
+[INFO] 2024-02-01 16:12:21 Setting position Z 46000
+[INFO] 2024-02-01 16:12:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:21 TX: b'set position 2 46000\n'
+[ERROR] 2024-02-01 16:12:26 Timeout in cmd: b'set position 2 46000\n'
+[INFO] 2024-02-01 16:12:26 Setting position Z 46500
+[INFO] 2024-02-01 16:12:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:26 TX: b'set position 2 46500\n'
+[ERROR] 2024-02-01 16:12:31 Timeout in cmd: b'set position 2 46500\n'
+[INFO] 2024-02-01 16:12:31 Setting position Z 47000
+[INFO] 2024-02-01 16:12:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:31 TX: b'set position 2 47000\n'
+[ERROR] 2024-02-01 16:12:36 Timeout in cmd: b'set position 2 47000\n'
+[INFO] 2024-02-01 16:12:36 Setting position Z 47500
+[INFO] 2024-02-01 16:12:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:36 TX: b'set position 2 47500\n'
+[ERROR] 2024-02-01 16:12:41 Timeout in cmd: b'set position 2 47500\n'
+[INFO] 2024-02-01 16:12:41 Setting position Z 48000
+[INFO] 2024-02-01 16:12:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:41 TX: b'set position 2 48000\n'
+[ERROR] 2024-02-01 16:12:46 Timeout in cmd: b'set position 2 48000\n'
+[INFO] 2024-02-01 16:12:46 Setting position Z 48500
+[INFO] 2024-02-01 16:12:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:46 TX: b'set position 2 48500\n'
+[ERROR] 2024-02-01 16:12:51 Timeout in cmd: b'set position 2 48500\n'
+[INFO] 2024-02-01 16:12:51 Setting position Z 49000
+[INFO] 2024-02-01 16:12:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:51 TX: b'set position 2 49000\n'
+[ERROR] 2024-02-01 16:12:56 Timeout in cmd: b'set position 2 49000\n'
+[INFO] 2024-02-01 16:12:56 Setting position Z 49500
+[INFO] 2024-02-01 16:12:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:12:56 TX: b'set position 2 49500\n'
+[ERROR] 2024-02-01 16:13:01 Timeout in cmd: b'set position 2 49500\n'
+[INFO] 2024-02-01 16:13:01 Setting position Z 50000
+[INFO] 2024-02-01 16:13:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:01 TX: b'set position 2 50000\n'
+[ERROR] 2024-02-01 16:13:06 Timeout in cmd: b'set position 2 50000\n'
+[INFO] 2024-02-01 16:13:06 Setting position Z 50500
+[INFO] 2024-02-01 16:13:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:06 TX: b'set position 2 50500\n'
+[ERROR] 2024-02-01 16:13:11 Timeout in cmd: b'set position 2 50500\n'
+[INFO] 2024-02-01 16:13:11 Setting position Z 51000
+[INFO] 2024-02-01 16:13:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:11 TX: b'set position 2 51000\n'
+[ERROR] 2024-02-01 16:13:16 Timeout in cmd: b'set position 2 51000\n'
+[INFO] 2024-02-01 16:13:16 Setting position Z 51500
+[INFO] 2024-02-01 16:13:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:16 TX: b'set position 2 51500\n'
+[ERROR] 2024-02-01 16:13:21 Timeout in cmd: b'set position 2 51500\n'
+[INFO] 2024-02-01 16:13:21 Setting position Z 52000
+[INFO] 2024-02-01 16:13:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:21 TX: b'set position 2 52000\n'
+[ERROR] 2024-02-01 16:13:26 Timeout in cmd: b'set position 2 52000\n'
+[INFO] 2024-02-01 16:13:26 Setting position Z 52500
+[INFO] 2024-02-01 16:13:26 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:26 TX: b'set position 2 52500\n'
+[ERROR] 2024-02-01 16:13:31 Timeout in cmd: b'set position 2 52500\n'
+[INFO] 2024-02-01 16:13:31 Setting position Z 53000
+[INFO] 2024-02-01 16:13:31 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:31 TX: b'set position 2 53000\n'
+[ERROR] 2024-02-01 16:13:36 Timeout in cmd: b'set position 2 53000\n'
+[INFO] 2024-02-01 16:13:36 Setting position Z 53500
+[INFO] 2024-02-01 16:13:36 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:36 TX: b'set position 2 53500\n'
+[ERROR] 2024-02-01 16:13:41 Timeout in cmd: b'set position 2 53500\n'
+[INFO] 2024-02-01 16:13:41 Setting position Z 54000
+[INFO] 2024-02-01 16:13:41 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:41 TX: b'set position 2 54000\n'
+[ERROR] 2024-02-01 16:13:46 Timeout in cmd: b'set position 2 54000\n'
+[INFO] 2024-02-01 16:13:46 Setting position Z 54500
+[INFO] 2024-02-01 16:13:46 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:46 TX: b'set position 2 54500\n'
+[ERROR] 2024-02-01 16:13:51 Timeout in cmd: b'set position 2 54500\n'
+[INFO] 2024-02-01 16:13:51 Setting position Z 55000
+[INFO] 2024-02-01 16:13:51 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:51 TX: b'set position 2 55000\n'
+[ERROR] 2024-02-01 16:13:56 Timeout in cmd: b'set position 2 55000\n'
+[INFO] 2024-02-01 16:13:56 Setting position Z 55500
+[INFO] 2024-02-01 16:13:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:13:56 TX: b'set position 2 55500\n'
+[ERROR] 2024-02-01 16:14:01 Timeout in cmd: b'set position 2 55500\n'
+[INFO] 2024-02-01 16:14:01 Setting position Z 56000
+[INFO] 2024-02-01 16:14:01 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:14:01 TX: b'set position 2 56000\n'
+[ERROR] 2024-02-01 16:14:06 Timeout in cmd: b'set position 2 56000\n'
+[INFO] 2024-02-01 16:14:06 Setting position Z 56500
+[INFO] 2024-02-01 16:14:06 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:14:06 TX: b'set position 2 56500\n'
+[ERROR] 2024-02-01 16:14:11 Timeout in cmd: b'set position 2 56500\n'
+[INFO] 2024-02-01 16:14:11 Setting position Z 57000
+[INFO] 2024-02-01 16:14:11 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:14:11 TX: b'set position 2 57000\n'
+[ERROR] 2024-02-01 16:14:16 Timeout in cmd: b'set position 2 57000\n'
+[INFO] 2024-02-01 16:14:16 Setting position Z 57500
+[INFO] 2024-02-01 16:14:16 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:14:16 TX: b'set position 2 57500\n'
+[ERROR] 2024-02-01 16:14:21 Timeout in cmd: b'set position 2 57500\n'
+[INFO] 2024-02-01 16:14:21 Setting position Z 58000
+[INFO] 2024-02-01 16:14:21 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:14:21 TX: b'set position 2 58000\n'
+[INFO] 2024-02-01 16:14:28 Portas COM disponíveis:
+[INFO] 2024-02-01 16:14:28 COM30
+[INFO] 2024-02-01 16:14:28 COM65
+[INFO] 2024-02-01 16:14:28 COM31
+[INFO] 2024-02-01 16:14:28 COM42
+[INFO] 2024-02-01 16:14:33 Serial RX started
+[INFO] 2024-02-01 16:14:33 Serial TX started
+[INFO] 2024-02-01 16:14:33 TX: b'restart\n'
+[INFO] 2024-02-01 16:14:38 -------- Running New Test --------
+[INFO] 2024-02-01 16:14:38 Init position X: 90000
+[INFO] 2024-02-01 16:14:38 Init position Z: 20000
+[INFO] 2024-02-01 16:14:38 Final position Z: 25000
+[INFO] 2024-02-01 16:14:38 Number of executions: 3
+
+[INFO] 2024-02-01 16:14:38 TX: b'restart\n'
+[INFO] 2024-02-01 16:14:43 TX: b'set flags 1 0 0 0\n'
+[ERROR] 2024-02-01 16:14:48 Timeout in cmd: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:14:48 TX: b'set mode read\n'
+[ERROR] 2024-02-01 16:14:53 Timeout in cmd: b'set mode read\n'
+[INFO] 2024-02-01 16:14:53 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:14:57 Serial already opened
+[ERROR] 2024-02-01 16:14:58 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:14:58 TX: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:15:06 Portas COM disponíveis:
+[INFO] 2024-02-01 16:15:06 COM30
+[INFO] 2024-02-01 16:15:06 COM65
+[INFO] 2024-02-01 16:15:06 COM31
+[INFO] 2024-02-01 16:15:06 COM42
+[INFO] 2024-02-01 16:15:16 Serial RX started
+[INFO] 2024-02-01 16:15:16 Serial TX started
+[INFO] 2024-02-01 16:15:16 TX: b'restart\n'
+[INFO] 2024-02-01 16:15:17 -------- Running New Test --------
+[INFO] 2024-02-01 16:15:17 Init position X: 90000
+[INFO] 2024-02-01 16:15:17 Init position Z: 20000
+[INFO] 2024-02-01 16:15:17 Final position Z: 25000
+[INFO] 2024-02-01 16:15:17 Number of executions: 3
+
+[ERROR] 2024-02-01 16:15:27 Timeout in cmd: b'set flags 1 0 0 0\n'
+[ERROR] 2024-02-01 16:15:32 Timeout in cmd: b'set mode read\n'
+[ERROR] 2024-02-01 16:15:37 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:16:02 Portas COM disponíveis:
+[INFO] 2024-02-01 16:16:02 COM30
+[INFO] 2024-02-01 16:16:02 COM31
+[INFO] 2024-02-01 16:16:02 COM38
+[INFO] 2024-02-01 16:16:05 Serial RX started
+[INFO] 2024-02-01 16:16:05 Serial TX started
+[INFO] 2024-02-01 16:16:05 TX: b'restart\n'
+[INFO] 2024-02-01 16:16:08 -------- Running New Test --------
+[INFO] 2024-02-01 16:16:08 Init position X: 90000
+[INFO] 2024-02-01 16:16:08 Init position Z: 20000
+[INFO] 2024-02-01 16:16:08 Final position Z: 25000
+[INFO] 2024-02-01 16:16:08 Number of executions: 3
+
+[INFO] 2024-02-01 16:16:08 TX: b'restart\n'
+[INFO] 2024-02-01 16:16:13 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:16:14 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:16:16 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:16:21 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:16:21 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:16:26 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:16:26 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:16:27 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:16:28 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:16:30 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:16:32 Running experiment 1 of 3
+[INFO] 2024-02-01 16:16:32 Setting position Z 20500
+[INFO] 2024-02-01 16:16:32 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:16:32 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:16:33 Setting position Z 21000
+[INFO] 2024-02-01 16:16:33 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:16:33 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:16:34 Setting position Z 21500
+[INFO] 2024-02-01 16:16:34 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:16:34 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:16:35 Setting position Z 22000
+[INFO] 2024-02-01 16:16:35 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:16:35 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:16:36 Setting position Z 22500
+[INFO] 2024-02-01 16:16:36 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:16:36 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:16:37 Setting position Z 23000
+[INFO] 2024-02-01 16:16:37 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:16:37 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:16:38 Setting position Z 23500
+[INFO] 2024-02-01 16:16:38 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:16:38 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:16:39 Setting position Z 24000
+[INFO] 2024-02-01 16:16:39 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:16:39 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:16:40 Setting position Z 24500
+[INFO] 2024-02-01 16:16:40 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:16:40 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:16:41 Setting position Z 25000
+[INFO] 2024-02-01 16:16:41 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:16:41 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:16:42 Setting position Z 25500
+[INFO] 2024-02-01 16:16:42 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:16:42 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:16:43 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:16:45 Running experiment 2 of 3
+[INFO] 2024-02-01 16:16:45 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:16:46 Running experiment 3 of 3
+[INFO] 2024-02-01 16:16:46 Setting position Z 20500
+[INFO] 2024-02-01 16:16:46 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:16:46 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:16:47 Setting position Z 21000
+[INFO] 2024-02-01 16:16:47 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:16:47 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:16:48 Setting position Z 21500
+[INFO] 2024-02-01 16:16:48 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:16:48 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:16:49 Setting position Z 22000
+[INFO] 2024-02-01 16:16:49 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:16:49 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:16:50 Setting position Z 22500
+[INFO] 2024-02-01 16:16:50 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:16:50 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:16:51 Setting position Z 23000
+[INFO] 2024-02-01 16:16:51 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:16:51 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:16:52 Setting position Z 23500
+[INFO] 2024-02-01 16:16:52 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:16:52 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:16:53 Setting position Z 24000
+[INFO] 2024-02-01 16:16:53 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:16:53 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:16:54 Setting position Z 24500
+[INFO] 2024-02-01 16:16:54 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:16:54 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:16:55 Setting position Z 25000
+[INFO] 2024-02-01 16:16:55 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:16:55 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:16:56 Setting position Z 25500
+[INFO] 2024-02-01 16:16:56 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:16:56 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:16:57 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:16:58 Running experiment 4 of 3
+[INFO] 2024-02-01 16:16:58 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:16:59 Running experiment 5 of 3
+[INFO] 2024-02-01 16:16:59 Setting position Z 20500
+[INFO] 2024-02-01 16:16:59 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:16:59 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:17:00 Setting position Z 21000
+[INFO] 2024-02-01 16:17:00 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:17:00 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:17:01 Setting position Z 21500
+[INFO] 2024-02-01 16:17:01 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:17:01 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:17:02 Setting position Z 22000
+[INFO] 2024-02-01 16:17:02 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:17:02 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:17:03 Setting position Z 22500
+[INFO] 2024-02-01 16:17:03 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:17:03 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:17:04 Setting position Z 23000
+[INFO] 2024-02-01 16:17:04 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:17:04 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:17:05 Setting position Z 23500
+[INFO] 2024-02-01 16:17:05 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:17:05 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:17:06 Setting position Z 24000
+[INFO] 2024-02-01 16:17:06 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:17:06 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:17:07 Setting position Z 24500
+[INFO] 2024-02-01 16:17:07 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:17:08 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:17:09 Setting position Z 25000
+[INFO] 2024-02-01 16:17:09 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:17:09 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:17:10 Setting position Z 25500
+[INFO] 2024-02-01 16:17:10 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:17:10 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:17:11 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:17:12 Running experiment 6 of 3
+[INFO] 2024-02-01 16:17:12 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:17:13 Running experiment 7 of 3
+[INFO] 2024-02-01 16:17:13 Setting position Z 20500
+[INFO] 2024-02-01 16:17:13 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:17:13 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:17:14 Setting position Z 21000
+[INFO] 2024-02-01 16:17:14 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:17:14 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:17:15 Setting position Z 21500
+[INFO] 2024-02-01 16:17:15 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:17:15 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:17:16 Setting position Z 22000
+[INFO] 2024-02-01 16:17:16 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:17:16 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:17:17 Setting position Z 22500
+[INFO] 2024-02-01 16:17:17 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:17:17 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:17:18 Setting position Z 23000
+[INFO] 2024-02-01 16:17:18 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:17:18 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:17:19 Setting position Z 23500
+[INFO] 2024-02-01 16:17:19 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:17:19 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:19:09 Portas COM disponíveis:
+[INFO] 2024-02-01 16:19:09 COM30
+[INFO] 2024-02-01 16:19:09 COM31
+[INFO] 2024-02-01 16:19:09 COM38
+[INFO] 2024-02-01 16:19:12 Serial RX started
+[INFO] 2024-02-01 16:19:12 Serial TX started
+[INFO] 2024-02-01 16:19:12 TX: b'restart\n'
+[INFO] 2024-02-01 16:19:13 -------- Running New Test --------
+[INFO] 2024-02-01 16:19:13 Init position X: 90000
+[INFO] 2024-02-01 16:19:13 Init position Z: 20000
+[INFO] 2024-02-01 16:19:13 Final position Z: 25000
+[INFO] 2024-02-01 16:19:13 Number of executions: 3
+
+[INFO] 2024-02-01 16:19:13 TX: b'restart\n'
+[INFO] 2024-02-01 16:19:18 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:19:20 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:19:21 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:19:26 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:19:26 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:19:31 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:19:31 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:19:34 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:19:36 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:19:38 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:19:40 Running experiment 1 of 3
+[INFO] 2024-02-01 16:19:40 Setting position Z 20500
+[INFO] 2024-02-01 16:19:40 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:19:40 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:19:41 Setting position Z 21000
+[INFO] 2024-02-01 16:19:41 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:19:41 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:19:42 Setting position Z 21500
+[INFO] 2024-02-01 16:19:42 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:19:42 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:19:43 Setting position Z 22000
+[INFO] 2024-02-01 16:19:43 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:19:43 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:19:44 Setting position Z 22500
+[INFO] 2024-02-01 16:19:44 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:19:44 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:19:45 Setting position Z 23000
+[INFO] 2024-02-01 16:19:45 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:19:45 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:19:46 Setting position Z 23500
+[INFO] 2024-02-01 16:19:46 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:19:46 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:19:47 Setting position Z 24000
+[INFO] 2024-02-01 16:19:47 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:19:47 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:19:48 Setting position Z 24500
+[INFO] 2024-02-01 16:19:48 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:19:48 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:19:49 Setting position Z 25000
+[INFO] 2024-02-01 16:19:49 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:19:49 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:19:50 Setting position Z 25500
+[INFO] 2024-02-01 16:19:50 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:19:50 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:19:51 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:19:57 Running experiment 2 of 3
+[INFO] 2024-02-01 16:19:57 Setting position Z 20500
+[INFO] 2024-02-01 16:19:57 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:19:57 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:19:58 Setting position Z 21000
+[INFO] 2024-02-01 16:19:58 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:19:58 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:19:59 Setting position Z 21500
+[INFO] 2024-02-01 16:19:59 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:19:59 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:20:00 Setting position Z 22000
+[INFO] 2024-02-01 16:20:00 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:20:00 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:20:01 Setting position Z 22500
+[INFO] 2024-02-01 16:20:01 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:20:01 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:20:02 Setting position Z 23000
+[INFO] 2024-02-01 16:20:02 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:20:02 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:20:03 Setting position Z 23500
+[INFO] 2024-02-01 16:20:03 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:20:03 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:20:04 Setting position Z 24000
+[INFO] 2024-02-01 16:20:04 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:20:04 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:20:06 Setting position Z 24500
+[INFO] 2024-02-01 16:20:06 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:20:06 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:20:07 Setting position Z 25000
+[INFO] 2024-02-01 16:20:07 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:20:07 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:20:08 Setting position Z 25500
+[INFO] 2024-02-01 16:20:08 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:20:08 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:20:09 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:20:15 Running experiment 3 of 3
+[INFO] 2024-02-01 16:20:15 Setting position Z 20500
+[INFO] 2024-02-01 16:20:15 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:15 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:20:16 Setting position Z 21000
+[INFO] 2024-02-01 16:20:16 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:16 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:20:17 Setting position Z 21500
+[INFO] 2024-02-01 16:20:17 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:20:17 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:20:18 Setting position Z 22000
+[INFO] 2024-02-01 16:20:18 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:20:18 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:20:19 Setting position Z 22500
+[INFO] 2024-02-01 16:20:19 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:20:19 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:20:20 Setting position Z 23000
+[INFO] 2024-02-01 16:20:20 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:20:20 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:20:21 Setting position Z 23500
+[INFO] 2024-02-01 16:20:21 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:20:21 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:20:22 Setting position Z 24000
+[INFO] 2024-02-01 16:20:22 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:20:22 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:20:23 Setting position Z 24500
+[INFO] 2024-02-01 16:20:23 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:20:23 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:20:24 Setting position Z 25000
+[INFO] 2024-02-01 16:20:24 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:20:24 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:20:25 Setting position Z 25500
+[INFO] 2024-02-01 16:20:25 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:20:25 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:20:26 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:20:32 Running experiment 4 of 3
+[INFO] 2024-02-01 16:20:32 Setting position Z 20500
+[INFO] 2024-02-01 16:20:32 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:32 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:20:33 Setting position Z 21000
+[INFO] 2024-02-01 16:20:33 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:33 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:20:34 Setting position Z 21500
+[INFO] 2024-02-01 16:20:34 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:20:34 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:20:36 Setting position Z 22000
+[INFO] 2024-02-01 16:20:36 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:20:36 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:20:37 Setting position Z 22500
+[INFO] 2024-02-01 16:20:37 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:20:37 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:20:38 Setting position Z 23000
+[INFO] 2024-02-01 16:20:38 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:20:38 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:20:39 Setting position Z 23500
+[INFO] 2024-02-01 16:20:39 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:20:39 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:20:40 Setting position Z 24000
+[INFO] 2024-02-01 16:20:40 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:20:40 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:20:41 Setting position Z 24500
+[INFO] 2024-02-01 16:20:41 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:20:41 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:20:42 Setting position Z 25000
+[INFO] 2024-02-01 16:20:42 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:20:42 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:20:43 Setting position Z 25500
+[INFO] 2024-02-01 16:20:43 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:20:43 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:20:44 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:20:50 Running experiment 5 of 3
+[INFO] 2024-02-01 16:20:50 Setting position Z 20500
+[INFO] 2024-02-01 16:20:50 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:50 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:20:51 Setting position Z 21000
+[INFO] 2024-02-01 16:20:51 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:20:51 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:20:52 Setting position Z 21500
+[INFO] 2024-02-01 16:20:52 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:20:52 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:20:53 Setting position Z 22000
+[INFO] 2024-02-01 16:20:53 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:20:53 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:20:54 Setting position Z 22500
+[INFO] 2024-02-01 16:20:54 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:20:54 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:20:55 Setting position Z 23000
+[INFO] 2024-02-01 16:20:55 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:20:55 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:20:56 Setting position Z 23500
+[INFO] 2024-02-01 16:20:56 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:20:56 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:20:57 Setting position Z 24000
+[INFO] 2024-02-01 16:20:57 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:20:57 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:20:58 Setting position Z 24500
+[INFO] 2024-02-01 16:20:58 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:20:58 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:20:59 Setting position Z 25000
+[INFO] 2024-02-01 16:20:59 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:20:59 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:21:00 Setting position Z 25500
+[INFO] 2024-02-01 16:21:00 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:21:00 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:21:01 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:21:08 Running experiment 6 of 3
+[INFO] 2024-02-01 16:21:08 Setting position Z 20500
+[INFO] 2024-02-01 16:21:08 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:21:08 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:21:09 Setting position Z 21000
+[INFO] 2024-02-01 16:21:09 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:21:09 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:21:10 Setting position Z 21500
+[INFO] 2024-02-01 16:21:10 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:21:10 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:21:11 Setting position Z 22000
+[INFO] 2024-02-01 16:21:11 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:21:11 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:21:12 Setting position Z 22500
+[INFO] 2024-02-01 16:21:12 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:21:12 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:21:13 Setting position Z 23000
+[INFO] 2024-02-01 16:21:13 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:21:13 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:21:14 Setting position Z 23500
+[INFO] 2024-02-01 16:21:14 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:21:14 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:21:15 Setting position Z 24000
+[INFO] 2024-02-01 16:21:15 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:21:15 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:21:16 Setting position Z 24500
+[INFO] 2024-02-01 16:21:16 Z target 25000 actual 23500
+
+[INFO] 2024-02-01 16:21:16 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:21:17 Setting position Z 25000
+[INFO] 2024-02-01 16:21:17 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:21:17 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:21:18 Setting position Z 25500
+[INFO] 2024-02-01 16:21:18 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:21:18 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:21:19 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:21:25 Running experiment 7 of 3
+[INFO] 2024-02-01 16:21:25 Setting position Z 20500
+[INFO] 2024-02-01 16:21:25 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:21:25 TX: b'set position 2 20500\n'
+[INFO] 2024-02-01 16:21:26 Setting position Z 21000
+[INFO] 2024-02-01 16:21:26 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:21:26 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:21:27 Setting position Z 21500
+[INFO] 2024-02-01 16:21:27 Z target 25000 actual 20500
+
+[INFO] 2024-02-01 16:21:27 TX: b'set position 2 21500\n'
+[INFO] 2024-02-01 16:21:28 Setting position Z 22000
+[INFO] 2024-02-01 16:21:28 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:21:28 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:21:29 Setting position Z 22500
+[INFO] 2024-02-01 16:21:29 Z target 25000 actual 21500
+
+[INFO] 2024-02-01 16:21:29 TX: b'set position 2 22500\n'
+[INFO] 2024-02-01 16:21:31 Setting position Z 23000
+[INFO] 2024-02-01 16:21:31 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:21:31 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:21:32 Setting position Z 23500
+[INFO] 2024-02-01 16:21:32 Z target 25000 actual 22500
+
+[INFO] 2024-02-01 16:21:32 TX: b'set position 2 23500\n'
+[INFO] 2024-02-01 16:21:33 Setting position Z 24000
+[INFO] 2024-02-01 16:21:33 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:21:33 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:21:34 Setting position Z 24500
+[INFO] 2024-02-01 16:21:34 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:21:34 TX: b'set position 2 24500\n'
+[INFO] 2024-02-01 16:21:35 Setting position Z 25000
+[INFO] 2024-02-01 16:21:35 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:21:35 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:21:36 Setting position Z 25500
+[INFO] 2024-02-01 16:21:36 Z target 25000 actual 24500
+
+[INFO] 2024-02-01 16:21:36 TX: b'set position 2 25500\n'
+[INFO] 2024-02-01 16:21:37 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:21:43 Portas COM disponíveis:
+[INFO] 2024-02-01 16:21:43 COM30
+[INFO] 2024-02-01 16:21:43 COM31
+[INFO] 2024-02-01 16:21:43 COM38
+[INFO] 2024-02-01 16:21:49 Serial RX started
+[INFO] 2024-02-01 16:21:49 Serial TX started
+[INFO] 2024-02-01 16:21:49 TX: b'restart\n'
+[INFO] 2024-02-01 16:21:52 -------- Running New Test --------
+[INFO] 2024-02-01 16:21:52 Init position X: 90000
+[INFO] 2024-02-01 16:21:52 Init position Z: 20000
+[INFO] 2024-02-01 16:21:52 Final position Z: 25000
+[INFO] 2024-02-01 16:21:52 Number of executions: 3
+
+[INFO] 2024-02-01 16:21:52 TX: b'restart\n'
+[INFO] 2024-02-01 16:21:57 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:21:58 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:21:59 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:22:04 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:22:04 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:22:09 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:22:09 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:22:12 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:22:14 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:22:16 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:22:18 Running experiment 1 of 3
+[INFO] 2024-02-01 16:22:18 Setting position Z 21000
+[INFO] 2024-02-01 16:22:18 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:22:18 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:22:19 Setting position Z 22000
+[INFO] 2024-02-01 16:22:19 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:22:19 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:22:20 Setting position Z 23000
+[INFO] 2024-02-01 16:22:20 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:22:20 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:22:21 Setting position Z 24000
+[INFO] 2024-02-01 16:22:21 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:22:21 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:22:22 Setting position Z 25000
+[INFO] 2024-02-01 16:22:22 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:22:22 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:22:23 Setting position Z 26000
+[INFO] 2024-02-01 16:22:23 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:22:23 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:22:24 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:22:27 Running experiment 2 of 3
+[INFO] 2024-02-01 16:22:27 Setting position Z 21000
+[INFO] 2024-02-01 16:22:27 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:22:27 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:22:29 Setting position Z 22000
+[INFO] 2024-02-01 16:22:29 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:22:29 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:22:30 Setting position Z 23000
+[INFO] 2024-02-01 16:22:30 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:22:30 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:22:31 Setting position Z 24000
+[INFO] 2024-02-01 16:22:31 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:22:31 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:22:32 Setting position Z 25000
+[INFO] 2024-02-01 16:22:32 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:22:32 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:22:33 Setting position Z 26000
+[INFO] 2024-02-01 16:22:33 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:22:33 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:22:34 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:22:37 Running experiment 3 of 3
+[INFO] 2024-02-01 16:22:37 Setting position Z 21000
+[INFO] 2024-02-01 16:22:37 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:22:37 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:22:38 Setting position Z 22000
+[INFO] 2024-02-01 16:22:38 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:22:38 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:22:39 Setting position Z 23000
+[INFO] 2024-02-01 16:22:39 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:22:39 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:22:40 Setting position Z 24000
+[INFO] 2024-02-01 16:22:40 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:22:40 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:22:41 Setting position Z 25000
+[INFO] 2024-02-01 16:22:41 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:22:41 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:22:42 Setting position Z 26000
+[INFO] 2024-02-01 16:22:42 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:22:42 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:22:43 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:22:46 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:22:49 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:22:51 Test Finished!
+[INFO] 2024-02-01 16:22:51 TX: b'restart\n'
+[INFO] 2024-02-01 16:24:00 Portas COM disponíveis:
+[INFO] 2024-02-01 16:24:00 COM30
+[INFO] 2024-02-01 16:24:00 COM31
+[INFO] 2024-02-01 16:24:00 COM38
+[INFO] 2024-02-01 16:24:03 Serial RX started
+[INFO] 2024-02-01 16:24:03 Serial TX started
+[INFO] 2024-02-01 16:24:03 TX: b'restart\n'
+[INFO] 2024-02-01 16:24:05 -------- Running New Test --------
+[INFO] 2024-02-01 16:24:05 Init position X: 90000
+[INFO] 2024-02-01 16:24:05 Init position Z: 20000
+[INFO] 2024-02-01 16:24:05 Final position Z: 25000
+[INFO] 2024-02-01 16:24:05 Number of executions: 3
+
+[INFO] 2024-02-01 16:24:05 TX: b'restart\n'
+[INFO] 2024-02-01 16:24:10 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:24:11 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:24:13 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:24:18 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:24:18 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:24:23 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:24:23 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:24:24 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:24:25 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:24:28 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:24:29 Running experiment 1 of 3
+[INFO] 2024-02-01 16:25:45 Portas COM disponíveis:
+[INFO] 2024-02-01 16:25:45 COM30
+[INFO] 2024-02-01 16:25:45 COM31
+[INFO] 2024-02-01 16:25:45 COM38
+[INFO] 2024-02-01 16:25:48 Serial RX started
+[INFO] 2024-02-01 16:25:48 Serial TX started
+[INFO] 2024-02-01 16:25:48 TX: b'restart\n'
+[INFO] 2024-02-01 16:25:51 -------- Running New Test --------
+[INFO] 2024-02-01 16:25:51 Init position X: 90000
+[INFO] 2024-02-01 16:25:51 Init position Z: 20000
+[INFO] 2024-02-01 16:25:51 Final position Z: 25000
+[INFO] 2024-02-01 16:25:51 Number of executions: 3
+
+[INFO] 2024-02-01 16:25:51 TX: b'restart\n'
+[INFO] 2024-02-01 16:25:56 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:25:57 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:25:58 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:26:03 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:26:03 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:26:08 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:26:08 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:26:11 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:26:13 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:26:15 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:26:17 Running experiment 1 of 3
+[INFO] 2024-02-01 16:26:17 Setting position Z 21000
+[INFO] 2024-02-01 16:26:17 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:26:17 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:26:18 Setting position Z 22000
+[INFO] 2024-02-01 16:26:18 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:26:18 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:26:19 Setting position Z 23000
+[INFO] 2024-02-01 16:26:19 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:26:19 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:26:20 Setting position Z 24000
+[INFO] 2024-02-01 16:26:20 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:26:20 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:26:21 Setting position Z 25000
+[INFO] 2024-02-01 16:26:21 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:26:21 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:26:22 Setting position Z 26000
+[INFO] 2024-02-01 16:26:22 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:26:22 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:26:23 Setting position Z 27000
+[INFO] 2024-02-01 16:26:23 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:26:23 TX: b'set position 2 27000\n'
+[INFO] 2024-02-01 16:26:24 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:26:27 Running experiment 2 of 3
+[INFO] 2024-02-01 16:26:27 Setting position Z 21000
+[INFO] 2024-02-01 16:26:27 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:26:27 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:26:28 Setting position Z 22000
+[INFO] 2024-02-01 16:26:28 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:26:28 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:26:29 Setting position Z 23000
+[INFO] 2024-02-01 16:26:29 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:26:29 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:26:30 Setting position Z 24000
+[INFO] 2024-02-01 16:26:30 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:26:30 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:26:31 Setting position Z 25000
+[INFO] 2024-02-01 16:26:31 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:26:31 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:26:32 Setting position Z 26000
+[INFO] 2024-02-01 16:26:32 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:26:32 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:26:33 Setting position Z 27000
+[INFO] 2024-02-01 16:26:33 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:26:33 TX: b'set position 2 27000\n'
+[INFO] 2024-02-01 16:26:35 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:26:38 Running experiment 3 of 3
+[INFO] 2024-02-01 16:26:38 Setting position Z 21000
+[INFO] 2024-02-01 16:26:38 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:26:38 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:26:39 Setting position Z 22000
+[INFO] 2024-02-01 16:26:39 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:26:39 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:26:40 Setting position Z 23000
+[INFO] 2024-02-01 16:26:40 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:26:40 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:26:41 Setting position Z 24000
+[INFO] 2024-02-01 16:26:41 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:26:41 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:26:42 Setting position Z 25000
+[INFO] 2024-02-01 16:26:42 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:26:42 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:26:43 Setting position Z 26000
+[INFO] 2024-02-01 16:26:43 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:26:43 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:26:44 Setting position Z 27000
+[INFO] 2024-02-01 16:26:44 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:26:44 TX: b'set position 2 27000\n'
+[INFO] 2024-02-01 16:26:45 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:26:48 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:26:51 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:26:52 Test Finished!
+[INFO] 2024-02-01 16:26:52 TX: b'restart\n'
+[INFO] 2024-02-01 16:29:26 Portas COM disponíveis:
+[INFO] 2024-02-01 16:29:26 COM30
+[INFO] 2024-02-01 16:29:26 COM31
+[INFO] 2024-02-01 16:29:26 COM38
+[INFO] 2024-02-01 16:29:37 Serial RX started
+[INFO] 2024-02-01 16:29:37 Serial TX started
+[INFO] 2024-02-01 16:29:37 TX: b'restart\n'
+[INFO] 2024-02-01 16:29:40 -------- Running New Test --------
+[INFO] 2024-02-01 16:29:40 Init position X: 90000
+[INFO] 2024-02-01 16:29:40 Init position Z: 20000
+[INFO] 2024-02-01 16:29:40 Final position Z: 25000
+[INFO] 2024-02-01 16:29:40 Number of executions: 3
+
+[INFO] 2024-02-01 16:29:40 TX: b'restart\n'
+[INFO] 2024-02-01 16:29:45 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:29:46 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:29:47 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:29:49 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:29:50 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:29:52 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:29:54 Running experiment 1 of 3
+[INFO] 2024-02-01 16:29:54 Setting position Z 21000
+[INFO] 2024-02-01 16:29:54 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:29:54 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:29:57 Setting position Z 22000
+[INFO] 2024-02-01 16:29:57 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:29:57 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:30:00 Setting position Z 23000
+[INFO] 2024-02-01 16:30:00 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:30:00 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:30:03 Setting position Z 24000
+[INFO] 2024-02-01 16:30:03 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:30:03 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:30:06 Setting position Z 25000
+[INFO] 2024-02-01 16:30:06 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:30:06 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:30:09 Setting position Z 26000
+[INFO] 2024-02-01 16:30:09 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:30:09 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:30:12 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:30:15 Running experiment 2 of 3
+[INFO] 2024-02-01 16:30:15 Setting position Z 21000
+[INFO] 2024-02-01 16:30:15 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:30:15 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:30:18 Setting position Z 22000
+[INFO] 2024-02-01 16:30:18 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:30:18 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:30:22 Setting position Z 23000
+[INFO] 2024-02-01 16:30:22 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:30:22 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:30:25 Setting position Z 24000
+[INFO] 2024-02-01 16:30:25 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:30:25 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:30:28 Setting position Z 25000
+[INFO] 2024-02-01 16:30:28 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:30:28 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:30:31 Setting position Z 26000
+[INFO] 2024-02-01 16:30:31 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:30:31 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:30:34 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:30:37 Running experiment 3 of 3
+[INFO] 2024-02-01 16:30:37 Setting position Z 21000
+[INFO] 2024-02-01 16:30:37 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:30:37 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:30:40 Setting position Z 22000
+[INFO] 2024-02-01 16:30:40 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:30:40 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:30:43 Setting position Z 23000
+[INFO] 2024-02-01 16:30:43 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:30:43 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:30:46 Setting position Z 24000
+[INFO] 2024-02-01 16:30:46 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:30:46 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:30:49 Setting position Z 25000
+[INFO] 2024-02-01 16:30:49 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:30:49 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:30:52 Setting position Z 26000
+[INFO] 2024-02-01 16:30:52 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:30:52 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:30:55 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:31:00 Portas COM disponíveis:
+[INFO] 2024-02-01 16:31:00 COM30
+[INFO] 2024-02-01 16:31:00 COM31
+[INFO] 2024-02-01 16:31:00 COM38
+[INFO] 2024-02-01 16:31:03 Serial RX started
+[INFO] 2024-02-01 16:31:03 Serial TX started
+[INFO] 2024-02-01 16:31:03 TX: b'restart\n'
+[INFO] 2024-02-01 16:31:26 -------- Running New Test --------
+[INFO] 2024-02-01 16:31:26 Init position X: 90000
+[INFO] 2024-02-01 16:31:26 Init position Z: 20000
+[INFO] 2024-02-01 16:31:26 Final position Z: 25000
+[INFO] 2024-02-01 16:31:26 Number of executions: 3
+
+[INFO] 2024-02-01 16:31:26 TX: b'restart\n'
+[INFO] 2024-02-01 16:31:31 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:31:32 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:31:34 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:31:36 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:31:38 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:31:40 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:31:42 Running experiment 1 of 3
+[INFO] 2024-02-01 16:31:42 Setting position Z 21000
+[INFO] 2024-02-01 16:31:42 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:31:42 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:31:45 Setting position Z 22000
+[INFO] 2024-02-01 16:31:45 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:31:45 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:31:48 Setting position Z 23000
+[INFO] 2024-02-01 16:31:48 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:31:48 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:31:51 Setting position Z 24000
+[INFO] 2024-02-01 16:31:51 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:31:51 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:31:54 Setting position Z 25000
+[INFO] 2024-02-01 16:31:54 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:31:54 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:31:57 Setting position Z 26000
+[INFO] 2024-02-01 16:31:57 Z target 25000 actual 25000
+
+[INFO] 2024-02-01 16:31:57 TX: b'set position 2 26000\n'
+[INFO] 2024-02-01 16:32:00 Setting position Z 27000
+[INFO] 2024-02-01 16:32:00 Z target 25000 actual 26000
+
+[INFO] 2024-02-01 16:32:00 TX: b'set position 2 27000\n'
+[INFO] 2024-02-01 16:32:03 Setting position Z 28000
+[INFO] 2024-02-01 16:32:03 Z target 25000 actual 27000
+
+[INFO] 2024-02-01 16:32:03 TX: b'set position 2 28000\n'
+[INFO] 2024-02-01 16:32:07 Setting position Z 29000
+[INFO] 2024-02-01 16:32:07 Z target 25000 actual 28000
+
+[INFO] 2024-02-01 16:32:07 TX: b'set position 2 29000\n'
+[INFO] 2024-02-01 16:32:10 Setting position Z 30000
+[INFO] 2024-02-01 16:32:10 Z target 25000 actual 29000
+
+[INFO] 2024-02-01 16:32:10 TX: b'set position 2 30000\n'
+[INFO] 2024-02-01 16:32:13 Setting position Z 31000
+[INFO] 2024-02-01 16:32:13 Z target 25000 actual 30000
+
+[INFO] 2024-02-01 16:32:13 TX: b'set position 2 31000\n'
+[INFO] 2024-02-01 16:32:16 Setting position Z 32000
+[INFO] 2024-02-01 16:32:16 Z target 25000 actual 31000
+
+[INFO] 2024-02-01 16:32:16 TX: b'set position 2 32000\n'
+[INFO] 2024-02-01 16:32:19 Setting position Z 33000
+[INFO] 2024-02-01 16:32:19 Z target 25000 actual 32000
+
+[INFO] 2024-02-01 16:32:19 TX: b'set position 2 33000\n'
+[INFO] 2024-02-01 16:32:22 Setting position Z 34000
+[INFO] 2024-02-01 16:32:22 Z target 25000 actual 33000
+
+[INFO] 2024-02-01 16:32:22 TX: b'set position 2 34000\n'
+[INFO] 2024-02-01 16:32:25 Setting position Z 35000
+[INFO] 2024-02-01 16:32:25 Z target 25000 actual 34000
+
+[INFO] 2024-02-01 16:32:25 TX: b'set position 2 35000\n'
+[INFO] 2024-02-01 16:32:28 Setting position Z 36000
+[INFO] 2024-02-01 16:32:28 Z target 25000 actual 35000
+
+[INFO] 2024-02-01 16:32:28 TX: b'set position 2 36000\n'
+[INFO] 2024-02-01 16:32:31 Setting position Z 37000
+[INFO] 2024-02-01 16:32:31 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:32:31 TX: b'set position 2 37000\n'
+[ERROR] 2024-02-01 16:32:36 Timeout in cmd: b'set position 2 37000\n'
+[INFO] 2024-02-01 16:32:38 Setting position Z 38000
+[INFO] 2024-02-01 16:32:38 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:32:38 TX: b'set position 2 38000\n'
+[ERROR] 2024-02-01 16:32:43 Timeout in cmd: b'set position 2 38000\n'
+[INFO] 2024-02-01 16:32:45 Setting position Z 39000
+[INFO] 2024-02-01 16:32:45 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:32:45 TX: b'set position 2 39000\n'
+[ERROR] 2024-02-01 16:32:50 Timeout in cmd: b'set position 2 39000\n'
+[INFO] 2024-02-01 16:32:52 Setting position Z 40000
+[INFO] 2024-02-01 16:32:52 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:32:52 TX: b'set position 2 40000\n'
+[ERROR] 2024-02-01 16:32:57 Timeout in cmd: b'set position 2 40000\n'
+[INFO] 2024-02-01 16:32:59 Setting position Z 41000
+[INFO] 2024-02-01 16:32:59 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:32:59 TX: b'set position 2 41000\n'
+[ERROR] 2024-02-01 16:33:04 Timeout in cmd: b'set position 2 41000\n'
+[INFO] 2024-02-01 16:33:06 Setting position Z 42000
+[INFO] 2024-02-01 16:33:06 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:06 TX: b'set position 2 42000\n'
+[ERROR] 2024-02-01 16:33:11 Timeout in cmd: b'set position 2 42000\n'
+[INFO] 2024-02-01 16:33:13 Setting position Z 43000
+[INFO] 2024-02-01 16:33:13 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:13 TX: b'set position 2 43000\n'
+[ERROR] 2024-02-01 16:33:18 Timeout in cmd: b'set position 2 43000\n'
+[INFO] 2024-02-01 16:33:20 Setting position Z 44000
+[INFO] 2024-02-01 16:33:20 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:20 TX: b'set position 2 44000\n'
+[ERROR] 2024-02-01 16:33:25 Timeout in cmd: b'set position 2 44000\n'
+[INFO] 2024-02-01 16:33:27 Setting position Z 45000
+[INFO] 2024-02-01 16:33:27 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:27 TX: b'set position 2 45000\n'
+[ERROR] 2024-02-01 16:33:32 Timeout in cmd: b'set position 2 45000\n'
+[INFO] 2024-02-01 16:33:34 Setting position Z 46000
+[INFO] 2024-02-01 16:33:34 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:34 TX: b'set position 2 46000\n'
+[ERROR] 2024-02-01 16:33:39 Timeout in cmd: b'set position 2 46000\n'
+[INFO] 2024-02-01 16:33:41 Setting position Z 47000
+[INFO] 2024-02-01 16:33:41 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:41 TX: b'set position 2 47000\n'
+[ERROR] 2024-02-01 16:33:46 Timeout in cmd: b'set position 2 47000\n'
+[INFO] 2024-02-01 16:33:48 Setting position Z 48000
+[INFO] 2024-02-01 16:33:48 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:48 TX: b'set position 2 48000\n'
+[ERROR] 2024-02-01 16:33:53 Timeout in cmd: b'set position 2 48000\n'
+[INFO] 2024-02-01 16:33:55 Setting position Z 49000
+[INFO] 2024-02-01 16:33:55 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:33:55 TX: b'set position 2 49000\n'
+[ERROR] 2024-02-01 16:34:00 Timeout in cmd: b'set position 2 49000\n'
+[INFO] 2024-02-01 16:34:02 Setting position Z 50000
+[INFO] 2024-02-01 16:34:02 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:34:02 TX: b'set position 2 50000\n'
+[ERROR] 2024-02-01 16:34:07 Timeout in cmd: b'set position 2 50000\n'
+[INFO] 2024-02-01 16:34:09 Setting position Z 51000
+[INFO] 2024-02-01 16:34:09 Z target 25000 actual 36000
+
+[INFO] 2024-02-01 16:34:09 TX: b'set position 2 51000\n'
+[INFO] 2024-02-01 16:34:16 Portas COM disponíveis:
+[INFO] 2024-02-01 16:34:16 COM30
+[INFO] 2024-02-01 16:34:16 COM31
+[INFO] 2024-02-01 16:34:16 COM38
+[INFO] 2024-02-01 16:34:19 Serial RX started
+[INFO] 2024-02-01 16:34:19 Serial TX started
+[INFO] 2024-02-01 16:34:19 TX: b'restart\n'
+[INFO] 2024-02-01 16:34:22 -------- Running New Test --------
+[INFO] 2024-02-01 16:34:22 Init position X: 90000
+[INFO] 2024-02-01 16:34:22 Init position Z: 20000
+[INFO] 2024-02-01 16:34:22 Final position Z: 25000
+[INFO] 2024-02-01 16:34:22 Number of executions: 3
+
+[INFO] 2024-02-01 16:34:22 TX: b'restart\n'
+[INFO] 2024-02-01 16:34:27 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:34:28 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:34:29 TX: b'set speed 1 300\n'
+[ERROR] 2024-02-01 16:34:34 Timeout in cmd: b'set speed 1 300\n'
+[INFO] 2024-02-01 16:34:34 TX: b'set speed 2 300\n'
+[ERROR] 2024-02-01 16:34:39 Timeout in cmd: b'set speed 2 300\n'
+[INFO] 2024-02-01 16:34:39 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:34:50 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:34:51 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:34:54 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:34:56 Running experiment 1 of 3
+[INFO] 2024-02-01 16:34:56 Setting position Z 21000
+[INFO] 2024-02-01 16:34:56 Z target 25000 actual 0
+
+[INFO] 2024-02-01 16:34:56 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:34:58 Setting position Z 22000
+[INFO] 2024-02-01 16:34:58 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:34:58 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:35:00 Setting position Z 23000
+[INFO] 2024-02-01 16:35:00 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:35:00 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:35:02 Setting position Z 24000
+[INFO] 2024-02-01 16:35:02 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:35:02 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:35:04 Setting position Z 25000
+[INFO] 2024-02-01 16:35:04 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:35:04 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:35:06 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:35:09 Running experiment 2 of 3
+[INFO] 2024-02-01 16:35:09 Setting position Z 21000
+[INFO] 2024-02-01 16:35:09 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:35:09 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:35:11 Setting position Z 22000
+[INFO] 2024-02-01 16:35:11 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:35:11 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:35:13 Setting position Z 23000
+[INFO] 2024-02-01 16:35:13 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:35:13 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:35:15 Setting position Z 24000
+[INFO] 2024-02-01 16:35:15 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:35:15 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:35:17 Setting position Z 25000
+[INFO] 2024-02-01 16:35:17 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:35:17 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:35:19 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:35:22 Running experiment 3 of 3
+[INFO] 2024-02-01 16:35:22 Setting position Z 21000
+[INFO] 2024-02-01 16:35:22 Z target 25000 actual 20000
+
+[INFO] 2024-02-01 16:35:22 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:35:25 Setting position Z 22000
+[INFO] 2024-02-01 16:35:25 Z target 25000 actual 21000
+
+[INFO] 2024-02-01 16:35:25 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:35:27 Setting position Z 23000
+[INFO] 2024-02-01 16:35:27 Z target 25000 actual 22000
+
+[INFO] 2024-02-01 16:35:27 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:35:29 Setting position Z 24000
+[INFO] 2024-02-01 16:35:29 Z target 25000 actual 23000
+
+[INFO] 2024-02-01 16:35:29 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:35:31 Setting position Z 25000
+[INFO] 2024-02-01 16:35:31 Z target 25000 actual 24000
+
+[INFO] 2024-02-01 16:35:31 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:35:33 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:35:36 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:37:32 Portas COM disponíveis:
+[INFO] 2024-02-01 16:37:32 COM30
+[INFO] 2024-02-01 16:37:32 COM31
+[INFO] 2024-02-01 16:37:32 COM38
+[INFO] 2024-02-01 16:37:42 Serial RX started
+[INFO] 2024-02-01 16:37:42 Serial TX started
+[INFO] 2024-02-01 16:37:42 TX: b'restart\n'
+[INFO] 2024-02-01 16:37:44 -------- Running New Test --------
+[INFO] 2024-02-01 16:37:44 Init position X: 90000
+[INFO] 2024-02-01 16:37:44 Init position Z: 20000
+[INFO] 2024-02-01 16:37:44 Final position Z: 25000
+[INFO] 2024-02-01 16:37:44 Number of executions: 3
+
+[INFO] 2024-02-01 16:37:44 TX: b'restart\n'
+[INFO] 2024-02-01 16:37:49 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:37:51 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:37:52 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:37:54 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:37:55 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:37:58 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:37:59 Running experiment 1 of 3
+[INFO] 2024-02-01 16:37:59 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:37:59 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:38:01 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:38:01 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:38:04 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:38:04 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:38:06 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:38:06 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:38:08 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:38:08 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:38:10 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:38:13 Running experiment 2 of 3
+[INFO] 2024-02-01 16:38:13 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:38:13 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:38:15 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:38:15 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:38:17 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:38:17 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:38:19 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:38:19 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:38:21 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:38:21 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:38:23 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:38:26 Running experiment 3 of 3
+[INFO] 2024-02-01 16:38:26 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:38:26 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:38:28 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:38:28 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:38:30 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:38:30 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:38:32 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:38:32 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:38:34 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:38:34 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:38:37 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:38:40 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:38:42 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:39:06 Portas COM disponíveis:
+[INFO] 2024-02-01 16:39:06 COM30
+[INFO] 2024-02-01 16:39:06 COM31
+[INFO] 2024-02-01 16:39:06 COM38
+[INFO] 2024-02-01 16:39:09 Serial RX started
+[INFO] 2024-02-01 16:39:09 Serial TX started
+[INFO] 2024-02-01 16:39:09 TX: b'restart\n'
+[INFO] 2024-02-01 16:39:11 -------- Running New Test --------
+[INFO] 2024-02-01 16:39:11 Init position X: 90000
+[INFO] 2024-02-01 16:39:11 Init position Z: 20000
+[INFO] 2024-02-01 16:39:11 Final position Z: 25000
+[INFO] 2024-02-01 16:39:11 Number of executions: 3
+
+[INFO] 2024-02-01 16:39:11 TX: b'restart\n'
+[INFO] 2024-02-01 16:39:16 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:39:17 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:39:18 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:39:20 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:39:21 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:39:23 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:39:25 Running experiment 1 of 3
+[INFO] 2024-02-01 16:39:25 Actual 0 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:39:25 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:39:27 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:39:27 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:39:28 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:39:28 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:39:30 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:39:30 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:39:31 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:39:31 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:39:33 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:39:34 Running experiment 2 of 3
+[INFO] 2024-02-01 16:39:34 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:39:34 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:39:36 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:39:36 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:39:38 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:39:38 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:39:39 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:39:39 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:39:41 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:39:41 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:39:42 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:39:44 Running experiment 3 of 3
+[INFO] 2024-02-01 16:39:44 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:39:44 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:39:45 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:39:45 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:39:47 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:39:47 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:39:49 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:39:49 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:39:50 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:39:50 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:39:52 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:39:53 TX: b'set position 1 0\n'
+[INFO] 2024-02-01 16:39:56 TX: b'set position 2 0\n'
+[INFO] 2024-02-01 16:39:57 Test Finished!
+[INFO] 2024-02-01 16:39:57 TX: b'restart\n'
+[INFO] 2024-02-01 16:46:34 Portas COM disponíveis:
+[INFO] 2024-02-01 16:46:34 COM30
+[INFO] 2024-02-01 16:46:34 COM31
+[INFO] 2024-02-01 16:46:34 COM38
+[INFO] 2024-02-01 16:46:38 Serial RX started
+[INFO] 2024-02-01 16:46:38 Serial TX started
+[INFO] 2024-02-01 16:46:38 TX: b'restart\n'
+[INFO] 2024-02-01 16:46:43 -------- Running New Test --------
+[INFO] 2024-02-01 16:46:43 Init position X: 90000
+[INFO] 2024-02-01 16:46:43 Init position Z: 20000
+[INFO] 2024-02-01 16:46:43 Final position Z: 25000
+[INFO] 2024-02-01 16:46:43 Number of executions: 3
+
+[INFO] 2024-02-01 16:46:43 TX: b'restart\n'
+[INFO] 2024-02-01 16:46:48 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-01 16:46:49 TX: b'set mode read\n'
+[INFO] 2024-02-01 16:46:51 TX: b'set position 1 home\n'
+[INFO] 2024-02-01 16:46:52 TX: b'set position 2 home\n'
+[INFO] 2024-02-01 16:46:53 TX: b'set position 1 90000\n'
+[INFO] 2024-02-01 16:46:56 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:46:57 Running experiment 1 of 3
+[INFO] 2024-02-01 16:46:57 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:46:57 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:46:59 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:46:59 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:47:01 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:47:01 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:47:02 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:47:02 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:47:04 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:47:04 TX: b'set position 2 25000\n'
+[INFO] 2024-02-01 16:47:05 TX: b'set position 2 20000\n'
+[INFO] 2024-02-01 16:47:07 Running experiment 2 of 3
+[INFO] 2024-02-01 16:47:07 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-01 16:47:07 TX: b'set position 2 21000\n'
+[INFO] 2024-02-01 16:47:08 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-01 16:47:08 TX: b'set position 2 22000\n'
+[INFO] 2024-02-01 16:47:10 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-01 16:47:10 TX: b'set position 2 23000\n'
+[INFO] 2024-02-01 16:47:11 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-01 16:47:11 TX: b'set position 2 24000\n'
+[INFO] 2024-02-01 16:47:13 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-01 16:47:13 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:34:25 Portas COM disponíveis:
+[INFO] 2024-02-05 13:34:25 COM30
+[INFO] 2024-02-05 13:34:25 COM65
+[INFO] 2024-02-05 13:34:25 COM31
+[INFO] 2024-02-05 13:34:25 COM40
+[INFO] 2024-02-05 13:34:32 Serial RX started
+[INFO] 2024-02-05 13:34:32 Serial TX started
+[INFO] 2024-02-05 13:34:32 TX: b'restart\n'
+[INFO] 2024-02-05 13:34:40 TX: b'set position 1 home\n'
+[INFO] 2024-02-05 13:34:45 TX: b'set position 2 home\n'
+[INFO] 2024-02-05 13:35:01 TX: b'set position 1 19000\n'
+[INFO] 2024-02-05 13:35:03 TX: b'set position 1 42000\n'
+[INFO] 2024-02-05 13:35:06 TX: b'set position 1 58000\n'
+[INFO] 2024-02-05 13:35:10 TX: b'set position 2 10000\n'
+[INFO] 2024-02-05 13:35:13 TX: b'set position 2 11000\n'
+[INFO] 2024-02-05 13:35:16 TX: b'set position 2 14000\n'
+[INFO] 2024-02-05 13:35:19 TX: b'set position 2 19000\n'
+[INFO] 2024-02-05 13:35:23 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:35:28 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:35:35 TX: b'set position 1 123000\n'
+[INFO] 2024-02-05 13:35:52 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:35:55 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:35:58 TX: b'set position 1 48000\n'
+[INFO] 2024-02-05 13:36:03 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:36:06 TX: b'set position 1 65000\n'
+[INFO] 2024-02-05 13:36:10 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:36:12 TX: b'set position 2 19000\n'
+[INFO] 2024-02-05 13:36:25 TX: b'set position 1 68000\n'
+[INFO] 2024-02-05 13:36:28 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:36:31 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:36:35 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:36:38 TX: b'set position 1 91000\n'
+[INFO] 2024-02-05 13:36:42 TX: b'set position 1 94000\n'
+[INFO] 2024-02-05 13:36:45 TX: b'set position 1 113000\n'
+[INFO] 2024-02-05 13:37:20 TX: b'set position 1 107000\n'
+[INFO] 2024-02-05 13:37:23 TX: b'set position 1 102000\n'
+[INFO] 2024-02-05 13:37:26 TX: b'set position 1 98000\n'
+[INFO] 2024-02-05 13:38:05 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:38:08 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:38:13 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:38:19 TX: b'set position 2 11000\n'
+[INFO] 2024-02-05 13:38:24 TX: b'set position 2 28000\n'
+[INFO] 2024-02-05 13:38:28 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:39:04 Serial RX started
+[INFO] 2024-02-05 13:39:04 Serial TX started
+[INFO] 2024-02-05 13:39:16 -------- Running New Test --------
+[INFO] 2024-02-05 13:39:16 Init position X: 90000
+[INFO] 2024-02-05 13:39:16 Init position Z: 20000
+[INFO] 2024-02-05 13:39:16 Final position Z: 25000
+[INFO] 2024-02-05 13:39:16 Number of executions: 3
+
+[INFO] 2024-02-05 13:39:16 TX: b'restart\n'
+[INFO] 2024-02-05 13:39:21 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-05 13:39:22 TX: b'set mode read\n'
+[INFO] 2024-02-05 13:39:24 TX: b'set position 1 home\n'
+[INFO] 2024-02-05 13:39:26 TX: b'set position 2 home\n'
+[INFO] 2024-02-05 13:39:28 TX: b'set position 1 90000\n'
+[INFO] 2024-02-05 13:39:31 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:39:32 Running experiment 1 of 3
+[INFO] 2024-02-05 13:39:32 Actual 0 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:39:32 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:39:34 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:39:34 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:39:35 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:39:35 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:39:37 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:39:37 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:39:38 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:39:38 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:39:40 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:39:42 Running experiment 2 of 3
+[INFO] 2024-02-05 13:39:42 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:39:42 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:39:43 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:39:43 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:39:45 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:39:45 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:39:46 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:39:46 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:39:48 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:39:48 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:39:49 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:39:51 Running experiment 3 of 3
+[INFO] 2024-02-05 13:39:51 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:39:51 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:39:52 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:39:52 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:39:54 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:39:54 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:39:56 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:39:56 TX: b'set position 2 24000\n'
+[ERROR] 2024-02-05 13:39:56 UnicodeDecodeError('ascii', b'mea\xf3 377250 0 0 0 0 0 281 316 385 494 688 8 0 0 14 47\n', 3, 4, 'ordinal not in range(128)')
+[INFO] 2024-02-05 13:39:57 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:39:57 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:39:59 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:40:00 TX: b'set position 1 0\n'
+[INFO] 2024-02-05 13:40:03 TX: b'set position 2 0\n'
+[INFO] 2024-02-05 13:40:04 Test Finished!
+[INFO] 2024-02-05 13:40:04 TX: b'restart\n'
+[INFO] 2024-02-05 13:43:41 Portas COM disponíveis:
+[INFO] 2024-02-05 13:43:41 COM30
+[INFO] 2024-02-05 13:43:41 COM65
+[INFO] 2024-02-05 13:43:41 COM31
+[INFO] 2024-02-05 13:43:41 COM40
+[INFO] 2024-02-05 13:43:50 Serial RX started
+[INFO] 2024-02-05 13:43:50 Serial TX started
+[INFO] 2024-02-05 13:43:50 TX: b'restart\n'
+[INFO] 2024-02-05 13:43:53 Serial RX started
+[INFO] 2024-02-05 13:43:53 Serial TX started
+[INFO] 2024-02-05 13:43:58 -------- Running New Test --------
+[INFO] 2024-02-05 13:43:58 Init position X: 90000
+[INFO] 2024-02-05 13:43:58 Init position Z: 20000
+[INFO] 2024-02-05 13:43:58 Final position Z: 25000
+[INFO] 2024-02-05 13:43:58 Number of executions: 3
+
+[INFO] 2024-02-05 13:43:58 TX: b'restart\n'
+[INFO] 2024-02-05 13:44:03 TX: b'set flags 1 0 0 0\n'
+[INFO] 2024-02-05 13:44:04 TX: b'set mode read\n'
+[INFO] 2024-02-05 13:44:06 TX: b'set position 1 home\n'
+[INFO] 2024-02-05 13:44:07 TX: b'set position 2 home\n'
+[INFO] 2024-02-05 13:44:08 TX: b'set position 1 90000\n'
+[INFO] 2024-02-05 13:44:10 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:44:12 Running experiment 1 of 3
+[INFO] 2024-02-05 13:44:12 Actual 0 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:44:12 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:44:14 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:44:14 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:44:15 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:44:15 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:44:17 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:44:17 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:44:18 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:44:18 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:44:20 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:44:21 Running experiment 2 of 3
+[INFO] 2024-02-05 13:44:21 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:44:21 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:44:23 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:44:23 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:44:24 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:44:24 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:44:26 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:44:26 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:44:28 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:44:28 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:44:29 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:44:31 Running experiment 3 of 3
+[INFO] 2024-02-05 13:44:31 Actual 20000 | Target 25000 -> Setting 21000
+
+[INFO] 2024-02-05 13:44:31 TX: b'set position 2 21000\n'
+[INFO] 2024-02-05 13:44:32 Actual 21000 | Target 25000 -> Setting 22000
+
+[INFO] 2024-02-05 13:44:32 TX: b'set position 2 22000\n'
+[INFO] 2024-02-05 13:44:34 Actual 22000 | Target 25000 -> Setting 23000
+
+[INFO] 2024-02-05 13:44:34 TX: b'set position 2 23000\n'
+[INFO] 2024-02-05 13:44:35 Actual 23000 | Target 25000 -> Setting 24000
+
+[INFO] 2024-02-05 13:44:35 TX: b'set position 2 24000\n'
+[INFO] 2024-02-05 13:44:37 Actual 24000 | Target 25000 -> Setting 25000
+
+[INFO] 2024-02-05 13:44:37 TX: b'set position 2 25000\n'
+[INFO] 2024-02-05 13:44:38 TX: b'set position 2 20000\n'
+[INFO] 2024-02-05 13:44:40 TX: b'set position 1 0\n'
+[INFO] 2024-02-05 13:44:43 TX: b'set position 2 0\n'
+[INFO] 2024-02-05 13:44:44 Test Finished!
+[INFO] 2024-02-05 13:44:44 TX: b'restart\n'

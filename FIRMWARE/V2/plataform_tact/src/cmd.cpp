@@ -275,7 +275,7 @@ static bool cmd_set_speed_handler(uint32_t argc, uint8_t *argv[])
 		uint32_t val1 = 0;
 		uint32_t val2 = 0;
 
-		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_uint(argv[1],&val2,1,200))
+		if(cmd_convert_uint(argv[0],&val1,1,2) && cmd_convert_uint(argv[1],&val2,1,400))
 		{
 			app_set_motor_speed(val1,val2);
 
