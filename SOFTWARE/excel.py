@@ -10,6 +10,9 @@ class Excel():
         self.colMeas = []
         self.colMeasTs = []
         self.filename = "./plataform_data.xlsx"
+        self.col_ts = []
+        self.col_meas_load_cell = []
+        self.col_resistive_sensor = []
 
     def clean_data(self):    
         self.colX = []
@@ -18,6 +21,9 @@ class Excel():
         self.colFSR = []
         self.colMeas = []
         self.colMeasTs = []
+        self.col_ts = []
+        self.col_meas_load_cell = []
+        self.col_resistive_sensor = []
 
     def set_file_name(self, new_name):
         self.filename = new_name    
@@ -46,7 +52,7 @@ class Excel():
         return array1, array2, array3
 
     def save_file(self):
-        d = dict(Pos_X = self.colX, Pos_Z = self.colZ, Pos_Ts = self.colPosTs, FSR = self.colFSR, Meas = self.colMeas, MeasTs = self.colMeasTs)
+        d = dict(Timestamp = self.col_ts, LoadCell = self.col_meas_load_cell, ResistiveSensor = self.col_resistive_sensor)
         df = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in d.items() ]))
         self.filename = self.get_unique_filename(self.filename)
         df.to_excel(self.filename, index=False) 
@@ -69,4 +75,9 @@ class Excel():
     def append_meas(self, ts, meas):
         self.colMeasTs.append(ts) 
         self.colMeas.append(meas)   
+
+    def append_meas_board(self, ts, loadcell, resistive_sensor):
+        self.col_ts.append(ts) 
+        self.col_meas_load_cell.append(loadcell) 
+        self.col_resistive_sensor.append(resistive_sensor)
         

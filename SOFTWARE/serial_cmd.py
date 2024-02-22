@@ -8,6 +8,14 @@ class SerialCmd():
             log.logging.error(repr(e))
             v = None
         return v
+    
+    def __str2float(self,s):
+        try:
+            v = float(s)
+        except Exception as e:
+            log.logging.error(repr(e))
+            v = None
+        return v
 
     def decode(self,cmdline):
         try:
@@ -42,11 +50,8 @@ class SerialCmd():
                 return {'command':'fsr', 'params':{'value':v}}
         elif cmd == 'ok':    
             return {'command':'ok'}    
-        elif cmd == 'meas'and argc == 16:
-            return {'command':'meas', 'ts': self.__str2int(params[0]),
-                    'params':{'x11':self.__str2int(params[1]), 'x12':self.__str2int(params[2]), 'x13':self.__str2int(params[3]), 'x14':self.__str2int(params[4]), 'x15':self.__str2int(params[5]),
-                              'x21':self.__str2int(params[6]), 'x22':self.__str2int(params[7]), 'x23':self.__str2int(params[8]), 'x24':self.__str2int(params[9]), 'x25':self.__str2int(params[10]),
-                              'x31':self.__str2int(params[11]), 'x32':self.__str2int(params[12]), 'x33':self.__str2int(params[13]), 'x34':self.__str2int(params[14]), 'x35':self.__str2int(params[15])}}
+        elif cmd == '777'and argc == 3:
+            return {'command':'mb', 'ts': self.__str2int(params[0]), 'load_cell': self.__str2float(params[1]), 'resistive_sensor': self.__str2int(params[2])}
         return {}
 
     def __set_encode(self,k,v):

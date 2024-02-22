@@ -10,6 +10,11 @@
 #define MOTOR_INITIAL_SPEED_RPM 300
 #define MOTOR1_uM_REV 12000
 #define MOTOR2_UM_REV 8000
+
+#define MOTOR_STEPS_REV 200.0
+#define MOTOR1_MOVE_Um_REV 12000.0
+#define MOTOR2_MOVE_Um_REV 8000.0
+
 #define MOTOR1_STEP_TO_uM 200.0 / 12000.0
 #define MOTOR2_STEP_TO_uM 200.0 / 8000.0
 
@@ -28,6 +33,8 @@ void motor_init(void)
 
 bool motor_move(int motor_id, int step)
 {
+    volatile int pos_init = motor_pos_um[motor_id -1];
+
     step = step * (-1);
     
     motor[motor_id-1].startMove(step);
@@ -39,6 +46,11 @@ bool motor_move(int motor_id, int step)
             motor[motor_id-1].stop();
             return false;
         }
+
+        motor_pos_um[motor_id -1] = pos_init-motor_convert_steps_to_um(motor_id, (motor[motor_id-1].getStepsCompleted() * motor[motor_id-1].getDirection()));
+
+        // get actual position
+
     }
 
     return true;
@@ -59,10 +71,21 @@ int motor_convert_um_steps(int motor_id, int pos_um)
     double um_to_step;
     
     if(motor_id == 1)
-        um_to_step = MOTOR1_STEP_TO_uM * pos_um;
+        um_to_step = (MOTOR_STEPS_REV / MOTOR1_MOVE_Um_REV) * pos_um;
     else if(motor_id == 2)
-        um_to_step = MOTOR2_STEP_TO_uM * pos_um;  
+        um_to_step = (MOTOR_STEPS_REV / MOTOR2_MOVE_Um_REV)  * pos_um;  
     return (int) um_to_step;
+}
+
+int motor_convert_steps_to_um(int motor_id, int pos_steps)
+{
+    double pos_um;
+    
+    if(motor_id == 1)
+        pos_um = (MOTOR1_MOVE_Um_REV / MOTOR_STEPS_REV) *pos_steps;
+    else if(motor_id == 2)
+        pos_um = (MOTOR2_MOVE_Um_REV / MOTOR_STEPS_REV) *pos_steps;  
+    return (int) pos_um;
 }
 
 void motor_set_pos(int motor_id, int pos_um)

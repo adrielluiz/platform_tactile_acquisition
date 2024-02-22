@@ -17,7 +17,7 @@ class RunExperiment(QObject):
         self.num_test = 0
         self.fsr_read = 0
         self.pos_z_read = 0
-        self.steps_z_um = 1000
+        self.steps_z_um = 200   #3000
         self.main_obj = main_obj
         self.stop_test = False
 
@@ -89,8 +89,8 @@ class RunExperiment(QObject):
         self.tx_wait_ok(SerialCmd().set_flags_read(1,0,0,0), 5)  
         self.tx_wait_ok(SerialCmd().set_mode("read"), 5)  
 
-        #self.tx_wait_ok(SerialCmd().set_speed("x", 300), 5)  
-        #self.tx_wait_ok(SerialCmd().set_speed("z", 300), 5)
+        self.tx_wait_ok(SerialCmd().set_speed("x", 150), 5)  
+        self.tx_wait_ok(SerialCmd().set_speed("z", 150), 5)
 
         self.tx_wait_ok(SerialCmd().set_pos("x", "home"), 20)     
         self.tx_wait_ok(SerialCmd().set_pos("z", "home"), 20)       
@@ -105,16 +105,21 @@ class RunExperiment(QObject):
             self.logging_info(f'Running experiment {num_exec + 1} of {self.num_test}')
 
             while (self.pos_z_read + self.steps_z_um ) <= self.final_pos_z:
+                init_pos_z = self.pos_z_read
                 pos_z += self.steps_z_um
                 self.logging_info(f'Actual {self.pos_z_read} | Target {self.final_pos_z} -> Setting {pos_z}\n')
                 self.tx_wait_ok(SerialCmd().set_pos("z", pos_z), 5) 
-                time.sleep(0.5)
+                
+                while self.pos_z_read == init_pos_z:
+                #    time.sleep(0.001)
+                    pass
+                #time.sleep(10)
             
             num_exec += 1                     
             self.progress_bar.emit(int(num_exec/self.num_test * 100))  
             self.tx_wait_ok(SerialCmd().set_pos("z", self.init_pos_z), 5)
             pos_z = self.init_pos_z    
-            time.sleep(0.5)
+            time.sleep(0.001)
 
         self.tx_wait_ok(SerialCmd().set_pos("x", 0), 20)
         self.tx_wait_ok(SerialCmd().set_pos("z", 0), 20)

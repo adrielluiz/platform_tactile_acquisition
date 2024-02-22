@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1060</width>
-    <height>847</height>
+    <width>1056</width>
+    <height>838</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -387,7 +387,7 @@
                     <number>100</number>
                    </property>
                    <property name="value">
-                    <number>90000</number>
+                    <number>3000</number>
                    </property>
                   </widget>
                  </item>
@@ -428,7 +428,7 @@
                     <number>100</number>
                    </property>
                    <property name="value">
-                    <number>20000</number>
+                    <number>3000</number>
                    </property>
                   </widget>
                  </item>
@@ -478,7 +478,7 @@
                     <number>100</number>
                    </property>
                    <property name="value">
-                    <number>25000</number>
+                    <number>6000</number>
                    </property>
                   </widget>
                  </item>
@@ -1178,7 +1178,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1060</width>
+     <width>1056</width>
      <height>26</height>
     </rect>
    </property>

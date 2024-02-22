@@ -83,7 +83,7 @@ void hw_timer_app_cbk(void)
 
 void hw_timer_app_config(uint16_t freq)
 {
-	timer_app.setPrescaleFactor(10000); // Set prescaler to 10000 => timer frequency = 84MHz/1000 = 8400 Hz 
+	timer_app.setPrescaleFactor(1000); // Set prescaler to 10000 => timer frequency = 84MHz/10K = 84.000 Hz 
     timer_app.setOverflow(8400/freq); // Set overflow
     timer_app.attachInterrupt(hw_timer_app_cbk);
     timer_app.refresh(); // Make register changes take effect

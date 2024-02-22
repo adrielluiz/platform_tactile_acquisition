@@ -101,7 +101,7 @@ class MainWin(QMainWindow):
 
         if not self.mb_serial_task.is_connected:        
             try:
-                self.mb_serial = Serial(port=self.ui.comboBoxMeasBoard.currentText(),timeout=1,baudrate=115200)
+                self.mb_serial = Serial(port=self.ui.comboBoxMeasBoard.currentText(),timeout=1,baudrate=230400)
             except Exception as e:
                 log.logging.error(str(e))
                 sys.exit(1)         
@@ -141,8 +141,8 @@ class MainWin(QMainWindow):
 
             if new_cmd:
                 try:    
-                    log.logging.debug('Meas: {} z'.format(cmd))
-                    self.excel.append_meas(cmd['ts'], cmd['params'])
+                    log.logging.info('Meas -> TS: {}\t LC: {}\t RS:{}\n'.format(cmd['ts'], cmd['load_cell'], cmd['resistive_sensor']))
+                    self.excel.append_meas_board(cmd['ts'], cmd['load_cell'], cmd['resistive_sensor'])
                     self.show_rx_label_meas_board()
                 except Exception:
                     print(cmd) 
@@ -165,7 +165,7 @@ class MainWin(QMainWindow):
             elif tab == "Run 1":    
                 self.exp.set_pos_z_read(z)    
 
-            self.excel.append_pos(x, z, ts)
+            #self.excel.append_pos(x, z, ts)
             self.show_rx_label_plat()
             
         elif cmd['command'] == 'fsr':
